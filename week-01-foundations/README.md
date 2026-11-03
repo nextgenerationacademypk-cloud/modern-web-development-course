@@ -10,6 +10,11 @@ The Day 1 folder contains lecture notes, a minute-by-minute instructor guide, cl
 
 Understand the basic idea of the web, prepare your computer, and create your first HTML page.
 
+## Detailed daily lesson materials
+
+- [Day 1 — Introduction to the Web](day-01-introduction-to-the-web/README.md)
+- [Day 2 — Files, Folders, and VS Code](day-02-files-folders-vscode/README.md)
+
 ## Day-by-day lessons
 
 ### Day 1 — What is the web?
