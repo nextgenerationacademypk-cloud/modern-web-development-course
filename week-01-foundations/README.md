@@ -3,17 +3,10 @@
 ## Detailed daily lesson materials
 
 - [Day 1 — Introduction to the Web](day-01-introduction-to-the-web/README.md)
-
-The Day 1 folder contains lecture notes, a minute-by-minute instructor guide, classroom practical exercises, homework, and a daily quiz. The same lesson-package structure will be used for the remaining daily lessons.
-
-## Goal
-
-Understand the basic idea of the web, prepare your computer, and create your first HTML page.
-
-## Detailed daily lesson materials
-
-- [Day 1 — Introduction to the Web](day-01-introduction-to-the-web/README.md)
 - [Day 2 — Files, Folders, and VS Code](day-02-files-folders-vscode/README.md)
+- [Day 3 — Your First HTML Document](day-03-first-html-page/README.md)
+- [Day 4 — Preview Your Webpage and Use Live Server](day-04-preview-and-live-server/README.md)
+- [Day 5 — Week 1 Review and Personal Webpage](day-05-review-personal-webpage/README.md)
 
 ## Day-by-day lessons
 
