@@ -32,7 +32,7 @@ A practical, instructor-led introduction to modern website development. This cou
 
 HTML5 · CSS3 · Responsive Web Design · Introductory Tailwind CSS · JavaScript · DOM · Git · GitHub · GitHub Pages
 
-This course focuses on strong foundations. React, Next.js, Node.js, databases, and TypeScript are not part of this beginner course. They can be studied in a later course.
+This course focuses on strong foundations. React, Next.js, Node.js, databases, TypeScript, and server-side programming are outside this beginner course and may be covered in a later course.
 
 ## Course roadmap
 
@@ -44,7 +44,7 @@ This course focuses on strong foundations. React, Next.js, Node.js, databases, a
 | 4 | Responsive web design | Responsive landing page |
 | 5 | JavaScript foundations | Interactive calculator |
 | 6 | DOM and events | To-do list app |
-| 7 | Git, GitHub, Tailwind intro, deployment and testing | Version-controlled, published website |
+| 7 | Git, GitHub, Tailwind introduction, deployment and testing | Version-controlled, published website |
 | 8 | Final project | Published multi-page website |
 
 See [Course Overview](course-outline/course-overview.md), [Learning Outcomes](course-outline/learning-outcomes.md), and [Weekly Schedule](course-outline/weekly-schedule.md).
@@ -69,11 +69,13 @@ Each two-hour class follows this pattern:
 - 62 minutes: student practical work
 - 4 minutes: practical review and questions
 
-That gives students approximately 20% theory and 80% practical learning.
+That gives students approximately 20% theory and 80% practical learning. The instructor may adjust individual activity timings when students need more support, while keeping the overall learning balance.
 
-## Learning materials
+## Learning materials and development status
 
-Each weekly folder contains a lesson guide, examples, practical exercises, homework, and a short quiz. Project guides are in [projects](projects/). Assessment details are in [assessments](assessments/).
+The repository contains the complete course roadmap and weekly outlines. Week 1 has detailed daily lesson packages. Detailed daily packages for Weeks 2–8 are still being developed and reviewed; a weekly outline is not the same as a complete ready-to-teach lesson.
+
+The required daily lesson structure is defined in the [Daily Lesson Development Standard](course-outline/daily-lesson-standard.md). Use the [Instructor Quality Checklist](resources/instructor-quality-checklist.md) before marking a lesson ready.
 
 ## Assessment and completion
 
@@ -83,15 +85,15 @@ Students earn up to 100 marks:
 - Homework: 15
 - Mid-course practical exam: 15
 - Final project: 30
-- Theory and viva: 10
+- Theory/viva: 10
 
-To complete the course, a student should attend at least 80% of classes, submit required assignments, pass the mid-course practical exam, present a final project, and earn at least 60 out of 100 marks. See the [Assessment Policy](course-outline/assessment-policy.md).
+Completion requires at least 80% attendance (32 of 40 sessions), submission of required assessment work, a pass in the mid-course practical exam (at least 9/15), submission and presentation of the final project, and at least 60/100 overall. See the [Assessment Policy](course-outline/assessment-policy.md) and [Assessment Rubrics](assessments/assessment-rubrics.md).
 
 ## Final project
 
-Each student builds and publishes a responsive multi-page website. It should include Home, About, Services or Courses, and Contact sections/pages; a responsive navigation menu; consistent CSS styling; at least two JavaScript features; a mobile-friendly layout; a GitHub repository; and a live website URL.
+Each student builds and publishes a responsive multi-page website. The project includes Home, About, Services or Courses, and Contact pages or sections; working navigation; consistent CSS styling; at least two simple JavaScript features; a mobile-friendly layout; a GitHub repository; and a live website URL.
 
-Students may use traditional CSS. Tailwind CSS is an introductory option, not a requirement for the final project.
+Students may use traditional CSS. Tailwind CSS is optional and is not a requirement for the final project. A starter structure and staged milestones should be provided so beginners can complete the work without being overwhelmed.
 
 ## Useful learning links
 
@@ -108,12 +110,11 @@ Practise every day, type the code yourself, ask questions, keep files organised,
 
 ## Repository structure
 
-- `course-outline/` — course plan, outcomes, schedule, and assessment rules
-- `resources/` — setup instructions, links, and student guidelines
-- `week-01` to `week-08` — weekly lesson packs
+- `course-outline/` — course plan, outcomes, schedule, assessment rules, and lesson standard
+- `resources/` — setup instructions, links, student guidelines, and instructor checklist
+- `week-01` to `week-08` — weekly outlines and daily lesson packs as they are developed
 - `projects/` — guided project briefs
-- `assessments/` — quizzes, practical tasks, and exam/project rubrics
-- `assets/` — shared images and diagrams
+- `assessments/` — quizzes, practical tasks, and marking rubrics
 
 ## License
 
