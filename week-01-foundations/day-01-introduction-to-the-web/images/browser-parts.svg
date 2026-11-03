@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650" role="img" aria-labelledby="title desc">
+<title id="title">Main parts of a web browser</title><desc id="desc">An illustrated browser window labels tabs, address bar, back, forward, refresh and page area.</desc>
+<defs><style>text{font-family:Arial,Helvetica,sans-serif;fill:#172033}.h{font-size:30px;font-weight:700}.l{font-size:20px;font-weight:700}.s{font-size:17px}.line{stroke:#bd5b22;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}</style></defs>
+<rect width="1100" height="650" rx="24" fill="#f7f9fc"/><text x="550" y="52" text-anchor="middle" class="h">Main parts of a browser window</text>
+<rect x="160" y="125" width="780" height="420" rx="18" fill="#fff" stroke="#526b89" stroke-width="4"/>
+<path d="M160 170 H940" stroke="#526b89" stroke-width="3"/>
+<rect x="185" y="138" width="180" height="28" rx="8" fill="#dce8f5"/><text x="275" y="158" text-anchor="middle" class="s">Website tab</text>
+<circle cx="900" cy="151" r="7" fill="#bd5b22"/>
+<g fill="none" stroke="#263b54" stroke-width="3" stroke-linecap="round"><path d="M200 198 l-12 10 12 10"/><path d="M245 198 l12 10 -12 10"/><path d="M292 198 a12 12 0 1 1 -1 0"/><path d="M292 194 v8 l7 3"/></g>
+<rect x="330" y="185" width="570" height="46" rx="12" fill="#eef3f8" stroke="#8197b0" stroke-width="2"/><text x="355" y="214" class="s">https://www.example.com</text>
+<rect x="185" y="255" width="730" height="260" rx="10" fill="#f8fafc" stroke="#c1ccd8" stroke-width="2"/>
+<rect x="210" y="280" width="680" height="55" rx="8" fill="#dce8f5"/><text x="550" y="315" text-anchor="middle" class="l">Page area — website content appears here</text>
+<rect x="225" y="360" width="300" height="120" rx="8" fill="#edf4fc"/><text x="375" y="410" text-anchor="middle" class="s">Text and images</text><text x="375" y="438" text-anchor="middle" class="s">on the webpage</text>
+<rect x="550" y="360" width="315" height="120" rx="8" fill="#edf4fc"/><text x="707" y="410" text-anchor="middle" class="s">Links, buttons,</text><text x="707" y="438" text-anchor="middle" class="s">and other content</text>
+<g class="line"><path d="M275 138 L120 90 H45"/><path d="M590 185 L590 95 H760"/><path d="M200 210 L100 255 H40"/><path d="M550 515 V580 H750"/></g>
+<g class="l"><text x="45" y="82">Tab</text><text x="770" y="102">Address bar</text><text x="35" y="280">Back, forward,</text><text x="35" y="306">and refresh</text><text x="760" y="590">Page area</text></g>
+</svg>
