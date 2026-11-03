@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">A book on a desk</title>
+  <desc id="desc">A simple illustration of an open book on a desk.</desc>
+  <rect width="640" height="360" fill="#f3eee4"/>
+  <rect x="70" y="250" width="500" height="28" rx="8" fill="#9b7653"/>
+  <path d="M150 105 Q250 75 320 120 L320 245 Q245 205 150 235 Z" fill="#ffffff" stroke="#425466" stroke-width="7"/>
+  <path d="M490 105 Q390 75 320 120 L320 245 Q395 205 490 235 Z" fill="#fffaf0" stroke="#425466" stroke-width="7"/>
+  <path d="M320 120 V245" stroke="#425466" stroke-width="5"/>
+  <g stroke="#a8b3bd" stroke-width="5" stroke-linecap="round"><path d="M180 145 Q245 130 285 151"/><path d="M180 175 Q245 160 285 181"/><path d="M180 205 Q245 190 285 211"/><path d="M355 151 Q405 130 460 145"/><path d="M355 181 Q405 160 460 175"/><path d="M355 211 Q405 190 460 205"/></g>
+</svg>
