@@ -1,5 +1,11 @@
 # Week 1 — Web Foundations and Your First Webpage
 
+## Detailed daily lesson materials
+
+- [Day 1 — Introduction to the Web](day-01-introduction-to-the-web/README.md)
+
+The Day 1 folder contains lecture notes, a minute-by-minute instructor guide, classroom practical exercises, homework, and a daily quiz. The same lesson-package structure will be used for the remaining daily lessons.
+
 ## Goal
 
 Understand the basic idea of the web, prepare your computer, and create your first HTML page.
