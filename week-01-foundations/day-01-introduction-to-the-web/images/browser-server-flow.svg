@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="500" viewBox="0 0 1100 500" role="img" aria-labelledby="title desc">
+<title id="title">How a browser gets a webpage</title><desc id="desc">Five steps show a person entering a URL, browser sending a request, server receiving it, server sending content, and browser displaying the page.</desc>
+<defs><style>text{font-family:Arial,Helvetica,sans-serif;fill:#172033}.h{font-size:30px;font-weight:700}.n{font-size:22px;font-weight:700}.s{font-size:17px}.arrow{stroke:#52739b;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}</style></defs>
+<rect width="1100" height="500" rx="24" fill="#f7f9fc"/><text x="550" y="55" text-anchor="middle" class="h">How a browser gets a webpage</text>
+<g>
+<rect x="40" y="150" width="180" height="145" rx="16" fill="#eaf2fb" stroke="#52739b" stroke-width="3"/><text x="130" y="190" text-anchor="middle" class="n">1. You</text><text x="130" y="230" text-anchor="middle" class="s">Enter a URL</text><text x="130" y="255" text-anchor="middle" class="s">and press Enter</text>
+<rect x="255" y="150" width="180" height="145" rx="16" fill="#e8f1e9" stroke="#43815a" stroke-width="3"/><text x="345" y="190" text-anchor="middle" class="n">2. Browser</text><text x="345" y="230" text-anchor="middle" class="s">Sends a request</text><text x="345" y="255" text-anchor="middle" class="s">over the internet</text>
+<rect x="470" y="150" width="180" height="145" rx="16" fill="#fff3e8" stroke="#c27a39" stroke-width="3"/><text x="560" y="190" text-anchor="middle" class="n">3. Web server</text><text x="560" y="230" text-anchor="middle" class="s">Receives the</text><text x="560" y="255" text-anchor="middle" class="s">request</text>
+<rect x="685" y="150" width="180" height="145" rx="16" fill="#fff3e8" stroke="#c27a39" stroke-width="3"/><text x="775" y="190" text-anchor="middle" class="n">4. Server</text><text x="775" y="230" text-anchor="middle" class="s">Sends content</text><text x="775" y="255" text-anchor="middle" class="s">back</text>
+<rect x="900" y="150" width="160" height="145" rx="16" fill="#e8f1e9" stroke="#43815a" stroke-width="3"/><text x="980" y="190" text-anchor="middle" class="n">5. Browser</text><text x="980" y="230" text-anchor="middle" class="s">Displays the</text><text x="980" y="255" text-anchor="middle" class="s">webpage</text>
+</g>
+<g class="arrow"><path d="M220 222 H248 l-10 -9 m10 9 l-10 9"/><path d="M435 222 H463 l-10 -9 m10 9 l-10 9"/><path d="M650 222 H678 l-10 -9 m10 9 l-10 9"/><path d="M865 222 H893 l-10 -9 m10 9 l-10 9"/></g>
+<text x="550" y="370" text-anchor="middle" class="s">This is a simplified learning diagram. Real websites may use additional steps and services.</text>
+</svg>
