@@ -20,6 +20,10 @@ By the end of this lesson, students can:
 5. Describe a simple browser-to-server request.
 6. Compare two websites using a short observation checklist.
 
+## Visual learning materials
+
+This lesson includes four original diagrams: internet and web, browser parts, webpage layout, and browser request-and-response flow. They are included in the notes and activities below.
+
 ## Lesson materials
 
 - Lecture notes: [lecture-notes.md](lecture-notes.md)
