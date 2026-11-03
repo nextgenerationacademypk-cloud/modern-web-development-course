@@ -9,7 +9,7 @@ Assessment checks both practical ability and understanding.
 - Final project: 30 marks
 - Theory and viva: 10 marks
 
-See [Assessment Policy](../course-outline/assessment-policy.md) for completion requirements and the final project marking guide.
+See [Assessment Policy](../course-outline/assessment-policy.md) for completion requirements and [Assessment Rubrics](assessment-rubrics.md) for the marking criteria.
 
 ## Student preparation
 - Review the weekly lesson notes.
