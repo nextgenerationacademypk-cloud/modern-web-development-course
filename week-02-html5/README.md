@@ -2,89 +2,31 @@
 
 ## Goal
 
-Use common HTML elements to create a well-organised page.
+Use common HTML elements to create a well-organised page. This week builds on the first HTML document from Week 1. Students continue using HTML only; CSS begins in Week 3.
 
-## Day-by-day lessons
+## Daily lesson packages
 
-### Day 6 — Headings and paragraphs
-- Use `h1` to `h6` for headings.
-- Use `p` for paragraphs.
-- Understand why heading order matters.
-- Practical: write an About Me page.
+1. [Day 6 — Headings and paragraphs](day-06-headings-and-paragraphs/README.md)
+2. [Day 7 — Text formatting and links](day-07-text-and-links/README.md)
+3. [Day 8 — Images and lists](day-08-images-and-lists/README.md)
+4. [Day 9 — Tables and forms](day-09-tables-and-forms/README.md)
+5. [Day 10 — Semantic HTML and profile page project](day-10-semantic-html-and-profile-project/README.md)
 
-### Day 7 — Text, links, and images
-- Use `strong`, `em`, and other basic text elements.
-- Create links with `a` and the `href` attribute.
-- Add images with `img`, `src`, and useful `alt` text.
-- Practical: create a page with links and an image.
+## Week 2 mini-project
 
-### Day 8 — Lists and tables
-- Create ordered and unordered lists.
-- Use list items.
-- Build a simple table with rows and header cells.
-- Practical: make a weekly study timetable.
+Complete a personal profile website with Home, About, Interests or Skills, and Contact sections. Use meaningful headings, paragraphs, links, an image with useful alternative text, a list, and semantic page regions. A simple sample form may be included. Keep it in HTML only; CSS is taught in Week 3.
 
-### Day 9 — Forms
-- Learn `form`, `label`, `input`, `textarea`, and `button`.
-- Connect labels to inputs.
-- Explore text, email, and submit input types.
-- Practical: build a contact form. It does not need to send data to a server.
+## Student safety and privacy
 
-### Day 10 — Semantic HTML and review
-- Learn `header`, `nav`, `main`, `section`, `article`, and `footer`.
-- Understand why meaningful page structure helps people and browsers.
-- Review and complete a profile page.
+Use fictional content for exercises. Do not publish private phone numbers, home addresses, passwords, or personal information. A form made only with HTML does not send or store information unless a suitable service or backend is connected.
 
-## Example: semantic page structure
+## Weekly completion check
 
-```html
-<header>
-  <h1>My Profile</h1>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#interests">Interests</a>
-  </nav>
-</header>
+- [ ] The learner can organise content with headings and paragraphs.
+- [ ] Links work and have descriptive text.
+- [ ] Images have appropriate alternative text and correct paths.
+- [ ] Lists, tables, and labelled form controls are used correctly.
+- [ ] Semantic elements organise the profile page.
+- [ ] The learner can explain their HTML code.
 
-<main>
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I am learning HTML.</p>
-  </section>
-  <section id="interests">
-    <h2>My Interests</h2>
-    <ul>
-      <li>Reading</li>
-      <li>Technology</li>
-    </ul>
-  </section>
-</main>
-
-<footer>
-  <p>My practice website</p>
-</footer>
-```
-
-## Practical exercises
-
-1. Add at least three sections to a page.
-2. Add a working link to another page or website.
-3. Add an image with suitable alternative text.
-4. Add a list and a simple table.
-5. Build a contact form with labels.
-
-## Homework
-
-Finish a personal profile website with About, Interests, Education or Skills, and Contact sections.
-
-## Quick review
-
-1. What is the difference between an ordered and unordered list?
-2. What does the `href` attribute do?
-3. Why should an image have useful `alt` text?
-4. What is a semantic HTML element?
-5. Why should every form input have a label?
-
-## Expected result
-
-A structured profile page using headings, text, links, images, lists, tables, forms, and semantic elements.
+Each class follows the standard 120-minute lesson plan in the daily package.
