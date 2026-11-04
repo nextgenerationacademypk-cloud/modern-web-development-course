@@ -1,3 +1,5 @@
+![Responsive screens](images/day-16-responsive-screens.svg)
+
 # Day 16 Instructor Guide — Responsive Design: The Big Picture
 
 ## Teaching purpose
