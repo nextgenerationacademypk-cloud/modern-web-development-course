@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330" role="img" aria-labelledby="title desc">
+<title id="title">To-do list task flow</title><desc id="desc">A task is submitted, validated, created as elements, appended to the list, and can then be deleted.</desc>
+<rect width="900" height="330" rx="22" fill="#f8fafc"/>
+<g font-family="Arial, sans-serif" text-anchor="middle">
+<g fill="#dbeafe" stroke="#2563eb" stroke-width="2"><rect x="20" y="80" width="150" height="105" rx="14"/><rect x="195" y="80" width="150" height="105" rx="14"/><rect x="370" y="80" width="150" height="105" rx="14"/><rect x="545" y="80" width="150" height="105" rx="14"/><rect x="720" y="80" width="160" height="105" rx="14"/></g>
+<g fill="#1e3a8a" font-size="18" font-weight="bold"><text x="95" y="123">1. Submit</text><text x="270" y="123">2. Validate</text><text x="445" y="123">3. Create</text><text x="620" y="123">4. Append</text><text x="800" y="123">5. Delete</text></g>
+<g fill="#334155" font-size="14"><text x="95" y="150">Form event</text><text x="270" y="150">Trim + check</text><text x="445" y="150">li + text + button</text><text x="620" y="150">Add to ul</text><text x="800" y="150">Remove li</text></g>
+<g stroke="#64748b" stroke-width="3" fill="none"><path d="M170 132 H190 l-7 -7 m7 7 l-7 7"/><path d="M345 132 H365 l-7 -7 m7 7 l-7 7"/><path d="M520 132 H540 l-7 -7 m7 7 l-7 7"/><path d="M695 132 H715 l-7 -7 m7 7 l-7 7"/></g>
+<text x="450" y="255" font-size="18" fill="#475569">Core project: add, display, and delete tasks — no storage or server required.</text>
+</g></svg>
