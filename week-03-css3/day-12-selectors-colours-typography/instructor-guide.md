@@ -52,3 +52,9 @@ Support: provide HTML with classes already added and ask students to write the C
 
 ## Checkpoint
 Each student demonstrates one element selector, one class selector, one ID selector, and readable typography. Ask the student to explain why a class is appropriate for repeated cards.
+
+## Teaching visual
+
+![CSS selector types](images/day-12-selector-types.svg)
+
+*Display this comparison before students write their first class and ID selectors.*
