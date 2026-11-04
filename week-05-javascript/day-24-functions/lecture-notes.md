@@ -1,5 +1,7 @@
 # Day 24 Lecture Notes — Functions
 
+![Teaching diagram](images/day-24-function-flow.svg)
+
 ## 1. What is a function?
 A function is a reusable block of code that performs a task. Instead of writing the same instructions repeatedly, you can define a function once and call it when needed.
 
