@@ -1,45 +1,72 @@
 # Day 8 Instructor Guide — Images and Lists
 
+## Lesson purpose
+
+Students learn how to add an image responsibly and organise related information in ordered and unordered lists. Focus on correct file paths, useful alternative text, and choosing the right list type.
+
 ## Before class
 
-- Open the example file in VS Code.
-- Check the classroom computers and browser preview.
-- Prepare a short live demonstration and a simple expected result.
-- Remind students not to publish private personal information.
+- Open `examples/index.html` and confirm its local image file is present.
+- Display `images/day-08-image-path.svg` and the existing `images/reading.svg` example asset.
+- Check that image filenames and letter case match the code exactly.
+- Prepare a numbered process and a collection of items to compare list types.
+- Remind students to use images they have permission to use and avoid private photos.
+
+## Learning outcomes
+
+Students should be able to:
+1. Add an image with `img`, `src`, and appropriate `alt` text.
+2. Explain why the image path must match the folder structure.
+3. Choose an unordered list for items without a required order.
+4. Choose an ordered list for steps or rankings with a meaningful sequence.
+5. Check a missing image and correct a path error.
 
 ## 120-minute teaching plan
 
-| Time | Teaching activity |
+| Time | Activity |
 |---|---|
-| 0–20 min | Explain the day's concepts using simple examples. Ask students to identify the elements in a rendered webpage. |
-| 20–24 min | Ask 2–3 short oral review questions and correct misunderstandings. |
-| 24–54 min | Demonstrate the example slowly. Type in small steps, explain each tag and attribute, save, and preview. |
-| 54–116 min | Students complete the guided task, then the independent task. Circulate and help students debug. Fast finishers may attempt the optional extension. |
-| 116–120 min | Review a few student results, ask learners to explain one code choice, and set homework. |
+| 0–20 min | Explain image elements, paths, alt text, and list types using the diagrams. |
+| 20–24 min | Review anchor links and relative paths from Day 7. |
+| 24–54 min | Demonstrate adding a local image, writing useful alt text, and creating both list types. |
+| 54–116 min | Students build a hobby page with an image, equipment list, and ordered steps. |
+| 116–120 min | Check image loading and list choices; assign homework. |
 
-## Demonstration steps
+## Instructor demonstration
 
-1. Open the complete example file.
-2. Identify the document head and body.
-3. Highlight each new element and explain its purpose.
-4. Add one extra example with the class.
-5. Save and preview the page.
-6. Deliberately demonstrate one common mistake and show how to correct it.
+1. Show the project folder in VS Code Explorer. Point out the HTML file and the image folder.
+2. Explain that `src` is a path from the HTML file to the image file.
+3. Add an image using the supplied local asset. Write alt text that describes the image's useful content.
+4. Temporarily change one character in the path to demonstrate a broken image. Ask students what they notice.
+5. Restore the correct path and refresh the browser.
+6. Create an unordered list of hobby equipment.
+7. Create an ordered list of steps for doing the hobby.
+8. Ask why the order matters in one list but not the other.
 
-## Questions to ask
+## Visual teaching notes
 
-- Which part of this page communicates the content's meaning?
-- What would happen if this element or attribute were missing?
-- How can we check whether the page works?
-- Can a class explain the code without reading it word for word?
+Use `images/day-08-image-path.svg` to trace the relative path from the HTML file to the image. Use the browser preview to show the actual result. Explain that alt text is not a filename: it should communicate the image's relevant information. For a purely decorative image, an empty `alt=""` may be appropriate.
 
-## Support for beginners
+## Questions to check understanding
 
-- Ask students to complete one small section at a time.
-- Pair students for reading code aloud, but ensure each student types and explains their own work.
-- Give a partially completed file to a learner who is stuck.
-- Do not move to advanced CSS or JavaScript in this session.
+- What does the `src` attribute point to?
+- Why can a file path work on one computer but fail if the folder is moved?
+- What should useful alt text tell someone who cannot see the image?
+- When is an ordered list better than an unordered list?
+
+## Common mistakes to watch for
+
+- Incorrect folder name, filename, extension, or letter case.
+- Using a local path that points to the wrong folder.
+- Leaving out the `alt` attribute.
+- Writing alt text such as “image” or repeating a filename.
+- Using an ordered list when the order has no meaning, or vice versa.
+
+## Support and extension
+
+- **Extra support:** Provide the exact image path and ask the learner to identify each folder part.
+- **Pair support:** One learner checks the path in Explorer while the other checks the `src` value.
+- **Extension:** Create a nested list for categories of interests or equipment.
 
 ## Checkpoint
 
-A learner is ready to finish when the required task works in the browser and they can explain the main new elements. Record students who need a short catch-up exercise.
+Each learner should show an image that loads, useful alt text, one unordered list, and one ordered list. Ask them to explain why they chose each list type.
