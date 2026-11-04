@@ -1,5 +1,8 @@
 # Day 32 Practical Exercises — Your First Commits
 
+![Local Git workflow](images/day-32-git-workflow.svg)
+
+
 ## Exercise 1 — Open the correct folder
 Open your practice website folder in VS Code. Confirm the terminal is inside that folder.
 
