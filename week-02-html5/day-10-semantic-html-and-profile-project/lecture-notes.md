@@ -264,3 +264,90 @@ Then ask yourself:
 ## Remember
 
 Semantic HTML gives your page a clear structure. The Week 2 profile project is your chance to combine headings, paragraphs, links, images, lists, and semantic elements before you begin CSS in Week 3.
+
+
+## 10. How semantic structure helps visitors
+
+Think about entering a large building. Signs such as Reception, Classrooms, and Library help you find the correct place. Semantic HTML provides similar signposts in a webpage. A visitor using a screen reader can move between meaningful page regions rather than reading every line from the beginning.
+
+A page with a header, navigation, main content, and footer is easier to understand than a page where every part is just an unnamed container.
+
+## 11. Semantic elements compared with div and span
+
+HTML also provides generic elements such as div and span. They do not describe a special purpose by themselves.
+
+- Use div when you need a general block container and no semantic element fits.
+- Use span when you need a general inline container inside text.
+- Prefer header, nav, main, section, article, and footer when their meanings match the content.
+
+Do not replace every div with a semantic element. Choose the element that best describes the content.
+
+## 12. More detail: section or article?
+
+A section is a thematic group of related content, usually with its own heading. An article is a complete, independent item that could be shared or understood on its own.
+
+For example, a page may have a section called Latest News. Inside it, there may be separate article elements for individual news stories. A profile page may have sections for About Me and Skills, but it does not need an article if it has no independent article-like content.
+
+## 13. Page landmarks and navigation
+
+The main element identifies the central content of the page. The nav element identifies a major navigation area. The header and footer provide introductory and closing information for a page or section. Use these elements in a way that matches the content rather than adding them only to make the code look advanced.
+
+A simple page normally has one main element. If a page has multiple navigation areas, give each nav a useful accessible name so visitors can tell them apart.
+
+## 14. Build the profile project in stages
+
+Do not try to write the whole page at once. Build it in small steps:
+
+1. Create the HTML document structure from Week 1.
+2. Add a page title inside head.
+3. Add header and an h1 inside body.
+4. Add nav with links to section ids.
+5. Add main.
+6. Add the Home, About, Skills or Interests, and Contact sections inside main.
+7. Give every section a unique id and a meaningful h2 heading.
+8. Add paragraphs, links, an image with alt text, and a list where they make sense.
+9. Add a footer after main.
+10. Save, preview, and test every navigation link.
+
+## 15. Understand the project navigation
+
+For a link such as href="#about", the browser searches the current page for an element with id="about". The values must match exactly. Use consistent spelling and keep every id unique.
+
+## 16. Accessibility checks for the profile page
+
+- Use one clear h1 for the page's main topic.
+- Keep headings in a meaningful order.
+- Use nav for the main navigation links.
+- Give meaningful images useful alt text.
+- Make link text describe its destination.
+- Give each section a heading.
+- Use semantic elements only when their meaning fits.
+
+These habits make a page easier for more people to understand and use.
+
+## 17. Real-world example: a small academy website
+
+A simple academy page could have a header with the academy name, a nav area with links to About, Courses, and Contact, a main area with those sections, and a footer with general academy information. A Courses section could contain a list of course names. A separate article could describe one featured course in detail if that content is independent.
+
+## 18. Project review checklist
+
+Before you submit, check the page in the browser:
+
+1. Does the browser tab show a useful title?
+2. Is the main page heading visible and clear?
+3. Does each navigation link move to the correct section?
+4. Does each section have a meaningful heading?
+5. Are paragraphs readable and placed under the correct headings?
+6. Does the image load, and does it have suitable alt text?
+7. Are list items inside ul or ol elements?
+8. Can you explain the job of header, nav, main, section, and footer?
+9. Have you avoided publishing private contact information?
+
+## 19. Extra common mistakes
+
+- Using main as a wrapper for the entire document: main belongs inside body and contains the central page content, not the header and footer in this course structure.
+- Using section for every small styling group: use it for a meaningful thematic section, normally with a heading.
+- Using article for any random box: article is for self-contained content.
+- Using div when a clear semantic element fits: choose the meaningful element when appropriate.
+- Creating navigation links without matching ids: test every link and target.
+- Adding semantic tags without understanding them: be ready to explain why each one is used.
