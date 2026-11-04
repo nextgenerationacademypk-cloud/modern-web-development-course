@@ -239,3 +239,70 @@ This example is for classroom practice only. It has no server, so it does not se
 ## Remember
 
 Use tables for data, not page layout. Give every form field a connected label. Explain clearly that a front-end form does not send or save information without a service behind it.
+
+
+## 13. Why table headings matter
+
+A table is easier to understand when the first row identifies each column. A row heading can also identify what a particular row describes. The th element marks a heading cell, while td marks ordinary data.
+
+In a timetable, Day, Topic, and Time describe the columns. Monday, Tuesday, and Wednesday identify each row. That is why the example uses scope="col" for column headings and scope="row" for row headings.
+
+The caption gives the table a short name. Thead groups the heading rows, and tbody groups the main data. These elements make the code easier to understand and help tools interpret the table structure.
+
+## 14. Table layout must match the data
+
+Imagine a table with three column headings. Every normal row should provide data for those three columns. If one row has only two cells, the information may not line up with the correct headings. Count the cells in each row when checking your work.
+
+Do not use a table to place a logo on the left and a menu on the right. That is page layout, not tabular data. CSS Flexbox and Grid will be taught later for layout.
+
+## 15. How a form works in a browser
+
+A form groups controls. A visitor types or selects information, then activates a submit button. The browser can check certain rules, such as whether a required field is empty or whether an email field looks like an email address.
+
+For a real website, the form also needs a destination and a system that receives and handles the data. This can be a server or a form service. Our classroom example has no such destination. It is only for learning the HTML structure and browser validation.
+
+Do not collect real student information in this practice form. Use fictional sample values.
+
+## 16. More useful form attributes
+
+| Attribute | Purpose |
+|---|---|
+| id | Identifies a control in the page and connects it to a label |
+| name | Gives the field a name when data is processed |
+| type | Selects the kind of input control |
+| required | Makes the browser require a value before normal submission |
+| placeholder | Shows a short hint inside an empty control |
+| rows | Suggests the visible number of text lines in a textarea |
+
+A placeholder is not a replacement for a label. The label should remain visible so the purpose of the field is clear even after someone types into it.
+
+## 17. Checkboxes and radio buttons
+
+A checkbox is suitable when a visitor can select more than one independent option. Radio buttons are suitable when a visitor should select one option from a group.
+
+For example, a form might ask a learner to choose interests such as Design and Coding using checkboxes. A question about choosing one class shift, Morning or Afternoon, is better represented by radio buttons.
+
+Radio buttons in one group share the same name. This tells the browser that they are alternatives in the same group. Each option still has its own value.
+
+## 18. A safer and clearer form design
+
+Keep forms simple. Put a clear label beside each control, use an appropriate input type, and ask only for information needed by the task. Avoid asking for passwords or sensitive information in a public practice project.
+
+A form should also explain what happens after submission. In a real service, the visitor should know whether the information is sent, stored, or used. Our sample form does not send or save anything.
+
+## 19. Real-world example: class timetable and enquiry form
+
+A school website might use a table to show class days, topics, and times. A separate enquiry form might ask a visitor for a name, email address, and question. The table presents information for reading. The form collects information for a system to process. These are different jobs, so use the correct HTML elements for each.
+
+## 20. Step-by-step form debugging
+
+If a label does not focus the expected field, compare the label's for value with the input's id. They must match exactly. If browser validation does not appear, check that required is present and that the control is inside the form. If you expect a message to arrive by email, remember that an HTML-only form has no email service connected.
+
+## 21. Extra common mistakes
+
+- Using a table for page layout: tables are for related data in rows and columns.
+- Using td for column headings: use th for header cells.
+- Using placeholder instead of label: provide a real label for every control.
+- Giving radio buttons different names: use the same name for one choice group.
+- Assuming required checks whether information is true: it only performs browser-side checks.
+- Assuming submit automatically stores information: a receiving service or server is needed.
