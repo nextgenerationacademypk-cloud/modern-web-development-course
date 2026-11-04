@@ -1,5 +1,8 @@
 # Day 35 Practical Exercises — Tailwind Utilities
 
+![Tailwind utility groups](images/day-35-tailwind-utilities.svg)
+
+
 ## Exercise 1 — Open the official documentation
 Open the [Tailwind Play CDN guide](https://tailwindcss.com/docs/installation/play-cdn). Follow the current browser setup shown in the official documentation. Do not use old v3 instructions.
 
