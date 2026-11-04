@@ -58,3 +58,9 @@ Students explain HTML versus CSS, identify selector/property/value, create an ex
 
 ## Checkpoint
 Each student shows both files, a working stylesheet link, three visible style changes, and explains selector/property/value. Do not rush ahead if most students cannot identify a simple file-path error.
+
+## Teaching visual
+
+![CSS rule anatomy](images/day-11-css-rule-anatomy.svg)
+
+*Use this diagram while naming each part of the CSS rule.*
