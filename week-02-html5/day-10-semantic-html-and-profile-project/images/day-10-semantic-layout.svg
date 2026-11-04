@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+<title id="title">Semantic layout of a simple webpage</title><desc id="desc">A page map showing header, nav, main with three sections, and footer.</desc>
+<rect width="900" height="560" rx="24" fill="#f8fafc"/><text x="48" y="58" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="#172554">Semantic layout of a webpage</text>
+<rect x="90" y="95" width="720" height="76" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/><text x="120" y="141" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#1e3a8a">header — Page introduction or logo</text>
+<rect x="90" y="184" width="720" height="58" rx="12" fill="#fef3c7" stroke="#d97706" stroke-width="2"/><text x="120" y="221" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#78350f">nav — Important page links</text>
+<rect x="90" y="255" width="720" height="210" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/><text x="120" y="292" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#14532d">main — Primary page content</text>
+<rect x="125" y="312" width="650" height="42" rx="8" fill="#fff" stroke="#16a34a"/><text x="145" y="340" font-family="Arial,sans-serif" font-size="19" fill="#14532d">section — About</text>
+<rect x="125" y="363" width="650" height="42" rx="8" fill="#fff" stroke="#16a34a"/><text x="145" y="391" font-family="Arial,sans-serif" font-size="19" fill="#14532d">section — Interests</text>
+<rect x="125" y="414" width="650" height="38" rx="8" fill="#fff" stroke="#16a34a"/><text x="145" y="440" font-family="Arial,sans-serif" font-size="19" fill="#14532d">section — Learning goals</text>
+<rect x="90" y="478" width="720" height="56" rx="12" fill="#e9d5ff" stroke="#9333ea" stroke-width="2"/><text x="120" y="514" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#581c87">footer — Closing or ownership information</text>
+<text x="90" y="552" font-family="Arial,sans-serif" font-size="15" fill="#475569">Semantic elements describe meaning. CSS controls how these regions look.</text></svg>
