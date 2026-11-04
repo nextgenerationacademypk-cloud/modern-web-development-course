@@ -1,0 +1,11 @@
+Git version check:
+git --version
+
+Set your own commit identity:
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+
+Remember:
+- Replace the example name and email with your own appropriate details.
+- Never use another student's identity.
+- Never put passwords or access tokens in project files.
