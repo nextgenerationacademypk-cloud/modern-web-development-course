@@ -1,90 +1,59 @@
 # Week 5 — JavaScript Foundations
 
 ## Goal
+Understand basic JavaScript and write small programs that use data and logic. Students practise each new idea with short examples before combining concepts.
 
-Understand basic JavaScript and write small programs that use data and logic. Students should practise each new idea with short examples before combining concepts.
+## Prerequisites
+- HTML document structure and linking external files.
+- Basic CSS and the ability to open a project in VS Code.
+- Chrome browser and access to the developer Console.
 
 ## Day-by-day lessons
 
-### Day 21 — Introduction to JavaScript
-- Understand the role of JavaScript in a webpage.
-- Add a JavaScript file to an HTML page.
-- Use the browser console and `console.log()`.
-- Practise changing a message and viewing the result.
+| Day | Topic | Practical result |
+|---|---|---|
+| 21 | Introduction to JavaScript | Link a script and print messages in the browser Console |
+| 22 | Variables, data types, and operators | Calculate a shopping or course-fee total |
+| 23 | Conditions | Build a score and number checker |
+| 24 | Functions | Create reusable calculation functions |
+| 25 | Arrays, loops, and guided calculator | Print array items and complete a console calculator |
 
-### Day 22 — Variables, data types, and operators
-- Learn `let` and `const`.
-- Work with strings, numbers, and booleans.
-- Use arithmetic and comparison operators.
-- Practise simple calculations with clear input values.
+## Daily lesson packages
 
-### Day 23 — Conditions
-- Learn `if`, `else if`, and `else`.
-- Use comparison and logical operators.
-- Practise tracing which branch of a condition runs.
-- Practical: check whether a number is positive, negative, or zero.
+Each day includes a lesson overview, lecture notes, instructor guide, practical exercises, homework, daily quiz, and working HTML/JavaScript examples.
 
-### Day 24 — Functions
-- Learn why functions are useful.
-- Use parameters and return values.
-- Write, call, and test small reusable functions.
-- Guided practice: write separate functions for addition and subtraction.
+- [Day 21 — Introduction to JavaScript](day-21-introduction-to-javascript/README.md)
+- [Day 22 — Variables, Data Types and Operators](day-22-variables-data-types-and-operators/README.md)
+- [Day 23 — Conditions](day-23-conditions/README.md)
+- [Day 24 — Functions](day-24-functions/README.md)
+- [Day 25 — Arrays, Loops and Guided Calculator](day-25-arrays-loops-and-calculator/README.md)
 
-### Day 25 — Arrays, loops, and guided calculator practice
-- Create an array and read items by index.
-- Use a basic `for` loop to visit each item.
-- Trace a loop one step at a time before writing a longer one.
-- Combine variables, conditions, and functions in a small calculator exercise.
-- Treat the calculator as a guided weekly project, not a timed independent coding test.
+## Core concepts
+- JavaScript's role alongside HTML and CSS.
+- External JavaScript files and the `defer` attribute.
+- Browser developer tools and Console output.
+- Variables using `const` and `let`.
+- Strings, numbers, and booleans.
+- Arithmetic and comparison operators.
+- Conditions: `if`, `else if`, and `else`.
+- Functions, parameters, arguments, and return values.
+- Arrays, indexes, `length`, and a basic indexed `for` loop.
 
-## Example: JavaScript file
+## Weekly practical projects
+- Small console calculations and a score checker.
+- Reusable calculator functions.
+- A guided console-based calculator with addition, subtraction, multiplication, and division.
+- Division-by-zero handling and a short array loop.
 
-HTML:
+## Important teaching boundary
+This week focuses on JavaScript fundamentals and Console-based practice. Students do not yet need to select or change webpage elements, add event listeners, or build interactive forms. DOM manipulation and browser events are covered in Week 6.
 
-```html
-<script src="script.js" defer></script>
-```
+## Learning resources
+- [MDN: JavaScript first steps](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Adding_interactivity)
+- [MDN: JavaScript scripting tutorials](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting)
+- [freeCodeCamp: JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/)
+- [W3Schools: JavaScript Tutorial](https://www.w3schools.com/js/)
+- [Chrome DevTools: Console overview](https://developer.chrome.com/docs/devtools/console/)
 
-JavaScript:
-
-```javascript
-const studentName = "A student";
-const marks = 75;
-
-function getResult(score) {
-  if (score >= 60) {
-    return "Pass";
-  }
-  return "Keep practising";
-}
-
-console.log(studentName);
-console.log(getResult(marks));
-```
-
-## Practical exercises
-
-1. Print messages in the console.
-2. Store a name and age in variables.
-3. Calculate the total of two numbers.
-4. Write a function that returns the larger of two numbers.
-5. Create an array of three favourite subjects and print each item with a basic loop.
-6. Extend a guided calculator to add, subtract, multiply, and divide two numbers. Handle division by zero with a clear message.
-
-## Homework
-
-Complete the guided calculator. Add clear messages for the user and test at least one normal calculation and division by zero. Students who need more practice may first complete addition and subtraction; multiplication and division are extension goals if class pace requires it.
-
-## Quick review
-
-1. What is a variable?
-2. When should you use `const`?
-3. What is a boolean?
-4. What does an `if` statement do?
-5. Why are functions useful?
-6. What does an array store?
-7. What does a loop repeat?
-
-## Expected result
-
-Students can write small JavaScript programs, use a basic array and loop, and explain the parts of a simple calculator they built with guidance.
+## Weekly completion check
+A student completes Week 5 when they can explain the role of JavaScript, use variables and operators, write a condition, create and call functions, loop through an array, and explain the main parts of the guided calculator.
