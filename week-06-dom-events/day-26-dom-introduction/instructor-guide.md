@@ -1,5 +1,8 @@
 # Day 26 Instructor Guide — DOM Introduction
 
+![Simplified DOM tree](images/day-26-dom-tree.svg)
+
+
 ## Teaching goal
 Students should see the DOM as a bridge between HTML and JavaScript, not as a new programming language.
 
