@@ -1,5 +1,7 @@
 # Day 22 Instructor Guide — Variables, Data Types and Operators
 
+![Teaching diagram](images/day-22-data-types.svg)
+
 ## Teaching purpose
 Students move from printing fixed messages to storing and calculating with values. Teach each concept with small console examples.
 
