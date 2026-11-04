@@ -1,5 +1,8 @@
 # Day 30 Instructor Guide — To-Do List Project
 
+![To-do list project flow](images/day-30-todo-project-flow.svg)
+
+
 ## Teaching goal
 Bring together the week's DOM and event skills in one achievable beginner project. Prioritise understanding and a working core app over visual complexity.
 
