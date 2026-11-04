@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330" role="img" aria-labelledby="title desc">
+<title id="title">Simple form validation flow</title><desc id="desc">On submit, prevent default navigation, read and trim the input, check whether it is empty, then show feedback.</desc>
+<rect width="900" height="330" rx="22" fill="#f8fafc"/>
+<g font-family="Arial, sans-serif" text-anchor="middle">
+<g fill="#ffedd5" stroke="#c2410c" stroke-width="2"><rect x="20" y="80" width="150" height="100" rx="14"/><rect x="195" y="80" width="150" height="100" rx="14"/><rect x="370" y="80" width="150" height="100" rx="14"/><rect x="545" y="80" width="150" height="100" rx="14"/><rect x="720" y="80" width="160" height="100" rx="14"/></g>
+<g fill="#7c2d12" font-size="18" font-weight="bold"><text x="95" y="120">Submit</text><text x="270" y="120">Prevent</text><text x="445" y="120">Read + trim</text><text x="620" y="120">Check value</text><text x="800" y="120">Show feedback</text></g>
+<g fill="#7c2d12" font-size="14"><text x="270" y="148">default action</text><text x="445" y="148">input.value</text><text x="620" y="148">empty or valid?</text><text x="800" y="148">message</text></g>
+<g stroke="#64748b" stroke-width="3" fill="none"><path d="M170 130 H190 l-7 -7 m7 7 l-7 7"/><path d="M345 130 H365 l-7 -7 m7 7 l-7 7"/><path d="M520 130 H540 l-7 -7 m7 7 l-7 7"/><path d="M695 130 H715 l-7 -7 m7 7 l-7 7"/></g>
+<text x="450" y="250" font-size="18" fill="#475569">Client-side feedback improves usability; real applications also validate on the server.</text>
+</g></svg>
