@@ -1,5 +1,7 @@
 # Day 24 Instructor Guide — Functions
 
+![Teaching diagram](images/day-24-function-flow.svg)
+
 ## Teaching purpose
 Help students reuse code and separate a task into small named steps. Make the difference between parameters, arguments, and returned values visible.
 
