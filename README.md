@@ -19,7 +19,7 @@ A practical, instructor-led introduction to modern website development. This cou
 
 ## Before the 8-week course
 
-Students with little or no computer experience should complete the [Pre-course Digital Readiness Workshop](pre-course-digital-readiness/README.md) first. It covers basic computer and file skills, browser use, email basics, VS Code setup, and a practical readiness check. It is a recommended 4-hour workshop and is separate from the 40 official course sessions. GitHub account creation is introduced later, in Week 7.
+Students who have not completed basic computer training should complete the [Pre-course Digital Readiness Workshop](pre-course-digital-readiness/README.md) first. Students who have already completed the academy's Basic Computer & AI Foundation Course should use the workshop readiness checklist as a short diagnostic and complete only the catch-up topics they need. The workshop is a recommended 4-hour preparation activity and is separate from the 40 official course sessions. GitHub account creation is introduced later, in Week 7.
 
 ## What students will learn
 
