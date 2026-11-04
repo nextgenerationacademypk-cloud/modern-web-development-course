@@ -1,5 +1,8 @@
 # Day 28 Instructor Guide — Events
 
+![Event flow](images/day-28-event-flow.svg)
+
+
 ## Preparation
 Test both examples. Keep the counter code short. Prepare a live input field and preview paragraph.
 
