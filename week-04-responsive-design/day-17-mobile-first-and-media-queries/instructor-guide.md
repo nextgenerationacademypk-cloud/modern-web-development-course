@@ -1,3 +1,5 @@
+![Mobile-first progression](images/day-17-mobile-first.svg)
+
 # Day 17 Instructor Guide — Mobile-First and Media Queries
 
 ## Teaching purpose
