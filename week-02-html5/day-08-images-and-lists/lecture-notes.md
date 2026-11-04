@@ -1,5 +1,7 @@
 # Day 8 Lecture Notes — Images and Lists
 
+![Diagram showing index.html linking to an image inside the images folder.](images/day-08-image-path.svg)
+
 ## Learning goal
 
 Add images to a webpage and organise information into ordered and unordered lists.
