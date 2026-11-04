@@ -44,6 +44,8 @@ Students should be able to:
 
 ## Visual teaching notes
 
+![Diagram showing the header, navigation, main sections, and footer of a webpage.](images/day-10-semantic-layout.svg)
+
 Use `images/day-10-semantic-layout.svg` as a page map. Point to each region and ask students to name its purpose. Then compare the map with the actual example in VS Code and Chrome. Explain that semantic elements describe meaning; CSS will control appearance in the next week.
 
 ## Profile project requirements
