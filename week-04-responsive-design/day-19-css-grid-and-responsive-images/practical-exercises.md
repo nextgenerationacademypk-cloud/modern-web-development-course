@@ -1,3 +1,5 @@
+![Responsive Grid](images/day-19-grid-auto-fit.svg)
+
 # Day 19 Practical Exercises — Grid and Images
 
 ## Exercise 1 — Create a grid (10 min)
