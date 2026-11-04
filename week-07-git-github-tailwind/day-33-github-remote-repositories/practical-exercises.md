@@ -1,5 +1,8 @@
 # Day 33 Practical Exercises — Publish a Repository
 
+![Local and remote repository](images/day-33-local-remote.svg)
+
+
 ## Exercise 1 — Prepare the local project
 Open your Git project. Run git status and confirm your latest work is committed.
 
