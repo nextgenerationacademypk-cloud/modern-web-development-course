@@ -1,3 +1,5 @@
+![Responsive screens](images/day-16-responsive-screens.svg)
+
 # Day 16 Practical Exercises — Inspect Responsive Layouts
 
 ## Before you start
