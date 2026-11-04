@@ -1,5 +1,7 @@
 # Day 6 Practical Exercises — Headings and Paragraphs
 
+![Diagram showing one main heading, section headings, a subsection, and paragraphs.](images/day-06-heading-hierarchy.svg)
+
 ## What you will practise
 
 You will organise information using a main heading, section headings, and paragraphs. Work in your Week 2 project folder. Do not add CSS or JavaScript today.
