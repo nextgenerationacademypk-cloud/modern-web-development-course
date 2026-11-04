@@ -1,5 +1,7 @@
 # Day 25 Lecture Notes — Arrays, Loops and Calculator
 
+![Teaching diagram](images/day-25-array-loop.svg)
+
 ## 1. What is an array?
 An array stores multiple values in one variable. Example:
 ```javascript
