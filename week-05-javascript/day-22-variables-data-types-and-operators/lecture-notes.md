@@ -1,5 +1,7 @@
 # Day 22 Lecture Notes — Variables, Data Types and Operators
 
+![Teaching diagram](images/day-22-data-types.svg)
+
 ## 1. What is a variable?
 A variable is a named place in a program where a value can be used. Example:
 ```javascript
