@@ -1,37 +1,59 @@
 # Day 7 Practical Exercises — Text Formatting and Links
 
-## Exercise 1 — Guided practice
+## What you will practise
 
-1. Open the day's `examples/index.html` file.
-2. Read the code and locate each element introduced today.
-3. Change the sample text to a simple topic you know.
-4. Add one more example of the new element.
-5. Save the file and preview it in Chrome.
-6. Compare the result with the expected task described below.
+You will add meaningful emphasis and working links to your profile page. Keep your link destinations safe and useful.
 
-## Exercise 2 — Required independent task
+## Exercise 1 — Understand a link
 
-Add a useful resource-links section to your profile page with two external learning links and one link to a page section.
+Study `images/day-07-link-anatomy.svg`.
 
-### Completion checklist
+1. Point to the anchor element.
+2. Identify the `href` attribute.
+3. Identify the destination and the visible link text.
+4. Explain which part you change when you want the link to open a different page.
 
-- [ ] The file opens in the browser without a missing-file error.
-- [ ] The required content and elements are present.
-- [ ] Element names and attributes are spelt correctly.
-- [ ] The code is indented and readable.
-- [ ] I can explain the purpose of the elements I used.
+## Exercise 2 — Guided practice
 
-## Exercise 3 — Optional challenge
+1. Open `examples/index.html`.
+2. Find the examples of `strong`, `em`, and `a`.
+3. Add one sentence with meaningful strong emphasis.
+4. Add one external link to a trusted learning resource.
+5. Save, preview, and click the link.
+6. If it does not work, compare the URL with the one supplied by your instructor.
 
-Add one extra section or content example that uses today's elements correctly. Keep the page simple and readable. Do not add CSS or JavaScript unless the instructor specifically asks.
+## Exercise 3 — Required independent task: Resource links
+
+Add a “Useful Resources” section to your profile page.
+
+Requirements:
+- Include two external learning links.
+- Use descriptive link text, such as the name of the learning resource.
+- Add an in-page link that jumps to an existing section of your page.
+- Give the target section a unique `id`.
+- Use `strong` or `em` at least once where it adds meaning.
+- Test every link in Chrome.
+
+## Completion checklist
+
+- [ ] Each anchor has a correct `href`.
+- [ ] The external links open the intended websites.
+- [ ] The in-page link jumps to the correct section.
+- [ ] Link text describes the destination.
+- [ ] I used emphasis elements for meaning, not decoration.
+- [ ] I tested the links by clicking them.
+
+## Optional challenge
+
+Add a third external learning link and organise all resources in an unordered list. Check that each destination is appropriate for beginners.
 
 ## Troubleshooting
 
-- If the browser does not show your latest change, save the file and refresh.
-- If an image or link does not work, check the exact path or URL.
-- If the page looks incomplete, compare opening and closing tags with the example.
-- If the result is confusing, remove the last change and add it again in smaller steps.
+- If a link does nothing, check the spelling of `href` and its value.
+- If an in-page link fails, check that the target `id` matches the fragment exactly.
+- If a website does not open, check the URL and your internet connection.
+- If the link opens the wrong page, correct the destination rather than changing the visible text.
 
 ## Expected result
 
-A working HTML page that demonstrates the day's required skill. The page should be readable and the code should be understandable to its author.
+A profile page with clear text emphasis, two working external resource links, and one working in-page link.
