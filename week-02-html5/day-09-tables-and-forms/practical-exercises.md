@@ -1,5 +1,9 @@
 # Day 9 Practical Exercises — Tables and Forms
 
+![Diagram showing table captions, heading cells, and data cells.](images/day-09-table-structure.svg)
+
+![Diagram showing a form label connected to an input by matching for and id values.](images/day-09-form-labels.svg)
+
 ## What you will practise
 
 You will create a small timetable and a sample HTML form. Use fictional information only. This form is for learning and does not send or store submissions.
