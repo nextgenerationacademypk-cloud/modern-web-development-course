@@ -1,5 +1,8 @@
 # Day 31 Instructor Guide — Git Foundations
 
+![Version history idea](images/day-31-version-history.svg)
+
+
 ## Preparation
 Check Git is installed on the instructor computer. Prepare a small website folder with index.html and styles.css. Show the official Git download page.
 
