@@ -1,5 +1,7 @@
 # Day 25 Practical Exercises — Arrays, Loops and Calculator
 
+![Teaching diagram](images/day-25-array-loop.svg)
+
 ## Exercise 1 — Create an array (8 min)
 Create an array containing three course subjects. Print the full array.
 
