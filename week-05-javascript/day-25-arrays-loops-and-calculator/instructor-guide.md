@@ -1,5 +1,7 @@
 # Day 25 Instructor Guide — Arrays, Loops and Guided Calculator
 
+![Teaching diagram](images/day-25-array-loop.svg)
+
 ## Teaching purpose
 Introduce collections and repetition, then consolidate the week's skills in a guided calculator. Keep the loop example short and trace it slowly.
 
