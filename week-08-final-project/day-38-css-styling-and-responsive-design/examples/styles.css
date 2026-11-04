@@ -1,0 +1,12 @@
+/* Simple responsive starter styles */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; line-height: 1.6; color: #243247; }
+header, footer { padding: 1rem; background: #173b63; color: white; }
+nav { display: flex; flex-wrap: wrap; gap: 1rem; }
+nav a { color: white; }
+main { width: min(100% - 2rem, 68rem); margin: 0 auto; }
+section { padding: 2rem 0; border-bottom: 1px solid #d7dee8; }
+@media (min-width: 48rem) {
+  main { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem 2rem; }
+  section { padding: 2rem 1rem; }
+}
