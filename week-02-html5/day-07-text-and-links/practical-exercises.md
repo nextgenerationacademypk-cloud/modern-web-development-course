@@ -1,5 +1,7 @@
 # Day 7 Practical Exercises — Text Formatting and Links
 
+![Diagram showing the anchor element, href destination, and visible link text.](images/day-07-link-anatomy.svg)
+
 ## What you will practise
 
 You will add meaningful emphasis and working links to your profile page. Keep your link destinations safe and useful.
