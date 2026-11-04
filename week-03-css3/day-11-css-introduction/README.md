@@ -1,28 +1,31 @@
-# Day 11 — CSS purpose and external stylesheets
+# Day 11 — CSS Purpose and External Stylesheets
 
-**Week:** 3 · **Session:** 11 of 40 · **Duration:** 120 minutes
+**Session:** 11 · **Duration:** 120 minutes  
+**Prerequisite:** Students can create an HTML page, open a project folder in VS Code, save files, and preview in Chrome.
 
-## Purpose
-HTML gives a page structure; CSS controls its presentation. Create style.css, link it from the HTML head, and change background, text colour, font, and spacing.
+## Learning outcomes
+Students can:
+1. Explain the difference between HTML structure and CSS presentation.
+2. Identify a CSS selector, property, value, and declaration.
+3. Create an external file named `styles.css`.
+4. Connect it using a `link` element inside the HTML `head`.
+5. Apply background, text colour, and text-size styles.
 
-## Prerequisite
-Students have completed Week 2 HTML lessons and can preview an HTML page.
+## Lesson plan
+- 20 min: HTML versus CSS and CSS rule vocabulary.
+- 4 min: Quick theory check.
+- 30 min: Instructor demonstration of creating, linking, and editing CSS.
+- 62 min: Guided and independent practical work.
+- 4 min: Student demonstration and review.
 
-## Learning outcome
-Create and link an external stylesheet, then apply basic CSS declarations.
-
-## Lesson files
+## Files
 - [Lecture notes](lecture-notes.md)
 - [Instructor guide](instructor-guide.md)
 - [Practical exercises](practical-exercises.md)
 - [Homework](homework.md)
 - [Daily quiz](daily-quiz.md)
-- [Working HTML example](examples/index.html)
-- [Working CSS example](examples/style.css)
-- [Concept diagram](images/day-11-concept.svg)
+- [Example HTML](examples/index.html)
+- [Example CSS](examples/styles.css)
 
-## Expected result
-A welcome page styled with an external stylesheet.
-
-## Scope
-This is a CSS foundations lesson. Responsive media queries and mobile-first design are taught in Week 4. Tailwind is not required.
+## Success criteria
+The page displays visible CSS styles, the external file is linked correctly, and the student can explain what the selector and one declaration do.
