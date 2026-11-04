@@ -1,0 +1,16 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #253449; background: #f4f7fb; line-height: 1.6; }
+.site-header { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; padding: 18px 5%; color: white; background: #173b63; }
+.brand, .navigation a { color: white; text-decoration: none; }
+.brand { font-weight: bold; }
+.navigation { display: flex; flex-wrap: wrap; gap: 18px; }
+.hero { padding: 54px 7%; color: white; background: #245b91; }
+.hero h1 { max-width: 700px; font-size: 2.2rem; line-height: 1.15; }
+.hero p { max-width: 650px; }
+.eyebrow { font-size: .8rem; font-weight: bold; letter-spacing: .08em; }
+.button-link { display: inline-block; margin-top: 12px; padding: 10px 16px; color: #173b63; background: white; border-radius: 6px; text-decoration: none; font-weight: bold; }
+.section { max-width: 1050px; margin: 0 auto; padding: 32px 5%; }
+.section h2 { color: #174f8a; }
+.course-list { display: flex; flex-wrap: wrap; gap: 18px; }
+.course-card { flex: 1 1 220px; padding: 20px; border: 1px solid #d5deea; border-radius: 10px; background: white; }
+.site-footer { padding: 20px 5%; color: white; background: #173b63; }
