@@ -1,141 +1,140 @@
-# Day 14 — Flexbox Layout
+# Day 14 Lecture Notes — Flexbox Basics
 
-## Lesson purpose
-Today you will learn how to arrange groups of elements using Flexbox. You will use it for navigation links and course cards.
+## 1. What is Flexbox?
+Flexbox is a CSS layout system that helps arrange items in a row or column. It is useful for navigation links, groups of cards, and simple page sections.
 
-## Prerequisite
-You understand CSS selectors, the box model, and basic spacing.
+Flexbox works with:
+- A **flex container**: the parent element that receives `display: flex`.
+- **Flex items**: the direct children of that container.
 
-## Learning outcomes
-By the end, you can:
-- Explain the difference between a flex container and flex items.
-- Apply display:flex to a parent.
-- Change the direction of items.
-- Use justify-content, align-items, and gap.
-- Allow items to wrap onto another line.
-
-## 1. Why do we need layout tools?
-HTML elements normally appear in the browser in the order they are written. CSS layout tools help place related elements in a useful arrangement. Flexbox is designed for arranging items in one direction at a time: a row or a column.
-
-Common uses include:
-- Navigation links in a header.
-- Course cards in a row.
-- Buttons placed beside each other.
-- Simple groups of information.
-
-## 2. Flex container and flex items
-Flexbox begins with a parent element. When you give that parent `display: flex`, its direct children become flex items.
-
+## 2. Turn on Flexbox
+HTML:
 ```html
-<section class="card-row">
-  <article class="card">HTML</article>
-  <article class="card">CSS</article>
-  <article class="card">JavaScript</article>
-</section>
+<nav class="main-nav">
+  <a href="#home">Home</a>
+  <a href="#courses">Courses</a>
+  <a href="#contact">Contact</a>
+</nav>
 ```
-
+CSS:
 ```css
-.card-row {
+.main-nav {
   display: flex;
 }
 ```
+The direct child links become flex items and are placed in a row by default.
 
-The section is the flex container. The three article elements are flex items.
+## 3. Main axis and cross axis
+With the default `flex-direction: row`, the main axis runs horizontally and the cross axis runs vertically.
 
-A common mistake is applying display:flex to each card. If you want to arrange the cards as a group, apply it to their shared parent.
+If `flex-direction: column`, the main axis becomes vertical and the cross axis becomes horizontal.
 
-## 3. Direction
-The `flex-direction` property controls the direction of the items.
-
-- `row`: items are placed in a row. This is the default.
-- `column`: items are placed in a column.
-
+## 4. flex-direction
+Choose the direction of items:
 ```css
-.card-row {
+.row {
   display: flex;
   flex-direction: row;
 }
+.column {
+  display: flex;
+  flex-direction: column;
+}
 ```
-
-Change row to column and observe the difference.
-
-## 4. Main axis and cross axis
-Flexbox uses two axes:
-- The **main axis** follows the direction of the items.
-- The **cross axis** runs across the main axis.
-
-For a row, the main axis runs horizontally and the cross axis runs vertically. For a column, these directions change.
-
-You do not need to memorise advanced axis rules today. Remember that justify-content works along the main axis and align-items works across the cross axis.
+The default is `row`.
 
 ## 5. justify-content
-The `justify-content` property controls how items are distributed along the main axis.
-
-Common values:
-- `flex-start`: items gather at the start.
-- `center`: items gather in the centre.
-- `flex-end`: items gather at the end.
-- `space-between`: space is placed between items.
-
-Try one value at a time and observe the row.
-
-## 6. align-items
-The `align-items` property aligns items across the cross axis. Common values include `stretch`, `center`, `flex-start`, and `flex-end`.
-
-For a row, align-items can move items vertically within the available cross-axis space. The result depends on the size of the container and the items.
-
-## 7. gap
-The `gap` property adds space between flex items.
-
+`justify-content` distributes items along the main axis:
 ```css
-.card-row {
+.nav {
   display: flex;
-  gap: 18px;
+  justify-content: space-between;
 }
 ```
+Common values:
+- `flex-start`: items at the start.
+- `center`: items grouped at the center.
+- `flex-end`: items at the end.
+- `space-between`: equal space between items.
+- `space-around`: space around each item.
+- `space-evenly`: equal gaps between and around items.
 
-Gap is often easier to manage than adding margins to every child card.
+## 6. align-items
+`align-items` aligns items along the cross axis:
+```css
+.nav {
+  display: flex;
+  align-items: center;
+}
+```
+Common values include `stretch`, `flex-start`, `center`, and `flex-end`. The effect depends on the direction and available space.
+
+## 7. gap
+The `gap` property adds space between flex items:
+```css
+.course-list {
+  display: flex;
+  gap: 20px;
+}
+```
+It is usually easier to control a group of items with `gap` than to add margin to every item.
 
 ## 8. flex-wrap
-Flex items may try to stay on one line. When there is not enough room, items can become squeezed or overflow. The rule `flex-wrap: wrap` allows items to move onto another line.
-
+By default, flex items try to stay on one line. `flex-wrap: wrap` allows them to move onto another line when there is not enough space:
 ```css
-.card-row {
+.course-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 18px;
+  gap: 20px;
 }
-
-.card {
+.course-card {
   flex: 1 1 220px;
 }
 ```
+This is a first introduction to flexible layout behaviour. Full mobile-first responsive design and media queries are taught in Week 4.
 
-The flex shorthand sets how an item can grow, shrink, and its starting size. For this beginner lesson, use the provided pattern. Detailed flex sizing is not required.
-
-Flex wrapping is useful, but it is not the complete responsive-design topic. Week 4 will teach mobile-first design and media queries.
-
-## 9. A navigation example
-A navigation element can contain several links. Apply display:flex to the nav element and gap to create space between links.
-
+## 9. A simple navigation layout
 ```css
-.navigation {
+.main-nav {
   display: flex;
-  gap: 18px;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
 }
 ```
+This can place a site name at one side and navigation links at the other when the HTML is structured accordingly.
 
-## 10. Common beginner mistakes
-- Selecting the wrong parent.
-- Forgetting display:flex.
-- Expecting justify-content to work on a normal block element.
-- Confusing justify-content and align-items.
-- Forgetting gap.
-- Forgetting flex-wrap when items need to move to another line.
+## 10. A group of cards
+```css
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.course-card {
+  flex: 1 1 220px;
+  padding: 18px;
+  border: 1px solid #d5deea;
+}
+```
+The `flex` shorthand controls how an item can grow, shrink, and its starting basis. For now, understand that `1 1 220px` gives each card a preferred starting size and allows it to share available space and wrap.
 
-## Guided practice
-Open the example files. Inspect the header and card-row. Change gap, justify-content, and flex-wrap one at a time. Narrow the browser window and observe the result.
+## 11. Flexbox is not a replacement for every layout
+Use Flexbox when items are arranged mainly in one direction: a row or a column. Later you will learn CSS Grid for layouts with rows and columns together. Do not use Flexbox just because it is new.
 
-## Recap
-Flexbox is applied to a parent. Its direct children become flex items. Use direction, alignment, gap, and wrapping to control the group.
+## 12. Common mistakes
+- Adding `display: flex` to the child instead of the parent.
+- Thinking `justify-content` and `align-items` always mean horizontal and vertical; their directions depend on `flex-direction`.
+- Forgetting `flex-wrap: wrap` when items need to move to another line.
+- Expecting gap to add space around the outside of the whole container.
+- Using fixed widths that make cards too wide for the available space.
+
+## 13. Recap
+Set `display: flex` on the parent. Use `flex-direction` to choose row or column, `justify-content` for the main axis, `align-items` for the cross axis, `gap` for spaces between items, and `flex-wrap` to allow another line.
+
+## 14. Check your understanding
+1. Which element becomes the flex container?
+2. What is the default flex direction?
+3. Which property distributes items on the main axis?
+4. Which property aligns items on the cross axis?
+5. What does `flex-wrap: wrap` do?
