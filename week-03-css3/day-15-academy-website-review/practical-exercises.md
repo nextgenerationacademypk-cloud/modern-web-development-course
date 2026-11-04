@@ -74,3 +74,9 @@ Create or update `styles.css`. Include:
 Add a CSS hover style to links or cards. Keep the effect simple and ensure the text remains readable.
 
 **Expected result:** A clear academy information website built with HTML and traditional CSS.
+
+## Visual reference
+
+![Academy page wireframe](images/day-15-academy-page-wireframe.svg)
+
+*Use this wireframe to plan the required sections.*
