@@ -1,5 +1,7 @@
 # Day 24 Practical Exercises — Reusable Functions
 
+![Teaching diagram](images/day-24-function-flow.svg)
+
 ## Exercise 1 — First function (8 min)
 Write a function called `showWelcome` that prints a welcome message. Call it once.
 
