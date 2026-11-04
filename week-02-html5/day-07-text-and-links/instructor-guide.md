@@ -42,6 +42,8 @@ Students should be able to:
 
 ## Visual teaching notes
 
+![Diagram showing the anchor element, href destination, and visible link text.](images/day-07-link-anatomy.svg)
+
 Use `images/day-07-link-anatomy.svg` to point out the anchor element, `href` attribute, destination, and visible text. Students should understand that changing the visible words does not change the destination; changing `href` does.
 
 ## Questions to check understanding
