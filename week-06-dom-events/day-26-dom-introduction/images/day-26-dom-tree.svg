@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+<title id="title">A simplified DOM tree</title>
+<desc id="desc">The document contains an html element, which contains head and body. The body contains a heading, paragraph and button.</desc>
+<rect width="900" height="500" rx="24" fill="#f5f8fc"/>
+<g font-family="Arial, sans-serif" text-anchor="middle" fill="#17324d">
+<rect x="360" y="28" width="180" height="58" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/><text x="450" y="64" font-size="22">document</text>
+<path d="M450 86 V115 M225 115 H675 M225 115 V145 M675 115 V145" stroke="#64748b" stroke-width="3" fill="none"/>
+<rect x="135" y="145" width="180" height="58" rx="12" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/><text x="225" y="181" font-size="22">html</text>
+<rect x="585" y="145" width="180" height="58" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/><text x="675" y="181" font-size="22">body</text>
+<path d="M675 203 V245 M510 245 H840 M510 245 V275 M675 245 V275 M840 245 V275" stroke="#64748b" stroke-width="3" fill="none"/>
+<rect x="135" y="275" width="180" height="58" rx="12" fill="#fef3c7" stroke="#d97706" stroke-width="2"/><text x="225" y="311" font-size="22">head</text>
+<rect x="420" y="275" width="180" height="58" rx="12" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/><text x="510" y="311" font-size="22">h1</text>
+<rect x="585" y="275" width="180" height="58" rx="12" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/><text x="675" y="311" font-size="22">p</text>
+<rect x="750" y="275" width="150" height="58" rx="12" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/><text x="825" y="311" font-size="22">button</text>
+<text x="450" y="410" font-size="20" fill="#475569">Simplified example — the browser builds a tree from HTML</text>
+</g></svg>
