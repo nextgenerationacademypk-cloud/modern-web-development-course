@@ -1,5 +1,7 @@
 # Day 10 Practical Exercises — Semantic HTML and Profile Page Project
 
+![Diagram showing the header, navigation, main sections, and footer of a webpage.](images/day-10-semantic-layout.svg)
+
 ## What you will practise
 
 You will use semantic HTML to complete a small personal profile website. This is the Week 2 mini-project. Keep it HTML-only; CSS will be taught in Week 3.
