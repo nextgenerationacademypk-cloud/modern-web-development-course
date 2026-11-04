@@ -19,7 +19,7 @@ A mobile-first page with one column on a narrow screen and two columns on a wide
 ## Learning resources
 **Read:** [MDN: Media query fundamentals](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Media_queries) and [MDN: Responsive design](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design).
 
-**Watch:** [Dave Gray: CSS Media Queries and Responsive Web Design for Beginners](https://www.youtube.com/watch?v=1p5q4r9r8s8) — if the video link is unavailable, use the MDN reading as the required resource; video is optional.
+**Watch:** [freeCodeCamp: Introduction to Responsive Web Design](https://www.youtube.com/watch?v=srvUrASNj0s) — optional; focus on the mobile-first and media-query sections.
 
 **Practise:** Change the example viewport width and observe when the layout changes.
 
