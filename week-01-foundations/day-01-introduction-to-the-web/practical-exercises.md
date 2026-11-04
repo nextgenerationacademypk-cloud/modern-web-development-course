@@ -11,7 +11,11 @@
 - Ask for help if a page does not open.
 - Write short answers in your own words.
 
-![Browser parts reference](images/browser-parts.svg)\n\nUse this labelled illustration to help identify the browser controls. Your browser may look slightly different.\n\n## Activity 1 — Explore your browser (12 minutes)
+![Browser parts reference](images/browser-parts.svg)
+
+Use this labelled illustration to help identify the browser controls. Your browser may look slightly different.
+
+## Activity 1 — Explore your browser (12 minutes)
 
 Open your browser and find each item.
 
@@ -55,7 +59,11 @@ Now look at the address bar on a website opened by your instructor. Write its do
 
 Domain: ______________________________________________
 
-![Common webpage sections](images/website-layout.svg)\n\nUse this wireframe as a guide. Look for the same sections on a real website.\n\n## Activity 3 — Find webpage sections (15 minutes)
+![Common webpage sections](images/website-layout.svg)
+
+Use this wireframe as a guide. Look for the same sections on a real website.
+
+## Activity 3 — Find webpage sections (15 minutes)
 
 Open a website selected by your instructor. Look for the following sections.
 
