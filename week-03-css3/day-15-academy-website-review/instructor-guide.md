@@ -64,3 +64,9 @@ Check:
 - Student can explain one selector, one box-model property, and one Flexbox property.
 
 Do not grade responsive media queries in this week; those are taught next week.
+
+## Teaching visual
+
+![Academy page wireframe](images/day-15-academy-page-wireframe.svg)
+
+*Project this wireframe while students plan their page sections.*
