@@ -1,5 +1,8 @@
 # Day 35 Instructor Guide — Tailwind Introduction
 
+![Tailwind utility groups](images/day-35-tailwind-utilities.svg)
+
+
 ## Preparation
 Use the official Tailwind CSS v4 Play CDN documentation. Test the classroom demo before the lesson. Do not use old v3 setup snippets. Keep a traditional CSS version available in case the CDN or network is unavailable.
 
