@@ -1,5 +1,8 @@
 # Day 29 Practical Exercises — Form Validation
 
+![Form validation flow](images/day-29-form-validation-flow.svg)
+
+
 ## Exercise 1 — Inspect the form
 Find the form, label, input, submit button, and feedback paragraph in the example HTML. Check that the label for matches the input id.
 
