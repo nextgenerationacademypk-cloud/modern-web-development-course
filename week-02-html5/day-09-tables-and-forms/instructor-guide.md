@@ -44,6 +44,10 @@ Students should be able to:
 
 ## Visual teaching notes
 
+![Diagram showing table captions, heading cells, and data cells.](images/day-09-table-structure.svg)
+
+![Diagram showing a form label connected to an input by matching for and id values.](images/day-09-form-labels.svg)
+
 Use the table diagram to trace a row and distinguish heading cells from data cells. Use the form diagram to show that a label describes a control and is connected through matching `for` and `id` values. Keep the diagrams visible while students begin the task.
 
 ## Questions to check understanding
