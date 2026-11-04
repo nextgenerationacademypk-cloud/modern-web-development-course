@@ -6,5 +6,5 @@ body { margin: 0; font-family: Arial, sans-serif; color: #263445; background: #f
 .navigation { display: flex; flex-wrap: wrap; gap: 18px; }
 .page { max-width: 1000px; margin: 35px auto; padding: 0 20px; }
 .card-row { display: flex; flex-wrap: wrap; gap: 18px; }
-.card { flex: 1 1 220px; padding: 22px; border-radius: 10px; background: white; border: 1px solid #d5deea; }
+.card { flex: 1 1 220px; padding: 22px; background: white; border: 1px solid #d5deea; }
 .card h2 { color: #1756a9; }
