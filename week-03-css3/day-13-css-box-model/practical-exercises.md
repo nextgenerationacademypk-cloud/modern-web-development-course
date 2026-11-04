@@ -56,3 +56,9 @@ If the border is missing, check `border-style`. If the card does not center, che
 Add a second class called `featured-card` and give one card a different border colour.
 
 **Expected result:** One or more readable, centered information cards.
+
+## Visual reference
+
+![CSS box model](images/day-13-box-model.svg)
+
+*Use the diagram while you adjust padding, border, and margin.*
