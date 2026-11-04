@@ -1,5 +1,10 @@
 # Day 34 Practical Exercises — Deploy and Test
 
+![Pages publishing workflow](images/day-34-pages-workflow.svg)
+
+![Chrome DevTools panels](images/day-34-devtools-panels.svg)
+
+
 ## Exercise 1 — Prepare your repository
 Check that index.html is in the publishing folder and CSS/images use correct paths. Commit and push the latest version.
 
