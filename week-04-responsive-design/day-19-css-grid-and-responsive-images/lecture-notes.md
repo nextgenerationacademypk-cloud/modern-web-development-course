@@ -1,5 +1,3 @@
-![Responsive Grid](images/day-19-grid-auto-fit.svg)
-
 # Day 19 Lecture Notes — CSS Grid and Responsive Images
 
 ![Responsive grid diagram](images/day-19-grid-auto-fit.svg)
