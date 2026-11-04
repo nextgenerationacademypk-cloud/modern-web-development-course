@@ -1,5 +1,8 @@
 # Day 36 Lecture Notes — Final Project Planning and Wireframe
 
+![Project planning diagram](images/day-36-project-plan.svg)
+
+
 ## Lesson purpose
 
 Choose a realistic website topic, identify its audience, plan the four required sections, sketch a wireframe, and prepare the starter folder.
