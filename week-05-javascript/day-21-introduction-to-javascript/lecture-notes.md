@@ -1,5 +1,7 @@
 # Day 21 Lecture Notes — Introduction to JavaScript
 
+![Teaching diagram](images/day-21-web-technologies.svg)
+
 ## 1. Three main web technologies
 - **HTML** describes the content and structure.
 - **CSS** controls presentation and layout.
