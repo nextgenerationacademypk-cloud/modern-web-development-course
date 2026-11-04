@@ -1,6 +1,6 @@
 # Weekly Schedule — 40 Sessions
 
-Each session is two hours. The plan below is a teaching guide; the instructor can adjust the pace while keeping the learning outcomes and total hours.
+Each session is two hours. The sequence below matches the detailed daily lesson folders. The instructor can adjust the pace while keeping the learning outcomes and total hours.
 
 | Week | Day | Lesson focus | Practical work |
 |---|---:|---|---|
@@ -10,9 +10,9 @@ Each session is two hours. The plan below is a teaching guide; the instructor ca
 | 1 | 4 | Browser, Live Server, save and refresh | Edit a page and view changes |
 | 1 | 5 | Review and first mini project | Personal webpage draft |
 | 2 | 6 | HTML headings and paragraphs | Build page content |
-| 2 | 7 | Text formatting, links, images | Add links and images |
-| 2 | 8 | Lists and tables | Create lists and a timetable |
-| 2 | 9 | Forms and input elements | Build a contact form |
+| 2 | 7 | Text formatting and links | Format text and add useful links |
+| 2 | 8 | Images and lists | Add an image and ordered/unordered lists |
+| 2 | 9 | Tables and forms | Create a timetable and contact form |
 | 2 | 10 | Semantic HTML and review | Complete profile page |
 | 3 | 11 | CSS purpose and external stylesheets | Style page background and text |
 | 3 | 12 | Selectors, colours, typography | Create a style guide |
@@ -30,19 +30,19 @@ Each session is two hours. The plan below is a teaching guide; the instructor ca
 | 5 | 24 | Functions and parameters | Write reusable functions |
 | 5 | 25 | Arrays and loops | Build a small calculator |
 | 6 | 26 | DOM and selecting elements | Read and update page content |
-| 6 | 27 | Events and click handlers | Interactive buttons |
-| 6 | 28 | Forms and basic validation | Validate user input |
-| 6 | 29 | Create and remove elements | Add and remove list items |
+| 6 | 27 | Changing content and creating elements | Update a message and add/remove an item |
+| 6 | 28 | Events and event listeners | Interactive buttons |
+| 6 | 29 | Forms and basic validation | Validate user input |
 | 6 | 30 | DOM review and project | To-do list app |
 | 7 | 31 | Git and version control | Initialise a repository |
 | 7 | 32 | Git status, add, commit, log | Save project versions |
 | 7 | 33 | GitHub repositories and push | Upload a project |
-| 7 | 34 | Tailwind CSS introduction | Style a card or landing section |
-| 7 | 35 | GitHub Pages, DevTools, testing | Publish and test a static site |
-| 8 | 36 | Final project planning and page structure | Create project files |
-| 8 | 37 | Build HTML pages and navigation | Complete page structure |
-| 8 | 38 | CSS, responsive layout, optional Tailwind | Style all pages |
-| 8 | 39 | JavaScript features, testing, fixes | Finish and publish project |
+| 7 | 34 | GitHub Pages, DevTools, testing | Publish and test a static site |
+| 7 | 35 | Tailwind CSS introduction | Style a card or landing section |
+| 8 | 36 | Final project planning and wireframe | Create project plan and wireframe |
+| 8 | 37 | Build HTML structure and content | Complete four sections and navigation |
+| 8 | 38 | CSS styling and responsive design | Style the single-page site |
+| 8 | 39 | JavaScript features, testing, deployment | Finish and publish project |
 | 8 | 40 | Student presentations and evaluation | Demonstrate final website |
 
 ## Weekly checkpoints
@@ -53,5 +53,5 @@ Each session is two hours. The plan below is a teaching guide; the instructor ca
 - Week 4: A landing page works on mobile and desktop.
 - Week 5: A calculator performs simple operations.
 - Week 6: A to-do app responds to user actions.
-- Week 7: Students save work with Git, upload to GitHub, try Tailwind, and publish a static page.
-- Week 8: Students present a published multi-page website.
+- Week 7: Students save work with Git, upload to GitHub, publish a static page, and try introductory Tailwind CSS.
+- Week 8: Students present a published, responsive single-page website with four required sections. Separate pages are optional extensions.
