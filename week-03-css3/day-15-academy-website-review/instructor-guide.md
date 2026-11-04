@@ -1,46 +1,66 @@
-# Instructor Guide — Day 15: Academy Information Website
+# Day 15 Instructor Guide — Academy Information Website
 
-## Preparation
-Open the supplied HTML and CSS example. Display the page structure diagram. Prepare a checklist of required sections.
+## Teaching purpose
+This session consolidates Week 3 CSS skills in one guided project. Students should combine existing knowledge rather than learn several new CSS concepts.
 
-## Learning outcomes
-Students combine this week's CSS skills in a single page and explain their styling choices.
+## Prepare
+- Test the supplied project example.
+- Prepare a simple page plan/wireframe.
+- Ensure students have their Week 2 HTML profile project or starter HTML.
+- Display the project structure diagram.
+- Remind students that responsive design is Week 4.
+
+## Outcomes
+Students build an academy information page using semantic HTML, external CSS, selectors, a small colour palette, typography, box-model spacing, and Flexbox.
 
 ## 120-minute plan
-| Time | Activity |
-|---|---|
-| 20 min | Review the page sections and CSS skills |
-| 4 min | Quick theory review |
-| 30 min | Demonstrate the header, welcome section, and reusable cards |
-| 62 min | Students complete the guided build and independent improvements |
-| 4 min | Project review and explanation |
+| Minutes | Activity |
+|---:|---|
+| 0–20 | Explain project requirements and sketch the page structure |
+| 20–24 | Review the CSS tools students will use |
+| 24–54 | Demonstrate building the header, sections, cards, and footer; apply CSS |
+| 54–116 | Students build their own academy page with instructor support |
+| 116–120 | Peer review and quick explanation of CSS choices |
 
-## Demonstration
-1. Show the page wireframe.
-2. Identify header, navigation, welcome section, card list, and footer.
-3. Confirm the external stylesheet is linked.
-4. Style the page text and background.
-5. Style the header and navigation.
-6. Style one course card, then reuse its class.
-7. Apply Flexbox to the parent card list.
-8. Save and inspect the page in Chrome.
+## Guided demonstration
+1. Sketch the page: header/nav, welcome, course cards, about, footer.
+2. Build semantic HTML sections and in-page links.
+3. Add reusable `course-card` classes.
+4. Connect an external stylesheet.
+5. Apply typography and colours.
+6. Add padding, border, and margin.
+7. Use Flexbox for navigation and cards.
+8. Click links and inspect the page in Chrome.
 
 ## Questions
 - Which parts are HTML structure?
-- Which file controls the design?
-- Why reuse one class for three cards?
+- Why do all cards share a class?
+- What is the difference between padding and margin?
 - Which element is the flex container?
-- Which property creates space inside a card?
-- Which property creates space between flex items?
+- How can you test an in-page navigation link?
 
-## Visual teaching note
-Use the page wireframe to show the order of sections. Ask students to identify each corresponding HTML element.
-
-## Common mistakes
-Students may spend too long choosing colours. Set a simple palette and focus on structure, spacing, and readability. If cards do not align, inspect the parent container and confirm display:flex is applied there.
+## Common problems
+| Problem | Response |
+|---|---|
+| Page is one long block | Break it into meaningful sections |
+| Navigation link does not work | Match href fragment to a unique section ID |
+| Cards look different | Reuse one class |
+| CSS not loading | Check external link and path |
+| Cards do not line up | Check parent `display: flex` and gap |
+| Page not mobile-friendly | Explain this is a Week 4 learning target; record observations |
 
 ## Differentiation
-Provide the starter HTML to students who need support. Ask faster students to improve one visual detail or add a fourth course card using the existing class.
+Support: provide the HTML structure and ask students to complete the CSS. Core: complete all required sections and three cards. Extension: add a simple hover state to navigation links or cards, without using JavaScript.
 
-## Checkpoint
-Each student shows the page and explains one reusable class, one box-model property, and one Flexbox property.
+## Assessment/checkpoint
+Check:
+- Semantic page sections and clear headings.
+- Working in-page navigation.
+- External stylesheet.
+- Reusable classes and consistent colours.
+- Readable typography.
+- Correct padding, border, and margin.
+- Flexbox on the correct parent.
+- Student can explain one selector, one box-model property, and one Flexbox property.
+
+Do not grade responsive media queries in this week; those are taught next week.
