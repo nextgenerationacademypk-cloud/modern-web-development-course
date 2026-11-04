@@ -1,5 +1,8 @@
 # Day 39 Lecture Notes — JavaScript, Testing, and Deployment
 
+![Build, publish, and verify workflow](images/day-39-publish-flow.svg)
+
+
 ## Purpose
 Complete the project with two understandable interactions, test it, and publish it.
 
