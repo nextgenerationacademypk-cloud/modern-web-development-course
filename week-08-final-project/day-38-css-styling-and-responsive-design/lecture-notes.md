@@ -1,5 +1,8 @@
 # Day 38 Lecture Notes — Style the Website and Make It Responsive
 
+![Responsive layout comparison](images/day-38-responsive-check.svg)
+
+
 ## Lesson purpose
 
 Apply consistent CSS, readable typography, spacing, Flexbox or Grid where useful, and mobile-first responsive checks.
