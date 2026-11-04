@@ -1,21 +1,35 @@
-# Homework — Day 13: The CSS Box Model
+# Day 13 Homework — Information Cards and the Box Model
 
-Add two information cards to your profile page.
+## Task
+Add two course information cards to your academy page.
 
-1. Give each card a class.
-2. Set width or max-width.
-3. Add padding so text does not touch the edge.
-4. Add a border and border-radius.
-5. Use margin to separate the cards.
-6. Save and check the result in Chrome.
+Each card must have:
+- A heading and short paragraph.
+- A reusable class.
+- Padding so text does not touch the border.
+- A visible border.
+- Margin to separate it from other content.
+- A sensible width or max-width.
 
-Submit index.html and style.css as requested.
+Add this project rule:
+```css
+* {
+  box-sizing: border-box;
+}
+```
+
+## Submit
+- HTML file.
+- CSS file.
+- One screenshot in Chrome.
+
+## Explain
+1. What is the difference between padding and margin?
+2. Name the four parts of the box model.
+3. Why is `box-sizing: border-box` useful?
 
 ## Self-check
-- [ ] I used padding.
-- [ ] I used margin.
-- [ ] I added a border.
-- [ ] My card width is controlled.
-- [ ] I can explain the difference between padding and margin.
-
-Optional: create a third card and reuse the same class.
+- [ ] Both cards use the same class.
+- [ ] I used padding, border, and margin.
+- [ ] The text is not cut off.
+- [ ] The cards have sensible widths.
