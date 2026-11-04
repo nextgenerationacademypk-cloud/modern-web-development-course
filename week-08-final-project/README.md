@@ -6,83 +6,59 @@ Bring the course skills together in a complete, responsive, published website. T
 
 ## Final project choices
 
-Students may create a website for:
-- An academy or education centre
-- A small business
-- A personal portfolio
-- A local service
-- A fictional organisation
+Students may create a website for an academy or education centre, a small business, a personal portfolio, a local service, or a fictional organisation.
 
 ## Beginner-friendly project scope
 
-The required project may be a **single-page website with four clear sections**: Home, About, Services or Courses, and Contact. Students who are ready may build separate HTML pages as an extension.
+The required project may be a **single-page website with four clear sections**: Home, About, Services or Courses, and Contact. This single-page option can receive full marks. Separate HTML pages are an optional extension.
 
-The instructor should provide a simple starter folder or template containing the basic HTML file, CSS file, JavaScript file, and image folder. Students should customise and understand the starter code rather than copy a complete finished website.
+The instructor should provide the [starter project](../projects/final-project/starter/). Students should customise and understand the starter code rather than copy a finished website.
 
 ## Required features
 
-- Four required content sections: Home, About, Services or Courses, and Contact
-- Working navigation links to the sections or pages
-- Semantic HTML structure and readable content
+- Four content sections: Home, About, Services or Courses, and Contact
+- Working navigation
+- Semantic HTML and readable content
 - CSS styling and responsive layout for mobile and desktop
-- Two simple JavaScript interactions selected from features practised in Week 6
+- Two simple JavaScript interactions based on features practised in Week 6
 - Working links and images
-- GitHub repository
-- Published live website URL
+- GitHub repository and published live URL
 - Student presentation and explanation
 
-Suggested JavaScript features:
-- Mobile navigation menu open/close
-- FAQ show/hide
-- Form validation message (no server submission required)
-- Theme toggle
-- Simple calculator interaction
+Suggested interactions: mobile navigation, FAQ show/hide, client-side form feedback, theme toggle, or simple calculator interaction. A client-side form does not send or store a message.
 
-Students should reuse patterns they have already practised. The instructor should demonstrate the two selected features before students implement them in their own project.
+## Daily lesson packages
+
+Each day includes a lesson overview, lecture notes, instructor guide, practical exercises, homework, and a daily quiz.
+
+| Day | Focus | Lesson package |
+|---|---|---|
+| 36 | Project planning and wireframe | [Open Day 36](day-36-project-planning-and-wireframe/README.md) |
+| 37 | HTML structure and content | [Open Day 37](day-37-html-structure-and-content/README.md) |
+| 38 | CSS styling and responsive design | [Open Day 38](day-38-css-styling-and-responsive-design/README.md) |
+| 39 | JavaScript, testing, and deployment | [Open Day 39](day-39-javascript-testing-and-deployment/README.md) |
+| 40 | Presentations, viva, and assessment | [Open Day 40](day-40-presentations-viva-and-assessment/README.md) |
 
 ## Day-by-day milestones
 
 ### Day 36 — Plan and prepare
-- Choose a topic and audience.
-- Sketch the page layout on paper.
-- Plan the four required sections.
-- Choose two simple JavaScript interactions from familiar examples.
-- Create the project folder from the instructor's starter structure.
-- Instructor checkpoint: approve a small, achievable plan.
+Choose a topic and audience, sketch the page layout, plan the four sections, choose two familiar interactions, and prepare the starter folder. Instructor checkpoint: approve a small, achievable plan.
 
 ### Day 37 — Build the page structure
-- Add the four sections and their content.
-- Add navigation links.
-- Add images with useful alternative text.
-- Check heading order and semantic structure.
-- Instructor checkpoint: every required section and navigation link is present.
+Add the four sections and their content, navigation links, images with useful alternative text, and semantic structure. Instructor checkpoint: every required section and navigation link is present.
 
 ### Day 38 — Style and make responsive
-- Apply CSS and a consistent design.
-- Use Flexbox or Grid where useful.
-- Test at a narrow mobile width and a wider desktop width.
-- Fix overflow and unreadable text.
-- Tailwind may be used, but traditional CSS is fully acceptable.
-- Instructor checkpoint: page is usable on mobile and desktop.
+Apply CSS and a consistent design. Use Flexbox or Grid where useful. Test at mobile and desktop widths and fix overflow or unreadable text. Traditional CSS is fully acceptable; Tailwind is optional.
 
 ### Day 39 — Add JavaScript and publish
-- Add two simple interactions based on taught examples.
-- Test buttons, links, and form messages.
-- Fix visible issues.
-- Push the latest version to GitHub.
-- Publish with GitHub Pages.
-- Instructor checkpoint: repository and live URL open correctly.
+Add two simple interactions, test buttons and links, inspect errors, push the latest version to GitHub, and publish with GitHub Pages. Instructor checkpoint: repository and live URL open correctly.
 
 ### Day 40 — Present and evaluate
-- Demonstrate the live website.
-- Explain the HTML structure, CSS layout, and two JavaScript interactions.
-- Show the GitHub repository.
-- Answer a few questions about the work.
-- Describe one problem solved during the project.
+Demonstrate the live website, explain HTML/CSS/JavaScript, show the repository, answer short questions, and describe one problem solved.
 
 ## Required submission checklist
 
-- [ ] Home, About, Services or Courses, and Contact sections/pages are present.
+- [ ] Home, About, Services or Courses, and Contact are present.
 - [ ] Navigation works.
 - [ ] Layout is usable on mobile and desktop.
 - [ ] Two simple JavaScript interactions work.
@@ -93,13 +69,7 @@ Students should reuse patterns they have already practised. The instructor shoul
 
 ## Optional extensions
 
-- Separate HTML pages instead of one page with sections.
-- A third JavaScript feature.
-- A more advanced CSS layout.
-- Tailwind CSS styling.
-- Additional content or visual polish.
-
-Optional extensions must not reduce the time available to complete the required project.
+Separate HTML pages, a third JavaScript feature, more advanced CSS, Tailwind styling, or extra content may be added only after required work is complete.
 
 ## Expected result
 
