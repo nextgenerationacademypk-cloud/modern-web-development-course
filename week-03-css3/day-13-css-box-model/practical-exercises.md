@@ -1,30 +1,58 @@
-# Practical Exercises — Day 13: The CSS Box Model
+# Day 13 Practical Exercises — Build a Centered Information Card
 
-## Prepare
-Open your project folder. Confirm that index.html links to style.css.
+## Goal
+Use the CSS box model to control the size and spacing of a card.
 
-## Guided practice
-1. Create an article with class="course-card".
-2. Set max-width: 520px.
-3. Centre it with margin: 20px auto.
-4. Add padding: 24px.
-5. Add a 1px solid border.
-6. Add border-radius: 12px.
-7. Change padding to 12px, then 28px. Observe the content space.
-8. Change margin and observe the space outside the card.
+## Part A — Start
+1. Open the Day 12 project in VS Code.
+2. Add one `article` with class `course-card`.
+3. Put a heading and a paragraph inside it.
 
-## Required independent task
-Build two information cards. Each must have a clear width, padding, border, rounded corners, and spacing from the other card.
+## Part B — Add the box model
+Add this to your CSS:
+```css
+* {
+  box-sizing: border-box;
+}
+.course-card {
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #d5deea;
+  margin: 20px auto;
+  background-color: #ffffff;
+}
+```
+Save and preview in Chrome.
+
+## Part C — Experiment
+Change one value at a time:
+1. Change padding from 20px to 8px. Observe the content.
+2. Change the border colour.
+3. Change margin from 20px to 40px.
+4. Change max-width from 600px to 400px.
+5. Restore values that make the card readable.
+
+## Part D — Independent task
+Create two academy course cards. Each card must have:
+- a heading and paragraph,
+- padding,
+- a visible border,
+- margin separating it from other content,
+- a sensible maximum width,
+- a light background.
 
 ## Checklist
-- [ ] Card width is controlled.
-- [ ] Text has space inside the card.
+- [ ] I can identify the content.
+- [ ] Padding creates space inside the border.
 - [ ] Border is visible.
-- [ ] Cards have space between them.
-- [ ] I can explain padding and margin.
-
-## Optional challenge
-Give the second card a different background colour while keeping the same class structure.
+- [ ] Margin separates the card from other content.
+- [ ] The card is centered.
+- [ ] Text is not cut off.
 
 ## Troubleshooting
-If the card becomes too wide, check width and box-sizing. If text touches the border, increase padding. If cards touch each other, add margin or use a parent gap.
+If the border is missing, check `border-style`. If the card does not center, check max-width and margin. If text is cut off, remove fixed height.
+
+## Optional challenge
+Add a second class called `featured-card` and give one card a different border colour.
+
+**Expected result:** One or more readable, centered information cards.
