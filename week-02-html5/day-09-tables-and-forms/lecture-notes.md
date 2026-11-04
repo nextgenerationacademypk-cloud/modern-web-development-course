@@ -1,36 +1,241 @@
-# Day 9 — Tables and Forms — Lecture Notes
+# Day 9 Lecture Notes — Tables and Forms
 
 ## Learning goal
 
-Present simple data in a table and create a labelled sample form.
+Present simple information in a table and create a form with clearly connected labels and controls.
 
-## Main concepts
+## Part A — HTML tables
 
-Use table, caption, thead, tbody, tr, th, and td; create form, label, input, textarea, and button; connect label for to input id; use suitable input types; understand that HTML alone does not send or store form data.
+## 1. When should we use a table?
 
-HTML describes the meaning and structure of webpage content. Choose elements because they describe the content, not just because of how they look. Keep indentation neat so nested elements are easy to read.
+A table displays information arranged in rows and columns. Tables are useful for data such as a timetable, marks list, or comparison of features.
 
-## Important reminders
+Do not use a table just to arrange the visual layout of a webpage. We will learn layout with CSS.
 
-- Type element names and attribute names carefully.
-- Put attribute values in quotation marks.
-- Check that file paths match the real folder and file names.
-- Save before refreshing the browser.
-- Use fictional practice content; do not publish private information.
+## 2. The main table elements
 
-## Study the complete example
+- `<table>` contains the whole table.
+- `<caption>` gives the table a short title.
+- `<tr>` creates a table row.
+- `<th>` creates a header cell.
+- `<td>` creates a normal data cell.
+- `<thead>` groups the header rows.
+- `<tbody>` groups the main data rows.
 
-Open [examples/index.html](examples/index.html) in VS Code. Read it line by line. Identify the document structure from Week 1 and then find today's new elements.
+Example:
 
-## Practice process
+```html
+<table>
+  <caption>Weekly Study Timetable</caption>
+  <thead>
+    <tr>
+      <th scope="col">Day</th>
+      <th scope="col">Topic</th>
+      <th scope="col">Time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Monday</th>
+      <td>HTML</td>
+      <td>9:00 AM</td>
+    </tr>
+    <tr>
+      <th scope="row">Tuesday</th>
+      <td>Practice</td>
+      <td>9:00 AM</td>
+    </tr>
+  </tbody>
+</table>
+```
 
-1. Open your Week 2 project folder in VS Code.
-2. Create or open `index.html`.
-3. Type the example in small parts and understand each part.
-4. Save and preview it in Chrome or Live Server.
-5. Change the sample content and add your own examples.
-6. Check the result and correct mistakes.
+## 3. Understand table rows and cells
 
-## Recap
+Each tr creates one row. Inside the row, place the cells in order.
 
-Explain today's elements in your own words. Point to each one in the example and describe its job.
+The first row in the example contains three header cells: Day, Topic, and Time. The next rows contain the information for each day.
+
+The `scope` attribute explains whether a header describes a column or a row:
+
+- `scope="col"` means the header describes a column.
+- `scope="row"` means the header describes a row.
+
+This helps assistive technology understand the relationship between table headings and data.
+
+## 4. Check the number of cells
+
+A simple table should normally have the same number of cells in each row. In the example, every row has three cells. If one row has only two cells by mistake, the information may appear under the wrong heading.
+
+## Part B — HTML forms
+
+## 5. What is a form?
+
+A form provides controls that allow a visitor to enter information. Examples include a search box, registration form, or contact form.
+
+The `<form>` element groups the controls. Inside it, we can use labels, inputs, text areas, and buttons.
+
+Important: HTML can display a form and check some basic input rules in the browser, but HTML alone does not send the information to an email address or save it in a database. That needs a suitable service or server, which is outside this beginner course.
+
+## 6. Labels and input fields
+
+An input creates a field where a visitor can enter information.
+
+```html
+<label for="student-name">Name</label>
+<input id="student-name" name="student-name" type="text">
+```
+
+The label's `for` value must match the input's `id` value. This connects the label to the correct field. Clicking the label can focus the input, and assistive technology can identify its purpose.
+
+The `name` attribute identifies the field name when form data is handled by a server or service.
+
+## 7. Common input types
+
+The `type` attribute tells the browser what kind of input is expected.
+
+| Type | Purpose |
+|---|---|
+| text | A short line of text |
+| email | An email address |
+| password | A password field that hides typed characters |
+| number | A numeric value |
+| date | A date |
+| checkbox | A choice that can be checked or unchecked |
+| radio | One choice from a related group |
+| submit | A form submission control |
+
+Use only the types needed for the task. Never ask students to enter real passwords or sensitive information in a classroom demo.
+
+## 8. Make a field required
+
+The `required` attribute tells the browser that a field must be completed before a normal form submission can proceed.
+
+```html
+<label for="email">Email</label>
+<input id="email" name="email" type="email" required>
+```
+
+For an email input, the browser can check whether the value looks like an email address. This is a basic browser check, not a complete verification that the address exists.
+
+## 9. Use textarea for a longer message
+
+An input is usually used for a short value. A `<textarea>` gives the visitor a larger area for a longer message.
+
+```html
+<label for="message">Message</label>
+<textarea id="message" name="message" rows="4"></textarea>
+```
+
+The rows attribute suggests the visible height of the text area.
+
+## 10. Add a button
+
+A button can be used to submit a form:
+
+```html
+<button type="submit">Send Message</button>
+```
+
+Inside a form, always choose the button type intentionally. The submit type requests form submission. A button with type="button" does not submit the form by default.
+
+## 11. Complete example
+
+This example is for classroom practice only. It has no server, so it does not send or store submitted information. Do not enter real private information.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timetable and Sample Form</title>
+</head>
+<body>
+  <h1>Weekly Study Timetable</h1>
+
+  <table>
+    <caption>Example class plan</caption>
+    <thead>
+      <tr>
+        <th scope="col">Day</th>
+        <th scope="col">Topic</th>
+        <th scope="col">Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Monday</th>
+        <td>HTML</td>
+        <td>9:00 AM</td>
+      </tr>
+      <tr>
+        <th scope="row">Tuesday</th>
+        <td>Practice</td>
+        <td>9:00 AM</td>
+      </tr>
+      <tr>
+        <th scope="row">Wednesday</th>
+        <td>Review</td>
+        <td>9:00 AM</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Sample Contact Form</h2>
+  <form>
+    <p>
+      <label for="name">Name</label><br>
+      <input id="name" name="name" type="text" required>
+    </p>
+    <p>
+      <label for="email">Email</label><br>
+      <input id="email" name="email" type="email" required>
+    </p>
+    <p>
+      <label for="message">Message</label><br>
+      <textarea id="message" name="message" rows="4"></textarea>
+    </p>
+    <button type="submit">Submit sample form</button>
+  </form>
+
+  <p>This demonstration has no server. It does not send or store information.</p>
+</body>
+</html>
+```
+
+## 12. Common mistakes
+
+| Mistake | How to fix it |
+|---|---|
+| Using td for every table cell | Use th for headings and td for normal data |
+| Forgetting a tr | Put cells inside a table row |
+| Label does not focus its field | Match label for with input id |
+| Using the wrong input type | Choose a type that matches the expected information |
+| Thinking required sends data | Required only checks the field in the browser |
+| Expecting the demo form to email you | A backend or form service is needed for that |
+
+## Key words
+
+| Word | Simple meaning |
+|---|---|
+| Table | Information arranged in rows and columns |
+| Row | A horizontal line of table cells |
+| Header cell | A cell that describes a row or column |
+| Data cell | A cell containing table information |
+| Form | A group of controls for entering information |
+| Label | Text that identifies a form control |
+| Input | A field for entering a value |
+| Textarea | A larger text-entry area |
+| Required | A browser rule that a field must be completed |
+
+## Quick self-check
+
+1. What is the difference between th and td?
+2. What does tr create?
+3. How do label for and input id connect?
+4. Which input type is suitable for an email address?
+5. Does an HTML form alone send or save submitted information?
+
+## Remember
+
+Use tables for data, not page layout. Give every form field a connected label. Explain clearly that a front-end form does not send or save information without a service behind it.
