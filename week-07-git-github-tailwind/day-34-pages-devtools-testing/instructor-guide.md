@@ -1,5 +1,10 @@
 # Day 34 Instructor Guide — Pages and Testing
 
+![Pages publishing workflow](images/day-34-pages-workflow.svg)
+
+![Chrome DevTools panels](images/day-34-devtools-panels.svg)
+
+
 ## Preparation
 Use a simple repository with index.html at the root. Confirm Pages is available for the demonstration repository. Prepare a working published URL. Check the latest GitHub Pages settings interface.
 
