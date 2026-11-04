@@ -1,5 +1,8 @@
 # Day 32 Instructor Guide — Local Git Workflow
 
+![Local Git workflow](images/day-32-git-workflow.svg)
+
+
 ## Preparation
 Prepare a small HTML/CSS project. Ensure Git is installed and author identity is configured. Have a clean folder for demonstration.
 
