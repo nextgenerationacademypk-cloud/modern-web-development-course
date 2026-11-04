@@ -1,5 +1,7 @@
 # Day 8 Practical Exercises — Images and Lists
 
+![Diagram showing index.html linking to an image inside the images folder.](images/day-08-image-path.svg)
+
 ## What you will practise
 
 You will add a local image and organise information using ordered and unordered lists. Work inside your project folder so the image path stays organised.
