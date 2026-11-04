@@ -1,5 +1,7 @@
 # Day 7 Lecture Notes — Text Formatting and Links
 
+![Diagram showing the anchor element, href destination, and visible link text.](images/day-07-link-anatomy.svg)
+
 ## Learning goal
 
 Use meaningful text emphasis and create links that help visitors move to useful pages or sections.
