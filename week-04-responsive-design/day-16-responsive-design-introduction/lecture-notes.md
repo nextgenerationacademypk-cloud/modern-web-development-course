@@ -1,5 +1,3 @@
-![Responsive screens](images/day-16-responsive-screens.svg)
-
 # Day 16 Lecture Notes — Responsive Design: The Big Picture
 
 ![Responsive screens diagram](images/day-16-responsive-screens.svg)
