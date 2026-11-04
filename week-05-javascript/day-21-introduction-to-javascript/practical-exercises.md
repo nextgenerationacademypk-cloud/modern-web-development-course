@@ -1,5 +1,7 @@
 # Day 21 Practical Exercises — First JavaScript
 
+![Teaching diagram](images/day-21-web-technologies.svg)
+
 ## Exercise 1 — Create the files (8 min)
 Create a folder called `day-21-practice`. Inside it create `index.html` and `script.js`.
 
