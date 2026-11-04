@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="240" viewBox="0 0 480 240" role="img" aria-labelledby="title desc">
+<title id="title">Sample landscape</title><desc id="desc">A simple illustration of mountains, sun, and a blue sky.</desc>
+<rect width="480" height="240" fill="#dbeafe"/><circle cx="370" cy="60" r="30" fill="#fbbf24"/>
+<path d="M0 190 L120 65 L235 190 Z" fill="#64748b"/><path d="M125 190 L285 45 L480 190 Z" fill="#475569"/><path d="M0 190 H480 V240 H0 Z" fill="#86efac"/>
+</svg>
