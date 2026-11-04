@@ -1,5 +1,7 @@
 # Day 21 Instructor Guide — Introduction to JavaScript
 
+![Teaching diagram](images/day-21-web-technologies.svg)
+
 ## Teaching purpose
 Connect JavaScript to the HTML/CSS knowledge students already have. Keep the first lesson reassuring: students should see that JavaScript is another file in their existing website project.
 
