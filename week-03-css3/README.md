@@ -2,86 +2,107 @@
 
 ## Goal
 
-Style HTML pages and understand the basic CSS layout model.
+Turn the structured HTML pages from Week 2 into clear, attractive pages using traditional CSS. This week builds the foundations needed before responsive design in Week 4.
 
-## Day-by-day lessons
+**Duration:** 5 sessions · 10 hours  
+**Prerequisite:** Week 2 HTML5 lessons  
+**Main project:** Academy information website
 
-### Day 11 — What is CSS?
-- Understand the difference between HTML and CSS.
-- Create an external file named `style.css`.
-- Connect it with a `link` element in the HTML head.
-- Change page background and text colour.
+## Week outcomes
 
-### Day 12 — Selectors and typography
-- Learn element, class, and ID selectors.
-- Practise colour, font family, font size, font weight, and text alignment.
-- Practical: create a consistent heading and paragraph style.
+By the end of Week 3, students can:
+- Explain the difference between HTML structure and CSS presentation.
+- Create and connect an external stylesheet.
+- Use element, class, and ID selectors.
+- Apply colours and readable typography.
+- Explain and use the CSS box model.
+- Use Flexbox to arrange navigation links and content cards.
+- Build a simple academy information website using HTML and CSS.
 
-### Day 13 — The box model
-- Learn content, padding, border, and margin.
-- Use width, max-width, border-radius, and box-sizing.
-- Practical: style profile and information cards.
+## Daily lessons
 
-### Day 14 — Flexbox
-- Learn display flex, gap, justify-content, align-items, and flex-wrap.
-- Build a simple navigation row and card layout.
-- Practise alignment and spacing.
+| Session | Topic | Practical result |
+|---|---|---|
+| 11 | CSS purpose and external stylesheets | First styled welcome page |
+| 12 | Selectors, colours, and typography | Consistent style guide |
+| 13 | CSS box model | Centred information card |
+| 14 | Flexbox layout | Navigation row and card group |
+| 15 | CSS integration and review | Academy information website |
 
-### Day 15 — CSS project and review
-- Combine selectors, typography, box model, and Flexbox.
-- Build an academy information website with a header, course cards, and footer.
+### Day 11 — CSS purpose and external stylesheets
+- [Lesson overview](day-11-css-introduction/README.md)
+- [Lecture notes](day-11-css-introduction/lecture-notes.md)
+- [Instructor guide](day-11-css-introduction/instructor-guide.md)
+- [Practical exercises](day-11-css-introduction/practical-exercises.md)
+- [Homework](day-11-css-introduction/homework.md)
+- [Daily quiz](day-11-css-introduction/daily-quiz.md)
+- [Working example](day-11-css-introduction/examples/index.html)
 
-## Example: connecting CSS
+### Day 12 — Selectors, colours, and typography
+- [Lesson overview](day-12-selectors-colours-typography/README.md)
+- [Lecture notes](day-12-selectors-colours-typography/lecture-notes.md)
+- [Instructor guide](day-12-selectors-colours-typography/instructor-guide.md)
+- [Practical exercises](day-12-selectors-colours-typography/practical-exercises.md)
+- [Homework](day-12-selectors-colours-typography/homework.md)
+- [Daily quiz](day-12-selectors-colours-typography/daily-quiz.md)
+- [Working example](day-12-selectors-colours-typography/examples/index.html)
 
-HTML:
+### Day 13 — CSS box model
+- [Lesson overview](day-13-css-box-model/README.md)
+- [Lecture notes](day-13-css-box-model/lecture-notes.md)
+- [Instructor guide](day-13-css-box-model/instructor-guide.md)
+- [Practical exercises](day-13-css-box-model/practical-exercises.md)
+- [Homework](day-13-css-box-model/homework.md)
+- [Daily quiz](day-13-css-box-model/daily-quiz.md)
+- [Working example](day-13-css-box-model/examples/index.html)
 
-```html
-<link rel="stylesheet" href="style.css">
-```
+### Day 14 — Flexbox layout
+- [Lesson overview](day-14-flexbox-basics/README.md)
+- [Lecture notes](day-14-flexbox-basics/lecture-notes.md)
+- [Instructor guide](day-14-flexbox-basics/instructor-guide.md)
+- [Practical exercises](day-14-flexbox-basics/practical-exercises.md)
+- [Homework](day-14-flexbox-basics/homework.md)
+- [Daily quiz](day-14-flexbox-basics/daily-quiz.md)
+- [Working example](day-14-flexbox-basics/examples/index.html)
 
-CSS:
+### Day 15 — Academy information website
+- [Lesson overview](day-15-academy-website-review/README.md)
+- [Lecture notes](day-15-academy-website-review/lecture-notes.md)
+- [Instructor guide](day-15-academy-website-review/instructor-guide.md)
+- [Practical exercises](day-15-academy-website-review/practical-exercises.md)
+- [Homework](day-15-academy-website-review/homework.md)
+- [Daily quiz](day-15-academy-website-review/daily-quiz.md)
+- [Working example](day-15-academy-website-review/examples/index.html)
 
-```css
-* {
-  box-sizing: border-box;
-}
+## Important teaching sequence
 
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  color: #222;
-  background: #f5f7fa;
-}
+Teach CSS with a separate `style.css` file. Students should learn the foundations of traditional CSS before using any utility framework. Tailwind is introduced later as a short optional exposure in Week 7; it does not replace this week's CSS learning.
 
-.card {
-  max-width: 600px;
-  margin: 24px auto;
-  padding: 24px;
-  background: white;
-  border-radius: 12px;
-}
-```
+Do not teach media queries or mobile-first responsive techniques as new topics this week. Week 4 covers responsive design in detail. Day 14 introduces basic Flexbox wrapping only as a layout behaviour.
 
-## Practical exercises
+## Standard class structure
 
-1. Connect an external stylesheet.
-2. Create three class selectors.
-3. Style headings, paragraphs, and links.
-4. Make a card using padding, margin, border, and border-radius.
-5. Use Flexbox to align cards or navigation links.
+Each session is 120 minutes:
+- 20 minutes explanation
+- 4 minutes theory review
+- 30 minutes instructor demonstration and guided coding
+- 62 minutes student practical work
+- 4 minutes practical review
 
-## Homework
+## Weekly homework
 
-Style your Week 2 profile page. Use a consistent colour palette, readable fonts, spacing, and at least two cards.
+Students should improve their Week 2 profile page with:
+- an external stylesheet,
+- a consistent colour palette,
+- readable typography,
+- at least two information cards,
+- spacing with padding and margin,
+- a simple Flexbox layout.
 
-## Quick review
+## Weekly checkpoint
 
-1. What is the job of CSS?
-2. How do you connect an external CSS file?
-3. What is the difference between margin and padding?
-4. What does a class selector look like?
-5. Name two Flexbox properties.
+Each student should show an academy information page with a header, welcome section, three course cards, and footer. The page must use an external stylesheet, reusable classes, and Flexbox. Students should be able to explain at least one selector, one box-model property, and one Flexbox property.
 
-## Expected result
+## Scope boundary
 
-A clean academy information website with a consistent visual style and basic Flexbox layout.
+This week uses HTML5 and traditional CSS only. JavaScript, Tailwind, CSS Grid, and advanced responsive techniques are not required for the Week 3 project.
