@@ -1,5 +1,7 @@
 # Day 23 Practical Exercises — Making Decisions
 
+![Teaching diagram](images/day-23-condition-flow.svg)
+
 ## Exercise 1 — One condition (8 min)
 Check whether a number is greater than 10. Print a message only when the condition is true.
 
