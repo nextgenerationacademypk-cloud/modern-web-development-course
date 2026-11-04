@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; line-height: 1.6; color: #202938; }
+.container { width: 92%; max-width: 1100px; margin: 28px auto; }
+.gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; }
+.card { overflow: hidden; border: 1px solid #aab5c3; border-radius: 10px; background: #f5f7fa; }
+.card img { display: block; max-width: 100%; height: auto; }
+.card h2, .card p { margin-left: 16px; margin-right: 16px; }
+.card h2 { margin-bottom: 4px; }
+.card p { margin-top: 4px; margin-bottom: 18px; }
