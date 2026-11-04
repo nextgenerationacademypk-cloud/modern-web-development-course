@@ -1,3 +1,5 @@
+![Landing page wireframe](images/day-20-landing-page-wireframe.svg)
+
 # Day 20 Practical Exercises — Build a Responsive Landing Page
 
 ## Step 1 — Plan (8 min)
