@@ -146,3 +146,66 @@ Notice that the h1 appears once at the top of this simple page. The two h2 eleme
 ## Remember
 
 Use headings to organise information, not to decorate it. Use paragraphs for normal text. A reader should be able to understand your page outline by looking at its headings.
+
+
+## 8. How the browser treats headings and paragraphs
+
+HTML elements describe the content. The browser reads the HTML and displays each element using its built-in default style. A heading usually looks larger and bolder than a paragraph, and a paragraph normally starts on a new line.
+
+The blank lines and indentation in your HTML file make the code easier for people to read. They do not create the same spacing on the webpage. The browser generally treats repeated spaces and line breaks in normal text as a single space. Use separate paragraph elements when you want separate paragraphs.
+
+Compare these two ideas:
+
+- One paragraph containing two sentences creates one paragraph block.
+- Two separate p elements create two paragraph blocks.
+
+The second choice is easier to read when the ideas are separate.
+
+## 9. Choose a heading level by meaning
+
+Imagine a school website. The page title might be School Information. Under it, major sections could be About the School, Courses, and Contact. A smaller heading under Courses might be Web Development.
+
+The heading levels show the relationship between topics. Do not select h2 or h3 because its default size looks right. Use CSS later if a heading needs a different size.
+
+For this beginner course, use one clear h1 for the main page topic and use h2 and h3 to organise sections. HTML can technically contain more than one h1 in some structures, but a single clear page h1 is a simple and useful habit for these projects.
+
+## 10. Accessibility and readable content
+
+Headings help everyone scan a page. They are especially useful for people who use a screen reader, because assistive technology can move between headings. A good heading describes the section that follows.
+
+Avoid headings such as More or Section 2 when a more descriptive title is possible. Prefer My Education or Our Courses. Keep paragraphs focused on one main idea and use plain, clear sentences.
+
+## 11. Step-by-step planning before you code
+
+Before typing HTML, write a short outline:
+
+1. What is the page about? This becomes the h1.
+2. What are the main topics? These become h2 headings.
+3. Does any main topic need smaller parts? These may become h3 headings.
+4. What information belongs under each heading? Write it as paragraphs.
+5. Read only the headings. Do they make sense as an outline?
+
+This planning step prevents a page from becoming one long block of unorganised text.
+
+## 12. Real-world example: a course information page
+
+A course page might have the main heading Web Development Course. Its sections could be What You Will Learn, Class Schedule, and How to Enrol. The paragraphs under each heading explain that topic. This structure helps a visitor find information quickly.
+
+## 13. Extra guided practice
+
+Take this unorganised content and decide which parts should be headings and which should be paragraphs:
+
+- My favourite subject
+- I enjoy learning computer skills.
+- What I want to learn
+- I want to understand how websites work.
+
+A suitable structure is one main h1 called My Learning Profile, followed by two h2 headings called My Favourite Subject and What I Want to Learn. Put the matching sentence in a paragraph under each heading.
+
+## 14. Extra common mistakes
+
+- Using paragraph tags for headings: use h1–h6 when the text introduces a topic.
+- Using headings as empty decoration: every heading should introduce real content.
+- Using several line breaks to separate ideas: use separate p elements for separate paragraphs.
+- Skipping levels without a reason: organise the outline in a logical order.
+- Writing vague headings: choose words that tell the visitor what the section contains.
