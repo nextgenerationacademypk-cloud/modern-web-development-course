@@ -1,5 +1,7 @@
 # Day 10 Lecture Notes — Semantic HTML and Profile Page Project
 
+![Diagram showing the header, navigation, main sections, and footer of a webpage.](images/day-10-semantic-layout.svg)
+
 ## Learning goal
 
 Use meaningful HTML page regions and combine the week's skills in a complete personal profile website.
