@@ -15,7 +15,11 @@ Examples of things people use through the internet:
 
 The internet is the network. It supports many different services.
 
-![The internet and the World Wide Web](images/internet-and-web.svg)\n\n*Diagram 1: The web is one service that uses the internet.*\n\n## 2. What is the World Wide Web?
+![The internet and the World Wide Web](images/internet-and-web.svg)
+
+*Diagram 1: The web is one service that uses the internet.*
+
+## 2. What is the World Wide Web?
 
 The **World Wide Web**, usually called **the web**, is a service that lets people open and use connected pages of information through a web browser.
 
@@ -105,7 +109,11 @@ Find these parts in your browser:
 
 Browser designs can look a little different. The main ideas are the same.
 
-![Common sections of a webpage](images/website-layout.svg)\n\n*Diagram 3: A sample webpage layout. Some websites use different sections.*\n\n## 9. Common sections of a webpage
+![Common sections of a webpage](images/website-layout.svg)
+
+*Diagram 3: A sample webpage layout. Some websites use different sections.*
+
+## 9. Common sections of a webpage
 
 Many websites use some of these sections:
 
@@ -117,7 +125,11 @@ Many websites use some of these sections:
 
 Not every website uses all these sections.
 
-![How a browser gets a webpage](images/browser-server-flow.svg)\n\n*Diagram 4: A simplified request-and-response process.*\n\n## 10. Front end and back end — a first look
+![How a browser gets a webpage](images/browser-server-flow.svg)
+
+*Diagram 4: A simplified request-and-response process.*
+
+## 10. Front end and back end — a first look
 
 - **Front end:** the part of a website that visitors see and use in their browser.
 - **Back end:** the server-side part that handles tasks such as processing information and working with data.
