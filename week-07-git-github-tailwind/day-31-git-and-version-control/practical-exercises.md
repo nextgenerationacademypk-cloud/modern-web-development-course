@@ -1,5 +1,8 @@
 # Day 31 Practical Exercises — Git Foundations
 
+![Version history idea](images/day-31-version-history.svg)
+
+
 ## Exercise 1 — Explore the project
 Open your practice website folder in VS Code. Identify index.html and styles.css.
 
