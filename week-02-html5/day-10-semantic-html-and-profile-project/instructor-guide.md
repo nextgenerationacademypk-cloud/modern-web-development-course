@@ -1,37 +1,97 @@
-# Day 10 — Semantic HTML and Profile Page Project — Instructor Guide
+# Day 10 Instructor Guide — Semantic HTML and Profile Page Project
+
+## Lesson purpose
+
+Students learn how semantic elements describe the purpose of page regions. They then bring the week's HTML skills together in a small personal profile website. The project remains HTML-only; styling begins in Week 3.
 
 ## Before class
 
-- Open the example in VS Code and check the browser preview.
-- Prepare a short live demonstration and a clear expected result.
-- Remind students to use fictional content and protect private information.
+- Open `examples/index.html` and check the browser preview.
+- Display `images/day-10-semantic-layout.svg` and the profile page wireframe if available.
+- Check that students can access their work from Days 6–9.
+- Prepare a simple sample profile using fictional information.
+- Remind students not to publish real phone numbers, home addresses, passwords, or private details.
 
-## 120-minute plan
+## Learning outcomes
+
+Students should be able to:
+1. Identify the purpose of `header`, `nav`, `main`, `section`, `article`, and `footer`.
+2. Choose a meaningful semantic element instead of using `div` for every region.
+3. Build a profile page with clear sections and working in-page navigation.
+4. Check the page for missing content, broken links, and basic structure errors.
+5. Explain how the page uses skills from the first two weeks.
+
+## 120-minute teaching plan
 
 | Time | Activity |
 |---|---|
-| 0–20 min | Explain the concepts with simple examples. Ask learners to identify them in a rendered page. |
-| 20–24 min | Ask two or three short review questions. Correct misunderstandings. |
-| 24–54 min | Demonstrate the example slowly. Type in small steps, save, and preview. |
-| 54–116 min | Students complete guided and independent practice. Circulate and help them debug. Offer the extension to fast finishers. |
-| 116–120 min | Review student results, ask learners to explain one code choice, and set homework. |
+| 0–20 min | Explain semantic page regions using the diagram. Compare semantic elements with generic containers. |
+| 20–24 min | Review the HTML elements students used during Days 6–9. |
+| 24–54 min | Demonstrate a simple semantic page skeleton and one in-page navigation link. |
+| 54–116 min | Students complete and check their personal profile page. Give short individual feedback. |
+| 116–120 min | Invite a few learners to explain their page structure; explain how the project will be reviewed. |
 
-## Demonstration
+## Instructor demonstration
 
-1. Open the complete example file.
-2. Identify the document head and body.
-3. Highlight each new element or attribute and explain its purpose.
-4. Add one extra example with the class.
-5. Save and preview the page.
-6. Demonstrate one common mistake and how to fix it.
+1. Show a simple page outline: header, navigation, main content, and footer.
+2. Add `header` for introductory content and `nav` for important page links.
+3. Add one `main` element for the page's primary content.
+4. Add separate `section` elements with headings for About, Interests, and Learning Goals.
+5. Explain that `article` is suitable for a self-contained item that could stand on its own; do not force it into every page.
+6. Add a footer for closing or ownership information.
+7. Connect navigation links to section IDs and test each link in Chrome.
+8. Show how the semantic structure improves clarity even though the page has no CSS yet.
 
-## Questions
+## Visual teaching notes
 
-- What does this element communicate?
-- What would happen if this attribute were missing?
-- How can we check whether the page works?
-- Can the learner explain the code without simply reading it?
+Use `images/day-10-semantic-layout.svg` as a page map. Point to each region and ask students to name its purpose. Then compare the map with the actual example in VS Code and Chrome. Explain that semantic elements describe meaning; CSS will control appearance in the next week.
 
-## Support and checkpoint
+## Profile project requirements
 
-Break the task into small steps. Pair students for discussion, but make sure each learner types and explains their own work. A learner is ready to finish when the required task works in the browser and they can explain the main new elements. Record anyone who needs a short catch-up exercise.
+The learner's page should include:
+- A page title and one main `h1`.
+- A semantic header and navigation.
+- A main region with at least three titled sections.
+- At least one paragraph and one useful list.
+- At least one relevant image with appropriate alt text.
+- Working in-page navigation links.
+- A footer.
+- No CSS or JavaScript requirement for this week's submission.
+
+## Questions to check understanding
+
+- What content belongs in the main region?
+- Why is `nav` more meaningful than a generic container for the main navigation?
+- When might `article` be useful?
+- What makes an in-page navigation link work?
+- Which HTML skills from this week did you use in your project?
+
+## Common mistakes to watch for
+
+- Using several `main` elements for one simple page.
+- Choosing semantic elements only because of how they look.
+- Creating navigation links that point to missing IDs.
+- Forgetting headings inside sections.
+- Copying example content without understanding it.
+- Including private information in a public project.
+
+## Support and extension
+
+- **Extra support:** Provide the section outline and ask learners to complete one region at a time.
+- **Pair support:** Ask partners to review the page structure and click each navigation link; each student remains responsible for their own code.
+- **Extension:** Add an `article` for a self-contained learning update or a nested subsection where it makes sense.
+
+## Project review
+
+Use a short formative review:
+- Structure and semantic regions are present.
+- Headings and content are organised.
+- Image path and alt text are appropriate.
+- In-page links work.
+- Code is readable and the learner can explain it.
+
+Give one strength and one next step. Do not penalise students for not having CSS; styling is introduced in Week 3.
+
+## Checkpoint
+
+Each learner should have a working HTML-only profile page and be able to point to the header, navigation, main content, sections, and footer in both the code and the browser.
