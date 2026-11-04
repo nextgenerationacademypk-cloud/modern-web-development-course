@@ -1,5 +1,8 @@
 # Day 27 Practical Exercises — Update, Add, Remove
 
+![Create and append flow](images/day-27-create-append-flow.svg)
+
+
 ## Exercise 1 — Change text
 Select the paragraph with ID notice and change its textContent.
 
