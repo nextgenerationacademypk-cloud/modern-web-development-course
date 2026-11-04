@@ -99,6 +99,8 @@ Students may use traditional CSS. Tailwind CSS is optional and is not a requirem
 
 ## Useful learning links
 
+- [Recommended Student Reference Book](resources/recommended-student-book.md) — suggested reading plan for *Learning Web Design*, 6th Edition; the book is optional.
+
 - [MDN Web Docs](https://developer.mozilla.org/)
 - [W3Schools](https://www.w3schools.com/)
 - [freeCodeCamp](https://www.freecodecamp.org/)
