@@ -1,3 +1,5 @@
+![Flexbox wrapping](images/day-18-flex-wrap.svg)
+
 # Day 18 Lecture Notes — Responsive Flexbox
 
 ![Flexbox wrapping diagram](images/day-18-flex-wrap.svg)
