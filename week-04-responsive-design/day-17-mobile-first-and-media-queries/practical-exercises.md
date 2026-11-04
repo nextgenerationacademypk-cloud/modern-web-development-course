@@ -1,3 +1,5 @@
+![Mobile-first progression](images/day-17-mobile-first.svg)
+
 # Day 17 Practical Exercises — Your First Media Query
 
 ## Setup
