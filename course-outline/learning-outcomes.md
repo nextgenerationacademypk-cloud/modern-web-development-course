@@ -14,7 +14,7 @@ By the end of the course, a successful student should be able to:
 
 ## CSS and responsive design
 - Connect an external CSS file to an HTML page.
-- Use selectors, colors, fonts, spacing, borders, and the box model.
+- Use selectors, colours, fonts, spacing, borders, and the box model.
 - Build layouts with Flexbox and introductory CSS Grid.
 - Use media queries and mobile-first thinking.
 - Make pages usable on mobile, tablet, and desktop screens.
@@ -38,6 +38,8 @@ By the end of the course, a successful student should be able to:
 - Use browser developer tools for basic inspection and debugging.
 
 ## Final project
-- Plan and build a responsive multi-page website.
-- Test the website at different screen sizes.
+- Plan and build a responsive **single-page website** with Home, About, Services or Courses, and Contact sections.
+- Add working navigation and at least two simple JavaScript interactions.
+- Test the website at different screen sizes and check basic accessibility.
 - Publish the project and explain its main features.
+- Understand that separate HTML pages are an optional extension, not a requirement for full credit.
