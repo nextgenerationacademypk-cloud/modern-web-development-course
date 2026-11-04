@@ -1,5 +1,8 @@
 # Day 29 Instructor Guide — Forms and Validation
 
+![Form validation flow](images/day-29-form-validation-flow.svg)
+
+
 ## Preparation
 Test the sample form. Ensure it has a label connected to the input, a submit button, and a message paragraph. Use only fictional data.
 
