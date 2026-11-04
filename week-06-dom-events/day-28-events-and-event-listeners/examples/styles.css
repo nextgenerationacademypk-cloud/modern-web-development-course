@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; line-height: 1.5; margin: 2rem; color: #1f2937; }
+main { max-width: 650px; margin: auto; }
+.panel { border: 1px solid #cbd5e1; border-radius: 12px; padding: 1rem; margin-block: 1rem; }
+.number { font-size: 2rem; font-weight: bold; }
+.controls { display: flex; flex-wrap: wrap; gap: .5rem; }
+button, input { padding: .65rem; font: inherit; }
+label { display: block; margin-bottom: .4rem; }
+input { width: min(100%, 24rem); }
