@@ -138,3 +138,9 @@ Set `display: flex` on the parent. Use `flex-direction` to choose row or column,
 3. Which property distributes items on the main axis?
 4. Which property aligns items on the cross axis?
 5. What does `flex-wrap: wrap` do?
+
+## Teaching visual
+
+![Flexbox container and items](images/day-14-flex-container-items.svg)
+
+*Diagram: the parent is the flex container and its direct children are flex items.*
