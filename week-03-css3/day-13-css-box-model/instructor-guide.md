@@ -51,3 +51,9 @@ Support: give a card rule with blanks for padding, border, and margin. Core: bui
 
 ## Checkpoint
 Each student can show content, padding, border, and margin in their own card and explain one reason to use `box-sizing: border-box`.
+
+## Teaching visual
+
+![CSS box model](images/day-13-box-model.svg)
+
+*Use the nested layers to explain the box model from outside to inside.*
