@@ -1,32 +1,63 @@
-# Practical Exercises — Day 11: CSS purpose and external stylesheets
+# Day 11 Practical Exercises — Connect Your First Stylesheet
 
-## Prepare your project
-1. Open your Week 2 website folder in VS Code.
-2. Make a copy named `week-3-practice`.
-3. Create `style.css` beside `index.html`.
-4. Link it in the HTML head with `<link rel="stylesheet" href="style.css">`.
-5. Save both files and preview the page in Chrome.
+## Goal
+Create an external CSS file and use it to style a simple HTML page.
 
-## Guided practice
-Create a style.css file beside index.html. Link it with <link rel="stylesheet" href="style.css">. Style body, h1, and p. Save and refresh after each change.
+## Part A — Open your project
+1. Open VS Code.
+2. Open your Week 2 profile project folder.
+3. Find the HTML file in Explorer. If needed, use the supplied example.
 
-## Required independent task
-Create and link an external stylesheet, then apply basic CSS declarations.
+## Part B — Create the stylesheet
+1. Create a new file beside `index.html`.
+2. Name it exactly `styles.css`.
+3. Type and save:
 
-## Completion checklist
-- [ ] The HTML links to the correct CSS file.
-- [ ] The browser shows the latest saved changes.
-- [ ] Selectors match the HTML elements or classes.
-- [ ] Text and colours are readable.
-- [ ] Spacing and layout match the lesson task.
-- [ ] I can explain two CSS properties I used.
+```css
+body {
+  background-color: #f2f6fb;
+  color: #243247;
+}
+```
 
-## Optional challenge
-Create a second paragraph and style it with a class selector.
+## Part C — Connect it
+Inside the HTML `head`, add:
+
+```html
+<link rel="stylesheet" href="styles.css">
+```
+
+Save the HTML file. Open or refresh it in Chrome. Confirm that the background and text colour change.
+
+## Part D — Add styles
+Add these rules to `styles.css`:
+
+```css
+h1 {
+  color: #174a7e;
+  text-align: center;
+}
+p {
+  font-size: 18px;
+}
+```
+
+Save and check the browser.
+
+## Part E — Independent task
+Create a welcome page for a fictional learning academy. Include one heading, two paragraphs, one external stylesheet, a background colour, a different heading colour, and readable paragraph text.
+
+## Checklist
+- [ ] File is named `styles.css`.
+- [ ] CSS file is beside the HTML file.
+- [ ] Link is inside `head`.
+- [ ] Background and heading styles are visible.
+- [ ] Both files are saved.
 
 ## Troubleshooting
-- No styles appear: check the link element and file path.
-- One element changes but another does not: check the selector.
-- A class rule does not work: compare the HTML class and CSS selector.
-- The browser shows an old result: save and refresh.
-- Flexbox seems to do nothing: check which element is the parent.
+Check spelling and capital letters, folder location, `href`, braces, colons, semicolons, saving, and browser refresh.
+
+## Optional challenge
+Create a second HTML page and connect the same stylesheet.
+
+**Expected result:** A styled welcome page using a separate CSS file.
