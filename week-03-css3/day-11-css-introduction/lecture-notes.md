@@ -212,3 +212,9 @@ Remember: HTML gives structure; CSS controls presentation. Use a separate styles
 3. Which HTML element connects an external stylesheet?
 4. Where does the link element belong?
 5. What path is used when `index.html` and `styles.css` are in the same folder?
+
+## Teaching visual
+
+![CSS rule anatomy](images/day-11-css-rule-anatomy.svg)
+
+*Diagram: the selector chooses elements; declarations contain properties and values.*
