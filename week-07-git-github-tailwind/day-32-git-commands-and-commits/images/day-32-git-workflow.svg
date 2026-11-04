@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-labelledby="title desc">
+<title id="title">Beginner Git workflow</title><desc id="desc">Edit project files, inspect status, stage selected changes, and commit them to history.</desc>
+<rect width="900" height="300" rx="22" fill="#f8fafc"/>
+<g font-family="Arial, sans-serif" text-anchor="middle">
+<g fill="#dcfce7" stroke="#15803d" stroke-width="2"><rect x="30" y="82" width="185" height="110" rx="15"/><rect x="250" y="82" width="185" height="110" rx="15"/><rect x="470" y="82" width="185" height="110" rx="15"/><rect x="690" y="82" width="180" height="110" rx="15"/></g>
+<g fill="#14532d" font-size="19" font-weight="bold"><text x="122" y="126">Edit</text><text x="342" y="126">Check status</text><text x="562" y="126">Stage</text><text x="780" y="126">Commit</text></g>
+<g fill="#334155" font-size="15"><text x="122" y="155">Change files</text><text x="342" y="155">git status</text><text x="562" y="155">git add</text><text x="780" y="155">git commit</text></g>
+<g stroke="#64748b" stroke-width="3" fill="none"><path d="M215 137 H245 l-8 -8 m8 8 l-8 8"/><path d="M435 137 H465 l-8 -8 m8 8 l-8 8"/><path d="M655 137 H685 l-8 -8 m8 8 l-8 8"/></g>
+<text x="450" y="250" font-size="18" fill="#475569">Repeat the cycle whenever you make a meaningful change.</text>
+</g></svg>
