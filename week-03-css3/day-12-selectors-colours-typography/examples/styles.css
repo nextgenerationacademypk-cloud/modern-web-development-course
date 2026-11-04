@@ -1,0 +1,7 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 24px; background: #f4f7fb; color: #243247; font-family: Arial, sans-serif; }
+.page { max-width: 760px; margin: 0 auto; }
+h1, h2 { color: #174a7e; }
+p { font-size: 18px; line-height: 1.6; }
+.notice { padding: 12px; background: #e8f1fb; color: #174a7e; font-weight: 700; }
+#contact { border-top: 1px solid #d5deea; }
