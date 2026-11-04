@@ -207,3 +207,75 @@ Descriptive link text is easier to understand, including for people who use scre
 ## Remember
 
 A good link tells visitors where it will take them. Check every link in the browser, and make sure local file paths match your project folders.
+
+
+## 10. Understand inline elements inside a paragraph
+
+The strong and em elements usually appear inside a paragraph or another text element. They emphasise only the words inside their opening and closing tags. They do not create a new paragraph.
+
+For example, in the sentence "Learning HTML is important", you can wrap only the word important in strong. The rest of the sentence remains normal paragraph text. Use em when you want to emphasise a word or phrase in the way the sentence should be read.
+
+## 11. Understand the parts of a web address
+
+An absolute web address often contains a protocol, a domain name, and a path.
+
+Example: https://developer.mozilla.org/en-US/docs/Web/HTML
+
+- https is the protocol. It tells the browser how to communicate securely with the website.
+- developer.mozilla.org is the domain name.
+- /en-US/docs/Web/HTML is the path to a particular resource.
+
+When writing a link, include the full address in href. Check that the address is correct and that the website is available.
+
+## 12. More about relative paths
+
+A relative path is read from the location of the current HTML file. Consider this project:
+
+    my-website/
+    ├── index.html
+    ├── about.html
+    └── pages/
+        └── courses.html
+
+From index.html, the link to about.html is href="about.html". The link to courses.html is href="pages/courses.html".
+
+From courses.html, a link back to index.html needs to go up one folder. The path is href="../index.html". The ../ part means move up to the parent folder. Draw the folder structure when a relative path is confusing.
+
+## 13. What happens when someone clicks a link?
+
+When a visitor clicks a link, the browser reads the href destination. If it is a web address, the browser requests that resource from the website. If it is a relative path, the browser looks for the matching file in the project. If it is a hash link such as #contact, the browser looks for the matching id in the current page and moves to that location.
+
+A link is not the same as a button. A link navigates to a destination. A button performs an action on the current page, such as submitting a form or running JavaScript. We will practise buttons later in the course.
+
+## 14. Choosing between strong, em, and ordinary text
+
+Use ordinary paragraph text for normal information. Use strong when the importance of the words matters. Use em when the emphasis changes how a sentence should be read.
+
+Do not wrap every sentence in strong or em. If everything is emphasised, nothing stands out. Use these elements only when they add meaning.
+
+## 15. Real-world example: a learning resources page
+
+A training academy website may have links to its course outline, student rules, and external learning resources. The link text should describe each destination, for example Read the HTML course outline rather than Click here. A visitor should understand the purpose of each link without guessing.
+
+## 16. Guided link debugging
+
+If a link does not work, check it in this order:
+
+1. Is the opening a tag present?
+2. Is href spelled correctly?
+3. Is the destination inside quotation marks?
+4. For an external link, does the full URL start with the correct protocol?
+5. For a local file, does the file exist at that exact relative path?
+6. For a section link, does the target element have the matching id?
+7. Is the link text between the opening and closing a tags?
+
+A common error is using href="#courses" while the target has id="course". The values do not match. Correct the spelling so both values are courses.
+
+## 17. Extra common mistakes
+
+- Putting the URL outside href: the destination belongs inside the href attribute.
+- Forgetting quotation marks: write href="about.html".
+- Using a computer file path as a web URL: relative paths should be based on the project structure.
+- Using the same id more than once: each id should be unique on the page.
+- Using a vague link label: describe the destination or action.
+- Using br for page layout: use paragraphs for separate ideas; CSS will handle spacing and layout.
