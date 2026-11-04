@@ -77,7 +77,7 @@ That gives students approximately 20% theory and 80% practical learning. The ins
 
 ## Learning materials and development status
 
-Weeks 1–8 now have detailed daily lesson packages. Review the [Daily Lesson Development Standard](course-outline/daily-lesson-standard.md) and [Instructor Quality Checklist](resources/instructor-quality-checklist.md) before teaching. The weekly folder links to the five daily packages for each week.
+Weeks 1–8 now have detailed daily lesson packages. Review the [Daily Lesson Development Standard](course-outline/daily-lesson-standard.md), [Instructor Quality Checklist](resources/instructor-quality-checklist.md), and [Pre-Launch Validation Checklist](resources/pre-launch-validation-checklist.md) before teaching. The weekly folder links to the five daily packages for each week.
 
 ## Assessment and completion
 
