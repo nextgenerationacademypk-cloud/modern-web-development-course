@@ -71,3 +71,9 @@ Check that the parent has `display: flex`. Check that you added `gap` to the con
 Change the card group to `flex-direction: column` and describe how the main and cross axes change.
 
 **Expected result:** A navigation row and a group of cards arranged with Flexbox.
+
+## Visual reference
+
+![Flexbox container and items](images/day-14-flex-container-items.svg)
+
+*Use the diagram to identify the parent flex container and child items.*
