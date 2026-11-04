@@ -1,5 +1,8 @@
 # Day 26 Practical Exercises — Select and Change
 
+![Simplified DOM tree](images/day-26-dom-tree.svg)
+
+
 ## Setup
 1. Open this day's folder in VS Code.
 2. Open examples/index.html with Live Server.
