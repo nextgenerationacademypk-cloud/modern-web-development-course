@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 39 JavaScript Interaction Demo</title>
+</head>
+<body>
+  <header>
+    <h1>JavaScript Interaction Demo</h1>
+    <p>Practise two simple click interactions.</p>
+  </header>
+
+  <main>
+    <section aria-labelledby="faq-heading">
+      <h2 id="faq-heading">Frequently Asked Question</h2>
+      <button id="faq-button" type="button" aria-expanded="false" aria-controls="faq-answer">
+        Show answer
+      </button>
+      <p id="faq-answer" hidden>
+        This example uses JavaScript to show or hide an answer.
+      </p>
+    </section>
+
+    <section aria-labelledby="message-heading">
+      <h2 id="message-heading">Demo message</h2>
+      <button id="message-button" type="button">
+        Show demo message
+      </button>
+      <p id="status-message" aria-live="polite">
+        No message has been shown.
+      </p>
+    </section>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
