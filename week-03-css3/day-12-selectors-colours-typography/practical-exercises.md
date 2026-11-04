@@ -72,3 +72,9 @@ Check that the class/ID spelling in HTML matches CSS. Check the dot or hash. Sav
 Create a `.notice` class for a course announcement and style it with a background colour and bold text.
 
 **Expected result:** A consistent, readable page with reusable CSS classes.
+
+## Visual reference
+
+![CSS selector types](images/day-12-selector-types.svg)
+
+*Use the diagram to check the dot and hash symbols in your selectors.*
