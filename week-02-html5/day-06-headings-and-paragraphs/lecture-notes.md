@@ -1,5 +1,7 @@
 # Day 6 Lecture Notes — Headings and Paragraphs
 
+![Diagram showing one main heading, section headings, a subsection, and paragraphs.](images/day-06-heading-hierarchy.svg)
+
 ## Learning goal
 
 Create readable webpage content by using headings and paragraphs in a clear order.
