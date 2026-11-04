@@ -4,7 +4,7 @@ Use these rubrics consistently. Explain the task and criteria before students be
 
 ## 1. Weekly practical work — 30 marks
 
-The instructor collects practical work across the eight weeks. Use the following common criteria to award the 30 marks.
+The instructor collects practical work across the eight weeks. The exact weekly distribution is in the [Assessment Policy](../course-outline/assessment-policy.md). Use the following common criteria to award the 30 course-wide marks.
 
 | Criterion | Marks | Full-credit standard |
 |---|---:|---|
@@ -27,7 +27,7 @@ For each criterion, award full marks when the standard is met, around half when 
 | Student can explain the work | 2 |
 | **Total** | **15** |
 
-Homework should practise material already taught. Do not penalise a student for not using an advanced technique that has not been taught.
+Homework should practise material already taught. Do not penalise a student for not using an advanced technique that has not been taught. The weekly mark allocation is listed in the Assessment Policy.
 
 ## 3. Mid-course practical exam — 15 marks
 
@@ -49,16 +49,26 @@ Create a simple responsive information page for a fictional club, academy, or se
 
 ## 4. Final project — 30 marks
 
+A **single-page website** with Home, About, Services or Courses, and Contact sections can receive full marks. Separate HTML pages are optional and do not earn extra required marks.
+
 | Area | Marks |
 |---|---:|
 | HTML structure and content | 5 |
 | CSS styling and layout | 5 |
 | Responsive behaviour | 5 |
 | JavaScript features | 5 |
-| Navigation and usability | 3 |
+| Navigation, usability, and accessibility | 3 |
 | GitHub repository and live deployment | 4 |
 | Presentation and explanation | 3 |
 | **Total** | **30** |
+
+For the 3 marks for navigation, usability, and accessibility, look for:
+- Navigation links reach the correct sections and can be used with a keyboard.
+- Text has readable contrast and is easy to read at mobile and desktop sizes.
+- Informative images have meaningful alternative text.
+- Form controls, if used, have clear labels; interactive actions use appropriate buttons.
+
+Do not require a working back-end contact form. The supplied form is a browser demonstration only and does not send or store messages.
 
 ### Final project performance guide
 
