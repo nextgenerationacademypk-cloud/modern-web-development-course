@@ -1,5 +1,8 @@
 # Day 37 Lecture Notes — Build the HTML Structure and Content
 
+![Semantic page structure](images/day-37-semantic-page.svg)
+
+
 ## Lesson purpose
 
 Turn the approved plan into a semantic single-page website with four sections, working navigation, headings, text, and accessible images.
