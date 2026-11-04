@@ -1,54 +1,60 @@
-# Instructor Guide — Day 11: CSS purpose and external stylesheets
+# Day 11 Instructor Guide — CSS Purpose and External Stylesheets
 
-## Purpose
-HTML gives a page structure; CSS controls its presentation. Create style.css, link it from the HTML head, and change background, text colour, font, and spacing.
+## Teaching purpose
+Students already know how to create HTML. This lesson introduces CSS as the presentation layer and establishes the external stylesheet workflow used in later lessons.
 
-## Preparation
-- Open the lesson example in VS Code and Chrome.
-- Check that students can open their Week 2 profile project.
-- Prepare the diagram in `images/` for projector display.
-- Confirm that the example HTML and CSS files are in the same folder.
+**Duration:** 120 minutes. **Prerequisites:** Students can open a folder in VS Code, edit and save HTML, and preview it in Chrome.
+
+## Prepare
+- Test the supplied example in Chrome.
+- Confirm that HTML and CSS file names and paths match.
+- Prepare an unstyled HTML page for comparison.
+- Display the CSS rule anatomy diagram.
+- Ask students to open their Week 2 profile project.
 
 ## Learning outcomes
-Students should be able to Create and link an external stylesheet, then apply basic CSS declarations.
+Students explain HTML versus CSS, identify selector/property/value, create an external stylesheet, link it correctly, and apply basic styles.
 
-## 120-minute lesson plan
+## 120-minute plan
 
-| Time | Activity | Instructor action |
-|---|---|---|
-| 20 min | Explanation | Explain the vocabulary and main idea using a small example. |
-| 4 min | Theory review | Ask short questions and check understanding. |
-| 30 min | Demonstration | Build the example slowly; students predict each change. |
-| 62 min | Student practice | Guide the required task, then support independent work. |
-| 4 min | Practical review | Ask students to show the result and explain one CSS choice. |
+| Minutes | Activity |
+|---:|---|
+| 0–20 | Explain HTML structure versus CSS presentation; compare styled and unstyled pages |
+| 20–24 | Quick vocabulary review |
+| 24–54 | Demonstrate a CSS rule, create `styles.css`, link it in `head`, and preview |
+| 54–116 | Guided and independent student practice; troubleshoot individual projects |
+| 116–120 | Students show their result and explain one CSS rule |
 
-## Demonstration sequence
-1. Open the project folder in VS Code.
-2. Identify the HTML file and external stylesheet.
-3. Point to the element or parent that should change.
-4. Add one CSS rule and explain its selector, property, and value.
-5. Save and inspect the page in Chrome.
-6. Change one value and compare the result.
-7. Demonstrate a small error and show how to find it.
+## Demonstration
+1. Open an HTML page and show it in Chrome without CSS.
+2. Create `styles.css` in the same folder.
+3. Type a small `body` rule and explain each part.
+4. Add `<link rel="stylesheet" href="styles.css">` inside `head`.
+5. Save both files and refresh Chrome.
+6. Change a colour and text size. Ask students to predict the result first.
+7. Demonstrate a wrong path deliberately, then correct it.
 
-## Questions to ask
-- What is the job of HTML? What is the job of CSS?
-- Which file contains the style rules?
-- How does the browser find the stylesheet?
-- Which element does this selector target?
-- What changed when we changed this property?
-- How can we check whether the file was saved?
-
-## Visual teaching note
-Use the diagram in `images/`. Point to each label as you explain the idea. Ask students to describe the diagram before coding.
+## Questions
+- Does HTML or CSS create the heading?
+- What does a selector do?
+- What is the property in `color: blue;`?
+- Why is an external stylesheet useful?
+- What could stop a CSS file from loading?
 
 ## Common mistakes and support
-Students often use a wrong stylesheet path, forget to save, or miss punctuation. Check the link, file name, selector, braces, and browser refresh in that order.
+
+| Problem | Response |
+|---|---|
+| CSS typed in HTML body | Show separate CSS file and link in `head` |
+| File named `styles.css.txt` | Show file extensions and rename carefully |
+| Wrong `href` | Compare exact spelling in Explorer and HTML |
+| Missing brace or colon | Return to the selector/declaration pattern |
+| No visible change | Check path, syntax, save, then refresh |
 
 ## Differentiation
-- Students needing support: give them the starter example and ask for one change at a time.
-- Students progressing quickly: ask them to add another content section and reuse a class.
-- Pair work: one student explains the next step while the other types; swap roles.
+- Support: provide completed HTML and ask the student to create and link only the CSS file.
+- Core: style the welcome page with background, text, and heading rules.
+- Extension: link one stylesheet to a second HTML page.
 
 ## Checkpoint
-Each student should show the expected result and explain at least one CSS rule. If many students struggle, begin the next session with a short recap.
+Each student shows both files, a working stylesheet link, three visible style changes, and explains selector/property/value. Do not rush ahead if most students cannot identify a simple file-path error.
