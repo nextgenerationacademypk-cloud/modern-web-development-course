@@ -1,35 +1,76 @@
-# Practical Exercises — Day 15: Academy Information Website
+# Day 15 Practical Exercises — Academy Information Website
 
-## Project brief
-Build a simple information page for an academy. It must have a header, welcome section, three course cards, and a footer.
+## Goal
+Build a simple academy information page using HTML and the CSS skills from Week 3.
 
-## Guided build
-1. Open the starter HTML and CSS files.
-2. Check that the HTML links to style.css.
-3. Add a readable font, text colour, and page background.
-4. Style the header and navigation links.
-5. Style the welcome section with a clear heading and short paragraph.
-6. Create three course cards inside one parent container.
-7. Give all cards the same course-card class.
-8. Apply display:flex, gap, and flex-wrap to the parent.
-9. Style the footer with a contrasting background.
-10. Save and check the complete page in Chrome.
+## Part A — Plan
+Draw a simple page with:
+- Header and navigation.
+- Welcome section.
+- Three course cards.
+- About section.
+- Footer.
 
-## Required independent task
-Complete the academy page. All four required areas must be visible, and the three course cards must share a reusable class.
+## Part B — Create the HTML
+Use semantic elements such as `header`, `nav`, `main`, `section`, `article`, and `footer`. Give each section a unique ID so navigation links can target it.
 
-## Completion checklist
-- [ ] Header and navigation are visible.
-- [ ] Welcome section has a heading and paragraph.
-- [ ] Three course cards are present.
-- [ ] Footer is present.
-- [ ] External stylesheet works.
-- [ ] Reusable classes are used.
-- [ ] Flexbox is applied to the card parent.
-- [ ] Text and colours are readable.
+Suggested structure:
+```html
+<header id="top">
+  <h1>Our Academy</h1>
+  <nav class="main-nav">
+    <a href="#home">Home</a>
+    <a href="#courses">Courses</a>
+    <a href="#about">About</a>
+  </nav>
+</header>
+<main>
+  <section id="home"><h2>Welcome</h2><p>Learn with us.</p></section>
+  <section id="courses">
+    <h2>Courses</h2>
+    <div class="course-list">
+      <article class="course-card"><h3>HTML</h3><p>Learn structure.</p></article>
+      <article class="course-card"><h3>CSS</h3><p>Learn styling.</p></article>
+      <article class="course-card"><h3>JavaScript</h3><p>Learn interaction.</p></article>
+    </div>
+  </section>
+  <section id="about"><h2>About</h2><p>We support practical learning.</p></section>
+</main>
+<footer><p>Keep practising.</p></footer>
+```
+
+## Part C — Connect and style
+Create or update `styles.css`. Include:
+- External stylesheet link.
+- Body font and text colour.
+- Heading colour.
+- Reusable `.course-card` class.
+- Padding, border, and margin.
+- Flexbox for navigation or course cards.
+- A small, readable colour palette.
+
+## Part D — Test
+1. Save both files.
+2. Open the page in Chrome.
+3. Click each navigation link.
+4. Confirm the stylesheet works.
+5. Check that all three cards appear.
+6. Resize the browser and observe the layout. Full responsive design comes in Week 4.
+
+## Required checklist
+- [ ] Header and navigation.
+- [ ] Welcome section.
+- [ ] Three course cards.
+- [ ] About section.
+- [ ] Footer.
+- [ ] Working in-page links.
+- [ ] External stylesheet.
+- [ ] Consistent selectors and colours.
+- [ ] Readable typography.
+- [ ] Box-model spacing.
+- [ ] Flexbox layout.
 
 ## Optional challenge
-Add a fourth course card using the same class. Improve one visual detail without changing the page structure.
+Add a CSS hover style to links or cards. Keep the effect simple and ensure the text remains readable.
 
-## Troubleshooting
-Check the stylesheet link first. If a navigation link does not move to a section, check its href and matching id. If cards do not sit in a row, inspect the parent container.
+**Expected result:** A clear academy information website built with HTML and traditional CSS.
