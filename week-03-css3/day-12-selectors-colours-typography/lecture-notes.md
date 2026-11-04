@@ -135,3 +135,9 @@ Element selectors target tag names; class selectors begin with a dot; ID selecto
 3. Can several elements share one class?
 4. Which property changes the space between lines?
 5. Why is colour contrast important?
+
+## Teaching visual
+
+![CSS selector types](images/day-12-selector-types.svg)
+
+*Diagram: element, class, and ID selector patterns.*
