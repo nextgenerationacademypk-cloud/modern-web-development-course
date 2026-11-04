@@ -77,7 +77,7 @@ That gives students approximately 20% theory and 80% practical learning. The ins
 
 ## Learning materials and development status
 
-The repository contains the complete course roadmap and weekly outlines. Week 1 has detailed daily lesson packages. Detailed daily packages for Weeks 2–8 are still being developed and reviewed; a weekly outline is not the same as a complete ready-to-teach lesson.
+The repository contains the complete course roadmap and weekly outlines. Weeks 1–3 have detailed daily lesson packages. Detailed daily packages for Weeks 4–8 are still being developed and reviewed; a weekly outline is not the same as a complete ready-to-teach lesson.
 
 The required daily lesson structure is defined in the [Daily Lesson Development Standard](course-outline/daily-lesson-standard.md). Use the [Instructor Quality Checklist](resources/instructor-quality-checklist.md) before marking a lesson ready.
 
