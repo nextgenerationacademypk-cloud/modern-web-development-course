@@ -1,5 +1,7 @@
 # Day 22 Practical Exercises — Variables and Operators
 
+![Teaching diagram](images/day-22-data-types.svg)
+
 ## Exercise 1 — Create values (10 min)
 In `script.js`, declare:
 ```javascript
