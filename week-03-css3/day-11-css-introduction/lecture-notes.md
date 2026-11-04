@@ -1,38 +1,34 @@
-# Day 11 — What Is CSS?
+# Day 11 Lecture Notes — CSS Purpose and External Stylesheets
 
-## Lesson purpose
-Today you will learn how CSS changes the appearance of an HTML page. You will create a separate stylesheet, connect it to HTML, and make your first design changes.
+## 1. What is CSS?
+CSS means **Cascading Style Sheets**. It describes how HTML content should look. HTML provides structure and meaning; CSS controls presentation such as colours, text, spacing, borders, and layout.
 
-## Prerequisite
-You can create an HTML file, add a heading and paragraph, save it, and open it in Chrome.
+Think of a classroom: HTML is the room and furniture; CSS is the paint, decoration, and arrangement.
 
-## Learning outcomes
-By the end of this lesson, you can:
-- Explain the different jobs of HTML and CSS.
-- Describe a CSS rule.
-- Create an external file named style.css.
-- Connect the stylesheet to an HTML page.
-- Change text colour, background colour, font, and spacing.
+## 2. HTML and CSS have different jobs
 
-## 1. Why do websites need CSS?
-A webpage contains information. HTML describes what the information is: a heading, paragraph, link, image, list, or section. CSS describes how that information looks: colour, size, spacing, borders, and layout.
+HTML:
 
-Think of a printed school notice. HTML is like deciding which words are the title and which words are the details. CSS is like choosing the title colour, font size, margins, and page arrangement.
+```html
+<h1>Welcome to Our Academy</h1>
+<p>Learn useful skills step by step.</p>
+```
 
-A page can work without CSS, but it may look plain. CSS helps make a page easier to read and more consistent.
+CSS:
 
-## 2. HTML and CSS work together
-A browser reads the HTML document and the linked CSS file. It combines the structure and styles to display the page.
+```css
+h1 {
+  color: navy;
+  font-size: 32px;
+}
+p {
+  color: #444444;
+}
+```
 
-Keep these jobs separate:
-- HTML: content and meaning.
-- CSS: visual presentation.
-- Browser: reads the files and displays the result.
+The HTML creates the heading and paragraph. CSS changes how they look. Use meaningful HTML elements; do not use CSS as a replacement for good page structure.
 
-Changing a heading's colour does not change its HTML meaning. It is still a heading.
-
-## 3. What is a CSS rule?
-A CSS rule has a selector and a declaration block.
+## 3. Parts of a CSS rule
 
 ```css
 h1 {
@@ -41,88 +37,178 @@ h1 {
 }
 ```
 
-- `h1` is the selector. It chooses the HTML heading elements.
-- The opening and closing braces contain declarations.
-- `color` and `font-size` are properties.
-- `navy` and `32px` are values.
-- A colon separates each property from its value.
-- A semicolon ends a declaration.
+- `h1` is the **selector**: it chooses the elements to style.
+- `color` and `font-size` are **properties**: the features being changed.
+- `navy` and `32px` are **values**: the settings.
+- A property and value make a **declaration**.
+- Curly braces `{ }` contain declarations.
+- A semicolon `;` ends each declaration.
 
-CSS property names use hyphens when needed, such as `background-color` and `font-family`.
+General pattern:
 
-## 4. Create an external stylesheet
-An external stylesheet is a separate file that contains CSS rules. It is usually easier to manage than writing all CSS inside every HTML page.
+```css
+selector {
+  property: value;
+}
+```
 
-Create a project folder with these files:
+## 4. Three ways to add CSS
+
+### Inline CSS
+Written inside an HTML element:
+
+```html
+<p style="color: red;">This text is red.</p>
+```
+
+It can be useful for a tiny demonstration, but it becomes difficult to manage on a full website.
+
+### Internal CSS
+Written inside a `style` element in the HTML `head`:
+
+```html
+<head>
+  <style>
+    p { color: green; }
+  </style>
+</head>
+```
+
+This keeps styles in one HTML file, but mixes the page structure and styling in the same file.
+
+### External CSS
+Written in a separate `.css` file. This is the preferred method for our course projects.
+
+HTML:
+
+```html
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+```
+
+CSS file named `styles.css`:
+
+```css
+body {
+  background-color: #f2f6fb;
+  color: #243247;
+}
+```
+
+The `link` element connects the HTML page to the stylesheet. It belongs in `head`, not in the visible page content.
+
+## 5. Why use an external stylesheet?
+- One CSS file can style several HTML pages.
+- HTML is easier to read when styling is separate.
+- A shared design is easier to update.
+- The project is easier to maintain as it grows.
+
+## 6. File names and paths
+
+If both files are in the same folder:
 
 ```text
 my-first-website/
 ├── index.html
-└── style.css
+└── styles.css
 ```
 
-The spelling of the file name matters. The file must be saved in the location used by the HTML link.
+Use `href="styles.css"`.
 
-## 5. Connect the CSS file
-Open `index.html`. Inside the `head` element, add:
+If the CSS file is inside a folder named `css`:
+
+```text
+my-first-website/
+├── index.html
+└── css/
+    └── styles.css
+```
+
+Use `href="css/styles.css"`.
+
+The spelling and capital letters must match the real file and folder names. A file named `style.css` is not the same as `styles.css`.
+
+## 7. First CSS properties
+
+| Property | Purpose | Example |
+|---|---|---|
+| `color` | Text colour | `color: navy;` |
+| `background-color` | Background colour | `background-color: white;` |
+| `font-size` | Text size | `font-size: 18px;` |
+| `text-align` | Text alignment | `text-align: center;` |
+
+## 8. A complete example
+
+HTML:
 
 ```html
-<link rel="stylesheet" href="style.css">
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academy Welcome</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Welcome to Our Academy</h1>
+  <p>Learn technology step by step.</p>
+</body>
+</html>
 ```
 
-The `link` element connects another file to the HTML document. The `rel` attribute tells the browser that the linked file is a stylesheet. The `href` attribute gives the file path.
-
-Because both files are in the same folder, `style.css` is enough for the path. If you move the CSS file into another folder, the path must change too.
-
-## 6. Your first CSS properties
-Try these properties one at a time:
-
-- `color`: changes the text colour.
-- `background-color`: changes the background behind an element.
-- `font-family`: chooses the font.
-- `font-size`: changes the size of text.
-- `margin`: creates space outside an element.
-- `padding`: creates space inside an element.
-
-Example:
+CSS:
 
 ```css
 body {
-  font-family: Arial, sans-serif;
+  background-color: #f2f6fb;
   color: #243247;
-  background-color: #eef3f8;
+  font-family: Arial, sans-serif;
 }
-
 h1 {
-  color: #1756a9;
+  color: #174a7e;
+  text-align: center;
+}
+p {
+  font-size: 18px;
 }
 ```
 
-The `body` rule affects the main page area. The `h1` rule affects heading elements.
+## 9. Check whether CSS is connected
+1. Save both files.
+2. Open the HTML page in Chrome.
+3. Look for the background and heading colour.
+4. If there is no change, check the link path and file name.
+5. Check that the `link` element is inside `head`.
+6. Check braces, colons, and semicolons.
+7. Refresh Chrome. If using Live Server, save the CSS file and wait for the page to refresh.
 
-## 7. Save and preview
-1. Save `index.html`.
-2. Save `style.css`.
-3. Open the HTML page in Chrome or use Live Server.
-4. Look at the result.
-5. Change one CSS value.
-6. Save again and check the browser.
+## 10. First look at browser developer tools
+Chrome DevTools can inspect a webpage and help find errors. Students only need to know that these tools exist today; detailed debugging comes later.
 
-If you do not see a change, do not immediately rewrite the whole file. Check the link, file name, selector, spelling, and save state.
+## 11. Common mistakes
+- Typing CSS inside the visible HTML body.
+- Saving the file as `styles.css.txt`.
+- Linking to `style.css` when the file is named `styles.css`.
+- Missing braces, colons, or semicolons.
+- Forgetting to save or refresh.
 
-## 8. Common beginner errors
-- The file is named `styles.css` but the link says `style.css`.
-- The stylesheet is in another folder but the path was not updated.
-- The `link` element is placed in the wrong part of the document.
-- A brace or semicolon is missing.
-- The CSS file was edited but not saved.
-- Students expect CSS to change the content rather than its appearance.
+## 12. Vocabulary and recap
+- **CSS:** Language for styling HTML.
+- **Stylesheet:** A file or section containing CSS rules.
+- **Selector:** Chooses the elements to style.
+- **Property:** The feature to change.
+- **Value:** The setting for that property.
+- **External stylesheet:** A separate CSS file linked to HTML.
 
-## 9. A good first design
-Choose two or three colours. Make the heading easy to notice. Use a readable font. Do not use many different colours or font sizes. A simple page with clear text is better than a page with many decorations.
+Remember: HTML gives structure; CSS controls presentation. Use a separate stylesheet and check the path carefully.
 
-## Guided practice
-Use the example files in this folder. Change the body background, heading colour, and paragraph font. Make one change at a time and check the browser.
-
-## Recap
-HTML describes page structure. CSS controls presentation. An external stylesheet is connected with a link element in the HTML head. Save both files and preview the result in the browser.
+## 13. Check your understanding
+1. What does CSS stand for?
+2. Which part of a rule chooses HTML elements?
+3. Which HTML element connects an external stylesheet?
+4. Where does the link element belong?
+5. What path is used when `index.html` and `styles.css` are in the same folder?
