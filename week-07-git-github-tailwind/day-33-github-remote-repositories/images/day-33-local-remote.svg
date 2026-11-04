@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" role="img" aria-labelledby="title desc">
+<title id="title">Local and remote repositories</title><desc id="desc">A local Git repository sends commits to a remote repository hosted on GitHub using push.</desc>
+<rect width="900" height="320" rx="22" fill="#f8fafc"/>
+<g font-family="Arial, sans-serif" text-anchor="middle">
+<rect x="80" y="65" width="260" height="150" rx="18" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"/>
+<rect x="560" y="65" width="260" height="150" rx="18" fill="#dcfce7" stroke="#15803d" stroke-width="3"/>
+<g fill="#1e3a8a" font-size="23" font-weight="bold"><text x="210" y="115">Local Git repo</text></g>
+<g fill="#14532d" font-size="23" font-weight="bold"><text x="690" y="115">GitHub repo</text></g>
+<g fill="#334155" font-size="17"><text x="210" y="151">Your computer</text><text x="210" y="178">commits</text><text x="690" y="151">Online remote</text><text x="690" y="178">shared files</text></g>
+<path d="M365 125 H535 l-18 -14 m18 14 l-18 14" fill="none" stroke="#475569" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="450" y="95" fill="#334155" font-size="18" font-weight="bold">git push</text>
+<text x="450" y="265" fill="#475569" font-size="18">Commit saves locally. Push sends commits to the remote.</text>
+</g></svg>
