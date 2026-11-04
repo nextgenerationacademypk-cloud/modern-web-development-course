@@ -1,0 +1,15 @@
+Beginner Git command sequence
+
+git init
+git status
+git add index.html
+git status
+git commit -m "Create first webpage"
+git log --oneline
+
+After editing a file, repeat:
+git status
+git add filename
+git commit -m "Describe the change"
+
+Remember: a local commit does not automatically upload the project to GitHub.
