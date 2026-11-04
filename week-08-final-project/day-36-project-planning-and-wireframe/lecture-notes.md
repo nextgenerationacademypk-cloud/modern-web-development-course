@@ -2,7 +2,6 @@
 
 ![Project planning diagram](images/day-36-project-plan.svg)
 
-
 ## Lesson purpose
 
 Choose a realistic website topic, identify its audience, plan the four required sections, sketch a wireframe, and prepare the starter folder.
@@ -51,5 +50,5 @@ Use descriptive link text, readable contrast, meaningful image alternatives, and
 
 ## 8. References
 
-- [Required reference 1](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website)
-- [Additional reference 2](https://www.w3.org/WAI/tips/designing/)
+- [MDN: Your first website](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website)
+- [W3C WAI: Tips for designing](https://www.w3.org/WAI/tips/designing/)
