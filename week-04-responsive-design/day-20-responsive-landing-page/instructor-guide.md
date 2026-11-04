@@ -1,3 +1,5 @@
+![Landing page wireframe](images/day-20-landing-page-wireframe.svg)
+
 # Day 20 Instructor Guide — Responsive Landing Page
 
 ## Teaching purpose
