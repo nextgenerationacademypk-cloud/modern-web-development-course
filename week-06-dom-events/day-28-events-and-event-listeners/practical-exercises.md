@@ -1,5 +1,8 @@
 # Day 28 Practical Exercises — Listen and Respond
 
+![Event flow](images/day-28-event-flow.svg)
+
+
 ## Exercise 1 — Click event
 Select the button in the example and attach a click listener that logs a message.
 
