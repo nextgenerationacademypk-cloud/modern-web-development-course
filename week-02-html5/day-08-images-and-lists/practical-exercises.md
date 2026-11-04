@@ -1,37 +1,60 @@
 # Day 8 Practical Exercises — Images and Lists
 
-## Exercise 1 — Guided practice
+## What you will practise
 
-1. Open the day's `examples/index.html` file.
-2. Read the code and locate each element introduced today.
-3. Change the sample text to a simple topic you know.
-4. Add one more example of the new element.
-5. Save the file and preview it in Chrome.
-6. Compare the result with the expected task described below.
+You will add a local image and organise information using ordered and unordered lists. Work inside your project folder so the image path stays organised.
 
-## Exercise 2 — Required independent task
+## Exercise 1 — Follow an image path
 
-Create a page about a hobby with one relevant image, an unordered list of equipment, and an ordered list of steps.
+Study `images/day-08-image-path.svg`.
 
-### Completion checklist
+1. Find the HTML file in the diagram.
+2. Follow the path into the images folder.
+3. Identify the exact image filename.
+4. Explain why the spelling and extension must match.
 
-- [ ] The file opens in the browser without a missing-file error.
-- [ ] The required content and elements are present.
-- [ ] Element names and attributes are spelt correctly.
-- [ ] The code is indented and readable.
-- [ ] I can explain the purpose of the elements I used.
+## Exercise 2 — Guided practice
 
-## Exercise 3 — Optional challenge
+1. Open `examples/index.html` in VS Code.
+2. Find the `img`, `ul`, `ol`, and `li` elements.
+3. Preview the page and confirm that the image appears.
+4. Change the list items to a topic you know.
+5. Save and refresh Chrome.
+6. Temporarily change one character in the image path. Observe the broken image, then restore the correct path.
 
-Add one extra section or content example that uses today's elements correctly. Keep the page simple and readable. Do not add CSS or JavaScript unless the instructor specifically asks.
+## Exercise 3 — Required independent task: Hobby page
+
+Create a page about a hobby, sport, or school activity.
+
+Your page must include:
+- One relevant local image.
+- Useful `alt` text for that image.
+- An unordered list with at least four items, such as equipment or materials.
+- An ordered list with at least three steps.
+- A heading and a short paragraph introducing the topic.
+
+Use an image supplied by your instructor or one you have permission to use. Keep the image file inside your project folder.
+
+## Completion checklist
+
+- [ ] The image loads in Chrome.
+- [ ] The `src` path matches the real folder and filename.
+- [ ] The image has useful alt text.
+- [ ] My unordered list contains at least four items.
+- [ ] My ordered list contains at least three steps.
+- [ ] I can explain why I selected each list type.
+
+## Optional challenge
+
+Add a nested list to group related items. Keep the nesting easy to read in the code.
 
 ## Troubleshooting
 
-- If the browser does not show your latest change, save the file and refresh.
-- If an image or link does not work, check the exact path or URL.
-- If the page looks incomplete, compare opening and closing tags with the example.
-- If the result is confusing, remove the last change and add it again in smaller steps.
+- If the image is missing, compare the full path with the file shown in VS Code Explorer.
+- Check capital letters, spaces, and the file extension.
+- Make sure the image is inside the project folder, not an unrelated Downloads folder.
+- If a list does not display correctly, check that every `li` is inside its `ul` or `ol`.
 
 ## Expected result
 
-A working HTML page that demonstrates the day's required skill. The page should be readable and the code should be understandable to its author.
+A simple hobby page with a working local image, meaningful alt text, an unordered list, and an ordered list.
