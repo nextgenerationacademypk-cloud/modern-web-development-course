@@ -2,7 +2,6 @@
 
 ![Semantic page structure](images/day-37-semantic-page.svg)
 
-
 ## Lesson purpose
 
 Turn the approved plan into a semantic single-page website with four sections, working navigation, headings, text, and accessible images.
@@ -52,6 +51,6 @@ Use descriptive link text, readable contrast, meaningful image alternatives, and
 
 ## 8. References
 
-- [Required reference 1](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
-- [Additional reference 2](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
-- [Additional reference 3](https://www.w3.org/WAI/tutorials/images/)
+- [MDN: HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+- [MDN: Anchor element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
+- [W3C WAI: Images tutorial](https://www.w3.org/WAI/tutorials/images/)
