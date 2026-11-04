@@ -1,3 +1,5 @@
+![Responsive Grid](images/day-19-grid-auto-fit.svg)
+
 # Day 19 Instructor Guide — CSS Grid and Responsive Images
 
 ## Teaching purpose
