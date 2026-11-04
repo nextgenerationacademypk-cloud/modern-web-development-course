@@ -61,3 +61,9 @@ Check spelling and capital letters, folder location, `href`, braces, colons, sem
 Create a second HTML page and connect the same stylesheet.
 
 **Expected result:** A styled welcome page using a separate CSS file.
+
+## Visual reference
+
+![CSS rule anatomy](images/day-11-css-rule-anatomy.svg)
+
+*Use the diagram to identify selector, property, and value.*
