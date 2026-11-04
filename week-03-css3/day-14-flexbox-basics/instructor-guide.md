@@ -51,3 +51,9 @@ Support: provide HTML and ask students to add only Flexbox CSS. Core: create a n
 
 ## Checkpoint
 Students show one flex container, identify its direct child items, and explain the roles of `justify-content`, `align-items`, and `gap`.
+
+## Teaching visual
+
+![Flexbox container and items](images/day-14-flex-container-items.svg)
+
+*Point to the parent and direct child items during the demonstration.*
