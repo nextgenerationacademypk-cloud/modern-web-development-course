@@ -30,7 +30,7 @@ Students with little or no computer experience should complete the [Pre-course D
 - Write beginner JavaScript and make pages interactive.
 - Use the DOM to update page content and respond to user actions.
 - Save work with Git, share code with GitHub, and publish a website.
-- Plan, build, test, and present a multi-page website.
+- Plan, build, test, and present a responsive website.
 
 ## Technology covered
 
@@ -49,7 +49,7 @@ This course focuses on strong foundations. React, Next.js, Node.js, databases, T
 | 5 | JavaScript foundations | Guided JavaScript calculator program |
 | 6 | DOM and events | To-do list app |
 | 7 | Git, GitHub, Tailwind introduction, deployment and testing | Version-controlled, published website |
-| 8 | Final project | Published multi-page website |
+| 8 | Final project | Published responsive website and presentation |
 
 See [Course Overview](course-outline/course-overview.md), [Learning Outcomes](course-outline/learning-outcomes.md), and [Weekly Schedule](course-outline/weekly-schedule.md).
 
@@ -77,9 +77,7 @@ That gives students approximately 20% theory and 80% practical learning. The ins
 
 ## Learning materials and development status
 
-The repository contains the complete course roadmap and weekly outlines. Weeks 1–7 have detailed daily lesson packages. Detailed daily packages for Week 8 are still being developed and reviewed; a weekly outline is not the same as a complete ready-to-teach lesson.
-
-The required daily lesson structure is defined in the [Daily Lesson Development Standard](course-outline/daily-lesson-standard.md). Use the [Instructor Quality Checklist](resources/instructor-quality-checklist.md) before marking a lesson ready.
+Weeks 1–8 now have detailed daily lesson packages. Review the [Daily Lesson Development Standard](course-outline/daily-lesson-standard.md) and [Instructor Quality Checklist](resources/instructor-quality-checklist.md) before teaching. The weekly folder links to the five daily packages for each week.
 
 ## Assessment and completion
 
@@ -95,9 +93,9 @@ Completion requires at least 80% attendance (32 of 40 sessions), submission of r
 
 ## Final project
 
-Each student builds and publishes a responsive website with Home, About, Services or Courses, and Contact pages or sections. A single-page site with these four sections can earn full marks; separate pages are an optional extension. The project includes working navigation; consistent CSS styling; at least two simple JavaScript features; a mobile-friendly layout; a GitHub repository; and a live website URL.
+Each student builds and publishes a responsive website with Home, About, Services or Courses, and Contact sections or pages. A single-page site with these four sections can earn full marks; separate pages are an optional extension. The project includes working navigation, consistent CSS styling, at least two simple JavaScript features, a mobile-friendly layout, a GitHub repository, and a live website URL.
 
-Students may use traditional CSS. Tailwind CSS is optional and is not a requirement for the final project. A starter structure and staged milestones should be provided so beginners can complete the work without being overwhelmed.
+Students may use traditional CSS. Tailwind CSS is optional and is not a requirement for the final project. The [starter structure](projects/final-project/starter/) and staged milestones support beginners.
 
 ## Useful learning links
 
@@ -116,7 +114,7 @@ Practise every day, type the code yourself, ask questions, keep files organised,
 
 - `course-outline/` — course plan, outcomes, schedule, assessment rules, and lesson standard
 - `resources/` — setup instructions, links, student guidelines, and instructor checklist
-- `week-01` to `week-08` — weekly outlines and daily lesson packs as they are developed
+- `week-01` to `week-08` — weekly outlines and daily lesson packages
 - `projects/` — guided project briefs
 - `assessments/` — quizzes, practical tasks, and marking rubrics
 
