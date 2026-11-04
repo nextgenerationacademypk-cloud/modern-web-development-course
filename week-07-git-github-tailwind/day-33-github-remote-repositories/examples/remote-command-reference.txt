@@ -1,0 +1,14 @@
+Example only — replace the URL with your own repository address.
+
+git remote add origin https://github.com/USERNAME/REPOSITORY.git
+git remote -v
+git branch -M main
+git push -u origin main
+
+For later updates:
+git status
+git add .
+git commit -m "Describe your update"
+git push
+
+Do not paste account passwords or tokens into commands.
