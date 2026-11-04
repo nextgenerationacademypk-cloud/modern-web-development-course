@@ -1,5 +1,8 @@
 # Day 40 Lecture Notes — Presentations and Assessment
 
+![Final presentation sequence](images/day-40-presentation-sequence.svg)
+
+
 ## Presentation is evidence of understanding
 A successful presentation shows what the website does and explains how the student built it. Students do not need advanced terminology. They should explain the main files in simple English and demonstrate working features.
 
