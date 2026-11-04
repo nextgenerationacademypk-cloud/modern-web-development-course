@@ -42,6 +42,8 @@ By the end, students should be able to:
 
 ## Visual teaching notes
 
+![Diagram showing one main heading, section headings, a subsection, and paragraphs.](images/day-06-heading-hierarchy.svg)
+
 Use `images/day-06-heading-hierarchy.svg` while explaining the order of headings. Trace the diagram from the page's main heading to its sections and subsections. Do not teach heading levels as font-size controls; explain that CSS will control appearance later.
 
 ## Questions to check understanding
