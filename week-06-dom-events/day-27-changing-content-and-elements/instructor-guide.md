@@ -1,5 +1,8 @@
 # Day 27 Instructor Guide — Changing Content and Elements
 
+![Create and append flow](images/day-27-create-append-flow.svg)
+
+
 ## Preparation
 Test the example in Chrome. Ensure the stylesheet defines the highlight class. Prepare a list element and two buttons.
 
