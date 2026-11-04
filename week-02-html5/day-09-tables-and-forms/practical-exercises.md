@@ -1,36 +1,68 @@
-# Day 9 — Tables and Forms — Practical Exercises
+# Day 9 Practical Exercises — Tables and Forms
 
-## Exercise 1 — Guided practice
+## What you will practise
+
+You will create a small timetable and a sample HTML form. Use fictional information only. This form is for learning and does not send or store submissions.
+
+## Exercise 1 — Read the diagrams
+
+Open:
+- `images/day-09-table-structure.svg`
+- `images/day-09-form-labels.svg`
+
+Identify a table row, a heading cell, a data cell, a form label, and an input control. Explain what each one does.
+
+## Exercise 2 — Guided practice: timetable
 
 1. Open `examples/index.html`.
-2. Find each element introduced today.
-3. Change the sample content to a familiar topic.
-4. Add one more example of the new skill.
+2. Find the table, row, heading-cell, and data-cell elements.
+3. Change the sample timetable to three school subjects.
+4. Add a caption that explains what the table shows.
 5. Save and preview in Chrome.
+6. Check that each row has the correct number of cells.
 
-## Exercise 2 — Required independent task
+## Exercise 3 — Required independent task: timetable and sample form
 
-Build a weekly timetable and a sample contact form with name, email, and message fields.
+Create a page with both parts.
 
-### Completion checklist
+### Part A: Weekly timetable
 
-- [ ] The file opens in the browser.
-- [ ] The required content and elements are present.
-- [ ] Element and attribute names are correct.
-- [ ] The code is indented and readable.
-- [ ] I can explain the elements I used.
+- Add a table with a caption.
+- Include at least three column headings.
+- Include at least three rows of fictional timetable data.
+- Use `th` for heading cells and `td` for ordinary data.
 
-## Exercise 3 — Optional challenge
+### Part B: Sample contact form
 
-Add one extra content section that uses today's elements correctly. Keep the page simple. Do not add CSS or JavaScript unless the instructor asks.
+- Add a text input for a fictional name.
+- Add an email input.
+- Add a textarea for a sample message.
+- Connect every label to its control using matching `for` and `id` values.
+- Make at least the name and email fields required.
+- Add a submit button.
+
+**Important:** The form is only an HTML practice example. It has no server, so it does not send or save information. Do not enter real private details.
+
+## Completion checklist
+
+- [ ] My table has a useful caption.
+- [ ] My table uses rows, heading cells, and data cells correctly.
+- [ ] Every form control has a visible, connected label.
+- [ ] I used suitable input types.
+- [ ] Required fields show browser validation when left empty.
+- [ ] I understand that this form does not store or send data.
+
+## Optional challenge
+
+Add a checkbox or a radio group for a fictional preference. Use radio buttons when the user should choose only one option from a group.
 
 ## Troubleshooting
 
-- If changes do not appear, save and refresh.
-- If a link or image fails, check its exact URL or file path.
-- If the page looks incomplete, check opening and closing tags.
-- If a change causes a problem, undo it and add it again in smaller steps.
+- If table cells appear in the wrong columns, check the order of cells in each row.
+- If a label does not focus its input when clicked, compare the label's `for` with the control's `id`.
+- If browser validation does not appear, check that the field has the `required` attribute.
+- If you expect a message to be delivered, remember that a server-side service is not part of this exercise.
 
 ## Expected result
 
-A working HTML page that demonstrates today's skill and contains code the learner can explain.
+A readable HTML page containing a small timetable and a labelled sample form that demonstrates basic browser validation without collecting real personal data.
