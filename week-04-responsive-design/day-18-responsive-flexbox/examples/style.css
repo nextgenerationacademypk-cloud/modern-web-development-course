@@ -1,0 +1,11 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; line-height: 1.6; color: #202938; }
+.site-header { padding: 20px 5%; background: #e8eef7; }
+.site-header h1 { margin-top: 0; }
+nav ul { display: flex; flex-wrap: wrap; gap: 12px 20px; list-style: none; padding: 0; margin-bottom: 0; }
+a { color: #164b82; }
+.container { width: 90%; max-width: 1100px; margin: 28px auto; }
+.card-row { display: flex; flex-wrap: wrap; gap: 16px; }
+.card { flex: 1 1 220px; padding: 18px; border: 1px solid #9aa8ba; border-radius: 10px; background: #f4f7fb; }
+.card h3 { margin-top: 0; }
+main > section:not(.card-row) { margin-top: 28px; }
