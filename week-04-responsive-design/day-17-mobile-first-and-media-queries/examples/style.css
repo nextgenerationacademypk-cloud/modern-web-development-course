@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; line-height: 1.6; color: #202938; }
+.container { width: 92%; max-width: 1050px; margin: 30px auto; }
+.cards { display: grid; grid-template-columns: 1fr; gap: 16px; }
+.card { padding: 20px; border: 1px solid #9aa8ba; border-radius: 10px; background: #f2f6fb; }
+.card h2 { margin-top: 0; }
+@media (min-width: 700px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 1000px) {
+  .container { width: 88%; }
+  .cards { grid-template-columns: repeat(3, 1fr); }
+}
