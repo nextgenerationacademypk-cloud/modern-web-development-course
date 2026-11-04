@@ -1,33 +1,72 @@
-# Day 15 — CSS Integration and Academy Information Website
+# Day 15 — CSS Integration: Academy Information Website
+
+## Lesson purpose
+Today you will combine the CSS skills from this week in one small website. The goal is to practise a complete workflow, not to learn many new properties.
 
 ## Prerequisite
-You can link CSS, use selectors, style typography, apply the box model, and create a basic Flexbox layout.
+You can connect an external stylesheet, use selectors, style typography, apply the box model, and create a basic Flexbox layout.
 
 ## Learning outcomes
-Build one coherent academy information page using this week's CSS foundations.
+By the end, you can:
+- Identify the main sections of a simple academy website.
+- Reuse a class to style repeated course cards.
+- Use spacing and typography consistently.
+- Use Flexbox to arrange course cards.
+- Test the page and explain your CSS choices.
 
-## 1. Plan the page before styling
-A small academy page can contain:
-- **Header:** academy name and navigation links.
-- **Welcome section:** a main heading and short introduction.
-- **Course cards:** repeated blocks of course information.
-- **Footer:** short closing information.
+## 1. Plan before coding
+A website is easier to build when you know which sections it needs. Today's page contains:
+1. Header and navigation.
+2. Welcome section.
+3. About section.
+4. Course cards.
+5. Footer.
 
-The page structure is written in HTML. CSS controls its visual appearance.
+The HTML creates the sections and content. The CSS controls their appearance.
 
-## 2. Reuse classes
-If three course cards should look similar, give them the same class.
+## 2. Header and navigation
+The header identifies the academy. A navigation element contains links to sections of the same page.
 
 ```html
-<article class="course-card">...</article>
-<article class="course-card">...</article>
-<article class="course-card">...</article>
+<header class="site-header">
+  <a class="brand" href="#home">Next Generation Academy</a>
+  <nav class="navigation" aria-label="Main navigation">
+    <a href="#home">Home</a>
+    <a href="#courses">Courses</a>
+    <a href="#about">About</a>
+  </nav>
+</header>
 ```
 
-One CSS rule can style all three cards.
+Each link uses a fragment such as `#courses`. The page needs an element with the matching ID, such as `id="courses"`.
 
-## 3. Use Flexbox on the parent
-Place the cards inside one parent container, then apply Flexbox to that parent.
+## 3. Welcome section
+The welcome section should tell visitors what the academy offers. Use one clear main heading and a short paragraph. Do not write a very long block of text.
+
+A class such as `hero` can be used to style the section's background, padding, and text colour.
+
+## 4. Reusable course cards
+Each course card contains a title and a short description. Give all cards the same class.
+
+```html
+<article class="course-card">
+  <h3>Web Development</h3>
+  <p>Learn HTML, CSS, and JavaScript foundations.</p>
+</article>
+```
+
+Repeat the article for the other courses. A single `.course-card` CSS rule can style every card. Reusing a class saves time and keeps the design consistent.
+
+## 5. Arrange cards with Flexbox
+Put the cards inside a parent container.
+
+```html
+<div class="course-list">
+  <!-- course cards go here -->
+</div>
+```
+
+Apply Flexbox to the parent:
 
 ```css
 .course-list {
@@ -35,31 +74,54 @@ Place the cards inside one parent container, then apply Flexbox to that parent.
   flex-wrap: wrap;
   gap: 18px;
 }
+
 .course-card {
   flex: 1 1 220px;
   padding: 20px;
 }
 ```
 
-## 4. Keep the design consistent
-Choose a small colour palette. Use a limited number of text sizes. Repeat spacing values. Make headings clear and body text easy to read. Use padding inside cards and gap between cards.
+The parent arranges the cards. The cards receive their own spacing and appearance.
 
-## 5. Scope for this week
-This is a CSS foundations project, not the responsive-design project. The page should use the browser's current available width and basic Flexbox wrapping. Week 4 will teach mobile-first thinking, viewport behaviour, media queries, responsive navigation, and more deliberate mobile layouts. Do not add JavaScript or Tailwind.
+## 6. Use the box model
+Cards need space around their content. Padding creates space inside the card. A border gives the card a visible edge. Border-radius rounds the corners. Gap creates space between cards. Margin can separate whole sections.
 
-## 6. Test your work
-- Confirm the stylesheet link works.
-- Check that every section has its expected content.
-- Check the navigation links point to existing section IDs.
-- Check that the three cards use the same reusable class.
-- Check that the page opens in Chrome after saving.
+Do not add spacing randomly. Use a small set of repeated values so the page feels consistent.
 
-## Common mistakes
-- Writing separate card styles when one class can be reused.
-- Applying display:flex to the wrong element.
-- Forgetting the section ID used by a navigation link.
-- Using too many colours or font sizes.
-- Spending time on decoration before the content and layout work.
+## 7. Choose a small design system
+A simple page can use:
+- One main dark colour for the header and footer.
+- One accent colour for headings or buttons.
+- A light page background.
+- White card backgrounds.
+- One readable font family.
+- Two or three text sizes.
+
+The goal is consistency and readability, not decoration.
+
+## 8. Check the page
+Before you finish:
+- Does the stylesheet link point to the correct file?
+- Does the page open in Chrome?
+- Do the navigation links point to existing IDs?
+- Do all three cards use the same class?
+- Is Flexbox applied to the parent of the cards?
+- Is the text readable?
+- Does the footer appear after the main content?
+
+## 9. Scope boundary
+This is a CSS foundations project. It does not require JavaScript, Tailwind, CSS Grid, or advanced responsive rules. Week 4 is dedicated to responsive design, mobile-first layouts, media queries, responsive images, and more deliberate mobile navigation.
+
+## 10. Common mistakes
+- Spending too much time choosing colours before the layout works.
+- Repeating a separate CSS rule for every card.
+- Applying Flexbox to the wrong element.
+- Forgetting the ID used by a navigation link.
+- Using too many font sizes and colours.
+- Adding features that have not been taught yet.
+
+## Guided practice
+Open the supplied HTML and CSS files. Follow the project steps in the practical exercise. Change one CSS rule at a time and compare the result in Chrome.
 
 ## Recap
-A good beginner page has clear structure, readable text, consistent styles, useful spacing, and a layout that is easy to understand.
+A clear beginner website has meaningful HTML sections, readable text, consistent colours, reusable classes, useful spacing, and a simple layout. You now have the CSS foundations needed to begin responsive design next week.
