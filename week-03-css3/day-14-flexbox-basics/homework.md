@@ -1,22 +1,26 @@
-# Homework — Day 14: Flexbox Layout
+# Day 14 Homework — Flexbox Navigation and Cards
 
-Create a simple navigation row and three skill or interest cards.
+## Task
+Build a navigation row and three course or skill cards.
 
-1. Put navigation links inside one nav element.
-2. Use display:flex on the nav.
-3. Add gap between links.
-4. Put three cards inside one parent section.
-5. Use display:flex and gap on the card parent.
-6. Add flex-wrap:wrap.
-7. Save and preview the page.
+## Steps
+1. Put navigation links inside one `nav` element.
+2. Give the navigation a class and apply `display: flex` to it.
+3. Use `gap` to space the links.
+4. Put three cards inside one parent element.
+5. Apply `display: flex`, `gap`, and `flex-wrap: wrap` to the card parent.
+6. Add a reusable class to each card.
+7. Save and preview in Chrome.
 
-Submit index.html and style.css as requested.
+## Submit
+Submit your HTML and CSS files and one screenshot.
 
 ## Self-check
-- [ ] I used Flexbox on the parent.
-- [ ] I arranged three child cards.
+- [ ] Flexbox is applied to the parent.
+- [ ] I can identify the flex items.
 - [ ] I used gap.
-- [ ] I used flex-wrap or another alignment property.
-- [ ] I can identify the flex container.
+- [ ] The cards can wrap onto another line.
+- [ ] I can explain justify-content or align-items.
 
-Optional: compare row and column directions.
+## Optional challenge
+Change the card container to `flex-direction: column`. Explain how the main axis changes.
