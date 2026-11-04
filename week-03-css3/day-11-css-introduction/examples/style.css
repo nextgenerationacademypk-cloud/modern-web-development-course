@@ -1,0 +1,5 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 24px; font-family: Arial, sans-serif; color: #243247; background-color: #eef3f8; }
+.page { max-width: 760px; margin: 0 auto; }
+h1 { color: #1756a9; }
+.note { padding: 12px; background-color: #dceafe; }
