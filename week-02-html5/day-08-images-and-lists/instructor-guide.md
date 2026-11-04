@@ -44,6 +44,8 @@ Students should be able to:
 
 ## Visual teaching notes
 
+![Diagram showing index.html linking to an image inside the images folder.](images/day-08-image-path.svg)
+
 Use `images/day-08-image-path.svg` to trace the relative path from the HTML file to the image. Use the browser preview to show the actual result. Explain that alt text is not a filename: it should communicate the image's relevant information. For a purely decorative image, an empty `alt=""` may be appropriate.
 
 ## Questions to check understanding
