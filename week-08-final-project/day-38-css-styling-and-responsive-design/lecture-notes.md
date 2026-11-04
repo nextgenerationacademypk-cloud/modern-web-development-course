@@ -2,7 +2,6 @@
 
 ![Responsive layout comparison](images/day-38-responsive-check.svg)
 
-
 ## Lesson purpose
 
 Apply consistent CSS, readable typography, spacing, Flexbox or Grid where useful, and mobile-first responsive checks.
@@ -52,6 +51,6 @@ Use descriptive link text, readable contrast, meaningful image alternatives, and
 
 ## 8. References
 
-- [Required reference 1](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design)
-- [Additional reference 2](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries)
-- [Additional reference 3](https://developer.chrome.com/docs/devtools/device-mode/)
+- [MDN: Responsive design](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design)
+- [MDN: Using media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries)
+- [Chrome DevTools: Device Mode](https://developer.chrome.com/docs/devtools/device-mode/)
