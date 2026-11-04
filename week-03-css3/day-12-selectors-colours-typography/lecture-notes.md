@@ -118,7 +118,28 @@ A space between selectors means the second element is inside the first:
 ```
 This selects an `h2` inside an element with class `course-card`.
 
-## 11. Common mistakes
+## 11. How CSS rules are chosen
+
+A browser can find more than one CSS rule that matches the same element. The **cascade** is the process used to decide which rule applies.
+
+For this beginner course, remember these simple ideas:
+
+- **Specificity:** a selector with an ID is generally more specific than a class selector, and a class selector is generally more specific than an element selector.
+- **Source order:** when two matching rules have the same importance and specificity, the later rule usually wins.
+- **Inheritance:** some properties, such as text colour and font family, can pass from a parent element to its children. Other properties, such as margin and border, normally do not inherit.
+
+Example:
+
+```css
+p { color: navy; }
+.notice { color: darkred; }
+```
+
+A paragraph with `class="notice"` uses the class rule because it is more specific than the element rule.
+
+Do not try to memorise every cascade rule today. Learn to recognise why one simple rule may override another.
+
+## 12. Common mistakes
 - Writing `notice` instead of `.notice` in CSS.
 - Writing `#main-title` in HTML instead of `id="main-title"`.
 - Repeating an ID.
@@ -126,10 +147,10 @@ This selects an `h2` inside an element with class `course-card`.
 - Making text too small or hard to read.
 - Forgetting to save the stylesheet.
 
-## 12. Recap
+## 13. Recap
 Element selectors target tag names; class selectors begin with a dot; ID selectors begin with a hash. Classes are reusable. Use a small colour palette and readable font size, weight, and line height.
 
-## 13. Check your understanding
+## 14. Check your understanding
 1. How do you write a class selector?
 2. How do you write an ID selector?
 3. Can several elements share one class?
