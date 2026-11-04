@@ -135,3 +135,9 @@ You have practised external CSS, selectors, colours, typography, the box model, 
 3. Which property creates space outside its border?
 4. Which parent needs `display: flex`?
 5. How does an in-page link connect to a section?
+
+## Teaching visual
+
+![Academy page wireframe](images/day-15-academy-page-wireframe.svg)
+
+*Use this wireframe to plan the page before writing HTML.*
