@@ -1,5 +1,8 @@
 # Day 33 Instructor Guide — GitHub Remote Workflow
 
+![Local and remote repository](images/day-33-local-remote.svg)
+
+
 ## Preparation
 Check access to GitHub and prepare a demonstration repository. Ensure the local project has at least one commit. Explain account age and eligibility requirements before signup.
 
