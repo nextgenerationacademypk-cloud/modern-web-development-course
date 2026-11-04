@@ -1,5 +1,7 @@
 # Day 23 Instructor Guide — Conditions
 
+![Teaching diagram](images/day-23-condition-flow.svg)
+
 ## Teaching purpose
 Teach decision-making using examples students can predict. Keep the first examples to one comparison and gradually introduce multiple branches.
 
