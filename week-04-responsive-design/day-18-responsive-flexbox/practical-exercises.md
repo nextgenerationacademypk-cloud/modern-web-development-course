@@ -1,3 +1,5 @@
+![Flexbox wrapping](images/day-18-flex-wrap.svg)
+
 # Day 18 Practical Exercises — Flexbox That Adapts
 
 ## Exercise 1 — Inspect the flex container (10 min)
