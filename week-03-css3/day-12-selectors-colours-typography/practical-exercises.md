@@ -1,32 +1,74 @@
-# Practical Exercises — Day 12: Selectors, colours, and typography
+# Day 12 Practical Exercises — Selectors, Colours, and Typography
 
-## Prepare your project
-1. Open your Week 2 website folder in VS Code.
-2. Make a copy named `week-3-practice`.
-3. Create `style.css` beside `index.html`.
-4. Link it in the HTML head with `<link rel="stylesheet" href="style.css">`.
-5. Save both files and preview the page in Chrome.
+## Goal
+Style selected elements using element, class, and ID selectors. Make text readable.
 
-## Guided practice
-Style h2 with an element selector. Add class="notice" to a paragraph and create a .notice rule. Add id="contact" to a section and create a #contact rule. Set readable paragraph size and line-height.
+## Part A — Open and inspect
+1. Open your Day 11 project in VS Code.
+2. Open the HTML and CSS files.
+3. Identify the heading, paragraphs, and header.
 
-## Required independent task
-Choose a matching selector and style headings, paragraphs, links, and a highlighted notice.
+## Part B — Add classes and an ID
+Add two course cards to your HTML. Give both cards the class `course-card`. Give the page header the ID `site-header`.
 
-## Completion checklist
-- [ ] The HTML links to the correct CSS file.
-- [ ] The browser shows the latest saved changes.
-- [ ] Selectors match the HTML elements or classes.
-- [ ] Text and colours are readable.
-- [ ] Spacing and layout match the lesson task.
-- [ ] I can explain two CSS properties I used.
+```html
+<header id="site-header">
+  <h1>Our Academy</h1>
+</header>
+<article class="course-card">
+  <h2>HTML Basics</h2>
+  <p>Learn webpage structure.</p>
+</article>
+<article class="course-card">
+  <h2>CSS Basics</h2>
+  <p>Learn how to style a page.</p>
+</article>
+```
 
-## Optional challenge
-Create a second notice and reuse the same class.
+## Part C — Style with selectors
+Add these rules and save:
+```css
+body {
+  color: #243247;
+  background-color: #f4f7fb;
+  font-family: Arial, sans-serif;
+}
+#site-header {
+  background-color: #e8f1fb;
+}
+.course-card {
+  background-color: #ffffff;
+}
+h1, h2 {
+  color: #174a7e;
+}
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+```
+
+## Part D — Independent task
+Create a simple style guide for a fictional academy page:
+- Use one element selector.
+- Use at least two class selectors.
+- Use one ID selector.
+- Use two or three main colours.
+- Set font family, font size, font weight, and line height.
+- Make all text easy to read.
+
+## Checklist
+- [ ] Both cards share one class.
+- [ ] The header has one unique ID.
+- [ ] Class selector begins with a dot.
+- [ ] ID selector begins with a hash.
+- [ ] Text is readable and has good contrast.
+- [ ] CSS changes are visible in Chrome.
 
 ## Troubleshooting
-- No styles appear: check the link element and file path.
-- One element changes but another does not: check the selector.
-- A class rule does not work: compare the HTML class and CSS selector.
-- The browser shows an old result: save and refresh.
-- Flexbox seems to do nothing: check which element is the parent.
+Check that the class/ID spelling in HTML matches CSS. Check the dot or hash. Save both files and refresh.
+
+## Optional challenge
+Create a `.notice` class for a course announcement and style it with a background colour and bold text.
+
+**Expected result:** A consistent, readable page with reusable CSS classes.
