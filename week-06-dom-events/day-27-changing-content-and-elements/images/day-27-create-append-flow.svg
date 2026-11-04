@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-labelledby="title desc">
+<title id="title">Create and append an element</title><desc id="desc">Four steps: create a list item, set its text, select the parent list, and append the item.</desc>
+<rect width="900" height="300" rx="22" fill="#f8fafc"/>
+<g font-family="Arial, sans-serif" text-anchor="middle">
+<g fill="#dbeafe" stroke="#2563eb" stroke-width="2"><rect x="25" y="75" width="185" height="125" rx="16"/><rect x="245" y="75" width="185" height="125" rx="16"/><rect x="465" y="75" width="185" height="125" rx="16"/><rect x="685" y="75" width="185" height="125" rx="16"/></g>
+<g fill="#1e3a8a" font-size="20" font-weight="bold"><text x="117" y="120">1. Create</text><text x="337" y="120">2. Set text</text><text x="557" y="120">3. Select parent</text><text x="777" y="120">4. Append</text></g>
+<g fill="#334155" font-size="16"><text x="117" y="153">createElement("li")</text><text x="337" y="153">textContent = ...</text><text x="557" y="153">Find the ul</text><text x="777" y="153">appendChild(item)</text></g>
+<g stroke="#64748b" stroke-width="3" fill="none"><path d="M210 137 H240 l-9 -8 m9 8 l-9 8"/><path d="M430 137 H460 l-9 -8 m9 8 l-9 8"/><path d="M650 137 H680 l-9 -8 m9 8 l-9 8"/></g>
+</g></svg>
