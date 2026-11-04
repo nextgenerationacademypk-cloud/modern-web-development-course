@@ -1,5 +1,9 @@
 # Day 9 Lecture Notes — Tables and Forms
 
+![Diagram showing table captions, heading cells, and data cells.](images/day-09-table-structure.svg)
+
+![Diagram showing a form label connected to an input by matching for and id values.](images/day-09-form-labels.svg)
+
 ## Learning goal
 
 Present simple information in a table and create a form with clearly connected labels and controls.
