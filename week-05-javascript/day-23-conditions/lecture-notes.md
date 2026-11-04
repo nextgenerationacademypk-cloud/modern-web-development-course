@@ -1,5 +1,7 @@
 # Day 23 Lecture Notes — Conditions
 
+![Teaching diagram](images/day-23-condition-flow.svg)
+
 ## 1. Why use conditions?
 A program often needs to choose what to do. For example, it may show a pass message when a score reaches a required mark, or a different message when it does not.
 
