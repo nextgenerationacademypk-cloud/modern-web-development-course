@@ -1,5 +1,8 @@
 # Day 30 Practical Exercises — Guided To-Do List
 
+![To-do list project flow](images/day-30-todo-project-flow.svg)
+
+
 ## Step 1 — Open the starter project
 Open examples/index.html with Live Server. Read the HTML and identify the form, input, feedback message, and empty list.
 
