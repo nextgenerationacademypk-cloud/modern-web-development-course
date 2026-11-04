@@ -115,3 +115,9 @@ The box model has content, padding, border, and margin. Padding is inside the bo
 3. Which property creates space outside the border?
 4. What does `margin: 20px auto` often do when a block has a max-width?
 5. Why is `box-sizing: border-box` useful?
+
+## Teaching visual
+
+![CSS box model](images/day-13-box-model.svg)
+
+*Diagram: margin is outside the border; padding is inside it.*
