@@ -1,12 +1,20 @@
-# Daily Quiz — Day 12: Selectors, colours, and typography
+# Day 12 Daily Quiz — Selectors, Colours, and Typography
 
-Answer in your own words.
+**Total:** 10 marks
 
-## Questions
-How does a class selector differ from an element selector? Which character begins a class selector? Which property changes text size? Why does colour contrast matter? Write a .notice rule.
+## Part A — Short answers (1 mark each)
+1. What character begins a class selector?
+2. What character begins an ID selector?
+3. Can several elements use the same class?
+4. Which property changes text size?
+5. Which property changes the space between lines?
 
-## Practical check
-Show your page to the instructor. The instructor should confirm that the stylesheet is linked, the main lesson skill is visible, and the page opens in Chrome.
+## Part B — Explain (2 marks each)
+6. Explain one difference between a class and an ID.
+7. Why should a website use readable colour contrast?
 
-## Reflection
-What was the easiest task today? What do you want to practise again?
+## Part C — Practical (3 marks)
+8. Write a CSS rule for a class named `.notice` that changes its text colour and background colour.
+
+## Practical review
+Show your page and point to an element selector, class selector, and ID selector. Keep instructor-only answers outside this public student repository.
