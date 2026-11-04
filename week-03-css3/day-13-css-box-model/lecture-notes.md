@@ -1,58 +1,148 @@
-# Day 13 — The CSS box model
+# Day 13 — The CSS Box Model
 
 ## Lesson purpose
-Explain content, padding, border, and margin from the inside out. Practise width, max-width, padding, border, border-radius, margin, and box-sizing: border-box.
+Today you will learn how CSS measures the space around an HTML element. You will use the box model to create a clean information card.
 
 ## Prerequisite
-Students have completed the Week 2 HTML lessons and can create and preview an HTML page in Chrome.
+You can use selectors, colours, and basic typography in an external stylesheet.
 
 ## Learning outcomes
-By the end of this lesson, students can Describe the box model and create a centred card with controlled width, padding, border, and margin.
+By the end, you can:
+- Name the four parts of the box model.
+- Explain the difference between padding and margin.
+- Set width and max-width.
+- Add a border and rounded corners.
+- Use box-sizing: border-box.
+- Create a centred card with controlled spacing.
 
-## Key vocabulary
-content, padding, border, margin, width, max-width, box-sizing, border-radius
+## 1. Every element is a box
+For layout, the browser treats most HTML elements as rectangular boxes. A paragraph, heading, section, and card all occupy space on the page.
 
-## 1. HTML and CSS have different jobs
-HTML describes content and structure. CSS describes presentation. A heading remains a heading when CSS changes its colour, size, or spacing. CSS does not replace good HTML.
+The CSS box model describes four parts of this space. From the centre outward, they are:
+1. Content.
+2. Padding.
+3. Border.
+4. Margin.
 
-## 2. A CSS rule
-A CSS rule has a selector and a declaration block:
+## 2. Content
+Content is the text, image, or other material inside the element. The width and height properties can set the size of the content area, depending on the box-sizing rule.
 
 ```css
-h1 {
-  color: navy;
-  font-size: 32px;
+.card {
+  width: 400px;
 }
 ```
 
-The selector chooses the element. The braces contain declarations. Each declaration has a property and a value separated by a colon. A semicolon ends the declaration.
+A fixed width can be useful for a demonstration, but it may not fit every screen. This week, practise width and max-width. Responsive sizing is developed in Week 4.
 
-## 3. External stylesheet
-Keep CSS in a separate file named `style.css`. For this lesson, place it beside `index.html` and add this inside the HTML `head`:
+## 3. Padding
+Padding is the space between the content and the border. It is inside the element's border.
 
-```html
-<link rel="stylesheet" href="style.css">
+```css
+.card {
+  padding: 24px;
+}
 ```
 
-The file name and path must match exactly. Save both files and refresh the browser preview.
+If text touches the edge of a card, increase its padding. Padding is part of the element's visible box.
 
-## 4. Lesson concepts
-The box model has four parts from inside to outside: content, padding, border, and margin. Padding is inside the border; margin is outside it. Use box-sizing: border-box so declared widths include padding and border. Try changing one value at a time to see its effect.
+You can also set individual sides:
+- `padding-top`
+- `padding-right`
+- `padding-bottom`
+- `padding-left`
 
-## Worked example
-Open the files in `examples/`. The HTML links to a separate `style.css`. Change at least two values, save, and observe the result.
+For beginners, start with one padding value for all sides.
 
-## Common mistakes
-- The stylesheet name or link path does not match.
-- The CSS file was not saved.
-- A brace, colon, or semicolon is missing.
-- A class selector is missing its leading dot.
-- The HTML class and CSS selector do not match.
-- Flexbox is applied to the wrong parent element.
-- Too many properties are changed at once, making errors hard to find.
+## 4. Border
+The border is the line around the padding and content.
 
-## Practice result
-A centred academy course card with clear spacing.
+```css
+.card {
+  border: 1px solid #cbd5e1;
+}
+```
+
+A border declaration commonly includes width, style, and colour. The style might be solid, dashed, or dotted. Use a simple solid border for this lesson.
+
+The `border-radius` property rounds the corners:
+
+```css
+.card {
+  border-radius: 12px;
+}
+```
+
+## 5. Margin
+Margin is the space outside the border. It separates one element from nearby elements.
+
+```css
+.card {
+  margin: 20px;
+}
+```
+
+You can use `margin: 20px auto;` to add vertical space and centre a block with a defined or maximum width. The left and right auto margins share the available horizontal space.
+
+## 6. Padding and margin are different
+Remember:
+- Padding creates space inside the border.
+- Margin creates space outside the border.
+
+Try changing padding while keeping margin the same. Then change margin while keeping padding the same. Observe which area changes.
+
+## 7. Width and max-width
+The `width` property sets a width. The `max-width` property sets an upper limit. A card with max-width can become narrower when its parent has less space.
+
+```css
+.course-card {
+  max-width: 520px;
+  margin: 20px auto;
+}
+```
+
+This is a useful pattern for a centred card. More complete responsive rules are taught in Week 4.
+
+## 8. box-sizing
+By default, CSS width calculations can be confusing because padding and border may be added outside the declared content width. A common beginner-friendly rule is:
+
+```css
+* {
+  box-sizing: border-box;
+}
+```
+
+The universal selector * targets all elements. With border-box, the declared width includes the content, padding, and border. This makes card sizing easier to understand.
+
+## 9. Complete card example
+
+```css
+* {
+  box-sizing: border-box;
+}
+
+.course-card {
+  max-width: 520px;
+  margin: 20px auto;
+  padding: 24px;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  background-color: white;
+}
+```
+
+Each property has a clear job. Change one value at a time and observe the result.
+
+## 10. Common beginner mistakes
+- Confusing padding with margin.
+- Forgetting that border adds to the visible box.
+- Setting a large fixed width that does not fit the available space.
+- Applying margin to the wrong element.
+- Expecting border-radius to change the element's size.
+- Forgetting to save the stylesheet.
+
+## Guided practice
+Open the course-card example. Change padding from 12px to 28px. Then change margin. Observe the difference. Add a second card and create space between the two.
 
 ## Recap
-Explain content, padding, border, and margin from the inside out. Practise width, max-width, padding, border, border-radius, margin, and box-sizing: border-box.
+The box model is content, padding, border, and margin. Padding is inside the border. Margin is outside the border. Use max-width, auto margins, and border-box to make simple cards easier to size.
