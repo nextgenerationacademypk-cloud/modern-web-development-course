@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; line-height: 1.5; margin: 2rem; color: #1f2937; }
+main { max-width: 620px; margin: auto; }
+form { display: grid; gap: .65rem; max-width: 28rem; }
+input, button { padding: .7rem; font: inherit; }
+button { width: fit-content; cursor: pointer; }
+#form-message { min-height: 1.5rem; font-weight: bold; }
