@@ -1,25 +1,28 @@
-# Homework — Day 12: Selectors, colours, and typography
+# Day 12 Homework — A Consistent Style Guide
 
 ## Task
-Improve your profile page typography. Use element selectors, one reusable class, and a small colour palette.
+Improve your profile page or academy information page using selectors, colours, and typography.
 
-## Steps
-1. Open your project folder.
-2. Confirm that `index.html` links to `style.css`.
-3. Make the requested changes.
-4. Save all files.
-5. Open the page in Chrome and check the result.
-6. Be ready to explain two CSS rules in the next class.
+## Required work
+1. Use at least two element selectors.
+2. Create two reusable classes and use them in HTML.
+3. Add one unique ID selector.
+4. Choose two or three main colours.
+5. Set `font-family`, `font-size`, `font-weight`, and `line-height`.
+6. Make sure all text is readable.
 
-## Submission
-Submit the project folder or the files requested by your instructor. Include `index.html` and `style.css`. Never submit passwords or private account information.
+## Submit
+- `index.html`
+- `style.css` (or the exact CSS filename linked in your HTML)
+- A screenshot of the page in Chrome.
+
+## Explain
+1. Why can two cards share one class?
+2. What is the difference between a class and an ID?
+3. Which CSS property controls line spacing?
 
 ## Self-check
-- [ ] My stylesheet is linked correctly.
-- [ ] My page opens in Chrome.
-- [ ] I used the CSS properties taught in class.
-- [ ] My text is readable.
-- [ ] I can explain my changes.
-
-## Optional extension
-Add one extra section and reuse a style from today's lesson.
+- [ ] My class names match in HTML and CSS.
+- [ ] I used the dot for a class selector.
+- [ ] My ID is unique.
+- [ ] Text has good contrast and is readable.
