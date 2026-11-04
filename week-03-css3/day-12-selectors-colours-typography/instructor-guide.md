@@ -1,54 +1,54 @@
-# Instructor Guide — Day 12: Selectors, colours, and typography
+# Day 12 Instructor Guide — Selectors, Colours, and Typography
 
-## Purpose
-Teach element, class, and ID selectors. Practise colour, background-color, font-family, font-size, font-weight, line-height, and text-align. Use a small consistent colour palette.
+## Teaching purpose
+Students now know how to connect a stylesheet. Teach them to target the correct elements and create readable, consistent text and colour styles.
 
-## Preparation
-- Open the lesson example in VS Code and Chrome.
-- Check that students can open their Week 2 profile project.
-- Prepare the diagram in `images/` for projector display.
-- Confirm that the example HTML and CSS files are in the same folder.
+## Prepare
+- Test the example files.
+- Prepare HTML containing two course cards, a heading, paragraphs, a notice class, and a unique header ID.
+- Display the selector comparison diagram.
+- Ask students to open their Day 11 project.
 
-## Learning outcomes
-Students should be able to Choose a matching selector and style headings, paragraphs, links, and a highlighted notice.
+## Outcomes
+Students use element, class, and ID selectors; explain the difference; apply colour values; and set font family, size, weight, line height, and alignment.
 
-## 120-minute lesson plan
-
-| Time | Activity | Instructor action |
-|---|---|---|
-| 20 min | Explanation | Explain the vocabulary and main idea using a small example. |
-| 4 min | Theory review | Ask short questions and check understanding. |
-| 30 min | Demonstration | Build the example slowly; students predict each change. |
-| 62 min | Student practice | Guide the required task, then support independent work. |
-| 4 min | Practical review | Ask students to show the result and explain one CSS choice. |
+## 120-minute plan
+| Minutes | Activity |
+|---:|---|
+| 0–20 | Review CSS syntax; explain element, class, and ID selectors |
+| 20–24 | Quick selector and colour review |
+| 24–54 | Demonstrate selector syntax, colour palette, and typography |
+| 54–116 | Students style notices and course cards, then complete independent work |
+| 116–120 | Students identify selectors and explain one readability choice |
 
 ## Demonstration sequence
-1. Open the project folder in VS Code.
-2. Identify the HTML file and external stylesheet.
-3. Point to the element or parent that should change.
-4. Add one CSS rule and explain its selector, property, and value.
-5. Save and inspect the page in Chrome.
-6. Change one value and compare the result.
-7. Demonstrate a small error and show how to find it.
+1. Show two paragraphs and two cards in HTML.
+2. Style all paragraphs with an element selector.
+3. Add the same class to two cards and style them with `.course-card`.
+4. Add one unique ID to the header and demonstrate `#site-header`.
+5. Deliberately remove the dot from a class selector and ask students why it fails.
+6. Apply a small palette and typography rules.
+7. Compare readable and low-contrast examples.
 
-## Questions to ask
-- What is the job of HTML? What is the job of CSS?
-- Which file contains the style rules?
-- How does the browser find the stylesheet?
-- Which element does this selector target?
-- What changed when we changed this property?
-- How can we check whether the file was saved?
+## Questions
+- Which selector can be reused on several elements?
+- What symbol begins a class selector?
+- What symbol begins an ID selector?
+- Which property changes the space between text lines?
+- Why should we avoid too many colours?
 
-## Visual teaching note
-Use the diagram in `images/`. Point to each label as you explain the idea. Ask students to describe the diagram before coding.
-
-## Common mistakes and support
-Students forget the dot before a class selector or use a different class spelling in HTML and CSS. Compare both names character by character.
+## Common mistakes
+| Mistake | Help |
+|---|---|
+| Missing dot before class | Compare the CSS selector with the HTML class value |
+| Missing hash before ID | Show the ID selector pattern |
+| Same ID repeated | Replace repeated IDs with a class |
+| Text too small | Compare paragraph text at 16–18px or larger |
+| Low contrast | Choose a darker text colour |
+| Rule does not apply | Check spelling and whether the class/ID exists in HTML |
 
 ## Differentiation
-- Students needing support: give them the starter example and ask for one change at a time.
-- Students progressing quickly: ask them to add another content section and reuse a class.
-- Pair work: one student explains the next step while the other types; swap roles.
+Support: provide HTML with classes already added and ask students to write the CSS. Core: style two cards and a notice. Extension: create a second colour palette and compare readability.
 
 ## Checkpoint
-Each student should show the expected result and explain at least one CSS rule. If many students struggle, begin the next session with a short recap.
+Each student demonstrates one element selector, one class selector, one ID selector, and readable typography. Ask the student to explain why a class is appropriate for repeated cards.
